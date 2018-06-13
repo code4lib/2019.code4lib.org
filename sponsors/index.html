@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sponsors
+sponsorLevels:
+- adamantium
+- diamond
+- platinum
+- gold
+- silver
+- bronze
+- contributor
+- supporter
+- giveaway
+---
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>We ❤ our sponsors.</h1>
+
+            <p>Interested in sponsoring Code4Lib 2018?</p>
+
+            <p>
+                <a class="btn btn-primary btn-lg" href="/prospectus">View our Prospectus</a>
+            </p>
+        </div>
+    </div>
+
+    {% for level in page.sponsorLevels %}
+        {% include sponsors/group_display.html level=level %}
+    {% endfor %}
+</div>

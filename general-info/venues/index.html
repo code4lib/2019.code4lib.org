@@ -1,0 +1,62 @@
+---
+layout: secondary-nav
+title: Venues
+nav: general-info
+active: Venues
+subnav:
+- name: Conference Hotel
+  url: '#conference-hotel'
+- name: Workshops
+  url: '#workshops'
+- name: Reception
+  url: '#reception'
+- name: Accommodations
+  url: '#accommodations'
+- name: Newcomer Dinner
+  url: '#dinner'
+- name: Game Night
+  url: '#gaming'
+---
+
+<div class="container-fluid">
+    <div class="row">
+      <h1>Venues</h1>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative hotel.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative workshops.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative reception.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative accommodations.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative dinner.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative gaming.html %}
+        </div>
+      </div>
+
+    </div>
+</div>

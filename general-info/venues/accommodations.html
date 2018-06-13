@@ -1,0 +1,29 @@
+<section class="general-info">
+    <div class="col-xs-12">
+        <h2 id="accommodations">Accommodations</h2>
+
+        <p>The Code4Lib community aims to make the conference accessible for Attendees of all abilities.</p>
+
+        <h3>Accommodation Requests</h3>
+        <p>
+            When registering, attendees were asked to include any accessibility needs
+            they might require. We are doing our best to meet these needs. Everyone is
+            encouraged to contact the accessibility committee if they have
+            questions or new accommodation needs arise. The accessibility committee may
+            be contacted by:
+        </p>
+        <ul>
+            <li>Talking with a volunteer at the registration desk who will forward the request</li>
+            <li>Asking for help from a <a href="/conduct/#officers">duty officer</a></li>
+        </ul>
+
+        <h3>Live Captioning</h3>
+        <p>
+            During the general conference, Code4Lib 2018 will feature live captioning.
+            {% if site.data.conf.captioning-url != '' %}
+                Attendees, both local and remote, may view the text stream at:
+                <a href="{{ site.data.conf.captioning-url }}">{{ site.data.conf.captioning-url }}</a>.
+            {% endif %}
+        </p>
+    </div>
+</section>

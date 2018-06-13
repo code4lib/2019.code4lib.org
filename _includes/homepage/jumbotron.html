@@ -1,0 +1,53 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+
+    <div class="hero-image">
+        <img src="/assets/img/theme-images/hero-image.jpg" alt="{{ site.data.conf.hero-img-alt }}">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12" id="conferenceInfo">
+
+                <h1 class="text-right">
+                    <span class="sr-only">code for lib {{site.data.conf.year}}</span>
+                    Bay Area, California
+                    <small>early spring 2019</small>
+                </h1>
+
+                <div id="conferenceActions">
+                    <!-- Livestream -->
+                    {% if site.data.conf.livestream.show %}
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream.url }}">Livestream Archive</a>
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.captioning-url }}">Closed captioning</a>
+                    {% endif %}
+
+                    <!-- Register -->
+                    {% if site.data.conf.conference-registration.show %}
+                      {% if site.data.conf.conference-registration.open %}
+                      <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.conference-registration.url }}">Register Now!</a>
+                      {% endif %}
+                    {% endif %}
+
+                    <!-- Sponsors -->
+                    {% if site.data.conf.homepage-sponsor-button %}
+                        <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
+                    {% endif %}
+
+                    <!-- Slides -->
+                    {% if site.data.conf.slides.show %}
+                      <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.slides.url }}">Slides</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="heroImageAttribution">
+            <div class="col-xs-12 text-right small">
+                <a href="https://www.flickr.com/photos/photographingtravis/14988543758/">photo by Travis Wise</a> <a href="https://creativecommons.org/licenses/by/2.0/">(CC BY 2.0)</a>
+            </div>
+        </div>
+
+    </div>
+</div>

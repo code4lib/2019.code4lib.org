@@ -1,14 +1,14 @@
-# 2018.code4lib.org
+# 2019.code4lib.org
 
 ## Intro
 
-This site was developed by the [Code4Lib 2018 Conference Committee Website Working Group](https://wiki.code4lib.org/Code4Lib_2018_Conference_Committees#Website_Working_Group) based on a design by the [2016 working group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview of the Code4Lib 2018 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
+This site was developed by the [Code4Lib 2019 Conference Committee Website Working Group](https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees#Website_Working_Group) based on a design by the [2016 working group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview of the Code4Lib 2019 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
 
 This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).  We also custom build  Bootstrap 3.3.4 from less files for basic site colors and fonts.
 
 ## Resources
 
-More details are available in the [GitHub wiki for the 2017 page](https://github.com/code4lib/2017.code4lib.org/wiki).
+More details are available in the [GitHub wiki](https://github.com/code4lib/2019.code4lib.org/wiki).
 
 ## About Jekyll
 
@@ -18,7 +18,7 @@ More details are available in the [GitHub wiki for the 2017 page](https://github
 
 Steps for contributing have been documented in the [wiki on the 2016 site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed.
 
-See a list of [outstanding issues](https://github.com/code4lib/2018.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
+See a list of [outstanding issues](https://github.com/code4lib/2019.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
 
 ### Setup:
 

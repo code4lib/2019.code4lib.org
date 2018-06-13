@@ -56,7 +56,7 @@ active: 'Conduct & Safety'
 
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="emergency">Emergency Resources</h2>
+                    <!-- <h2 id="emergency">Emergency Resources</h2>
 
                     <p>See also the contact information for <a href="#officers">duty officers</a> on this page.</p>
 
@@ -87,18 +87,7 @@ active: 'Conduct & Safety'
 
                     <h3>DC Rape Crisis Center</h3>
 
-                    <p>Immediate support hotline available at <a href="tel:12023337273">202-333-RAPE</a>. They also maintain a <a href="http://dcrcc.org/dc-referral-guide/">referral guide</a> for finding service providers quickly.</p>
-
-                    {% comment %}
-                    <h2>Conference organizers and general assistance</h2>
-                    <ul>
-                        <li>Code4Lib 2017 general assistance — <a href="mailto:code4lib@library.ucla.edu">code4lib@library.ucla.edu</a></li>
-                        <li>Luskin Center general information — <a href="tel:310-206-8585">310-206-8585</a></li>
-                    </ul>
-
-                    A local crisis counseling location was also included for LA
-
-                    {% endcomment %}
+                    <p>Immediate support hotline available at <a href="tel:12023337273">202-333-RAPE</a>. They also maintain a <a href="http://dcrcc.org/dc-referral-guide/">referral guide</a> for finding service providers quickly.</p> -->
                 </div>
             </div>
 
@@ -148,7 +137,7 @@ active: 'Conduct & Safety'
                         <div>
                           <h3> Online Duty Officers</h3>
                           <p> Duty Officers are also present on various online code4lib
-                            platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/c4l18">#c4l18</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
+                            platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
                           </p>
                           {% assign online_officers = site.data.duty-officers | where:"onsite","false" %}
                           {% for officer in online_officers %}

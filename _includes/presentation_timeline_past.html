@@ -12,7 +12,7 @@
                 {% assign speaker = site.data.past-keynotes | where:"id",post.speaker | first %}
                 <div class="col-sm-4 hidden-xs text-center">
                     <a href="/speakers/past-keynotes.html#{{ speaker.name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.name }}">
-                        <img class="clip-circle" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
+                        <img class="clip-circle" src="{{ site.baseurl }}{{ speaker.image-src }}" alt="{{ speaker.name }}">
                     </a>
                 </div>
             {% endif %}

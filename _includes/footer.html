@@ -1,31 +1,31 @@
 <footer class="footer" role="contentinfo">
     <div class="container">
-        <a href="#"><img src="/assets/img/theme-images/c4l-logo.svg" alt="Code4Lib"></a>
+        <a href="#"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
         <ul class="list-inline list-unstyled small">
-            <li class="list-item tci"><a href="/index.html">Home</a></li>
+            <li class="list-item tci"><a href="{{ site.baseurl }}/">Home</a></li>
 
             {% if site.data.conf.program-nav-links %}
-                <li class="list-item tci"><a href="/schedule/">Schedule</a></li>
-                <li class="list-item tci"><a href="/speakers/index.html">Speakers</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
             {% else %}
-                <li class="list-item tci"><a href="/schedule/timeline.html">Schedule</a></li>
-                <li class="list-item tci"><a href="/speakers/past-keynotes.html">Speakers</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
             {% endif %}
 
             {% if site.data.conf.call-for-sponsors %}
-                <li><a href="/prospectus">Sponsors</a></li>
+                <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
             {% else %}
-                <li><a href="/sponsors">Sponsors</a></li>
+                <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
             {% endif %}
 
-            <li class="list-item tci"><a href="/general-info/attend">General Info</a></li>
-            <li class="list-item tci"><a href="/conduct">Conduct & Safety</a></li>
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
             <li class="list-item tci"><a href="mailto:code4lib@concentra-cms.com">Contact Us</a></li>
         </ul>
         <div class="bucket">
             <p>
                 <a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
-                    <img src="/assets/img/persistent/cc.png" alt="License"></a>
+                    <img src="{{ "/assets/img/persistent/cc.png" | relative_url }}" alt="License"></a>
             </p>
             <div style="display: inline;" xmlns:cc="/ns#" about="http://creativecommons.org">
                 <p>
@@ -39,16 +39,16 @@
         </div>
     </div>
 </footer>
+<script>var searchData = "{{ site.baseurl }}/search_data.json"</script>
+<script src="{{ "/assets/js/lunr.min.js" | relative_url }}"></script>
+<script>window.jQuery || document.write('<script src="{{ "/assets/js/vendor/jquery-1.11.2.min.js" | relative_url }}"><\/script>')</script>
+<script src="{{ "/assets/js/vendor/bootstrap.min.js" | relative_url }}"></script>
 
-<script src="/assets/js/lunr.min.js"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="/assets/js/vendor/bootstrap.min.js"></script>
-
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/search.js"></script>
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/search.js" | relative_url }}"></script>
 
 {% if page.layout == 'proposedContent' %}
-<script src="/assets/js/vendor/tabletop.js"></script>
+<script src="{{ "/assets/js/vendor/tabletop.js" | relative_url }}"></script>
 {% include proposed-js.html %}
 {% endif %}
 

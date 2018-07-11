@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img src="/assets/img/theme-images/c4l-logo.svg" alt="Code4Lib"></a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,15 +16,15 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <!-- HOME -->
-                <li><a href="/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/">Home</a></li>
 
                 {% if site.data.conf.program-nav-links %}
-                    <li><a href="/schedule/">Schedule</a></li>
-                    <li><a href="/speakers/">Speakers</a></li>
+                    <li><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
+                    <li><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
                 {% else %}
                     <!-- Information for before we have program/preconf details -->
-                    <li><a href="/schedule/timeline.html">Schedule</a></li>
-                    <li><a href="/speakers/past-keynotes.html">Speakers</a></li>
+                    <li><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
+                    <li><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
                 {% endif %}
 
                 {% comment %}
@@ -32,14 +32,14 @@
                 close to / during conf, send to the list of sponsors page
                 {% endcomment %}
                 {% if site.data.conf.call-for-sponsors %}
-                    <li><a href="/prospectus">Sponsors</a></li>
+                    <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
                 {% else %}
-                    <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
                 {% endif %}
 
-                <li><a href="/general-info/attend">General Info</a></li>
+                <li><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
 
-                 <li><a href="/conduct">Conduct & Safety</a></li>
+                 <li><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
 
                 <!-- SEARCH -->
                 {% if site.data.conf.search %}

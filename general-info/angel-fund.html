@@ -55,5 +55,5 @@
 </div>
 
 {% comment %} for donation "thermometer" display {% endcomment %}
-<script src="/assets/js/thermometer.js"></script>
-<style>@import url('/assets/css/thermometer.css') screen;</style>
+<script src="{{ "/assets/js/thermometer.js" | relative_url }}"></script>
+<style>@import url('{{ "/assets/css/thermometer.css" | relative_url }}') screen;</style>

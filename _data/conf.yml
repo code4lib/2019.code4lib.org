@@ -9,7 +9,7 @@ sponsor-contact-email: ""
 scholarship-contact-email: ""
 # NOTE: this doubles as a "show donation text" toggle when not an empty string
 donate-link: ""
-hero-image-alt: ""
+hero-image-alt: "a plane flying over a street lined with palm trees"
 
 search: false
 # If false (we don't have program info yet), the main nav links go:

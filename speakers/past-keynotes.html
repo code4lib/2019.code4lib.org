@@ -12,7 +12,8 @@ title: Past Keynotes
         </div>
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
-                {% for person in site.data.past-keynotes %}
+                {% assign speakers = site.data.past-keynotes | reverse %}
+                {% for person in speakers %}
                     {% include speaker_box.html speaker=person %}
                 {% endfor %}
             </div>

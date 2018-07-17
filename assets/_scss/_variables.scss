@@ -11,13 +11,13 @@ $gray:                    #8E908C;
 $gray-light:              #D4D8D1 !default;
 $gray-lighter:            #F6FDFD !default;
 
-$primary:                 #94ACC9;
-$primary-dark:            #12192D;
+$primary:                 #006272;
+$primary-dark:            #000;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  #B41403;
+$accent:                  #E57200;
 $accent-dark:             darken($accent, 10%) !default;
-$accent-light:            #F65108;
+$accent-light:            lighten($accent, 10%);
 
 $brand-primary:           $accent !default; // #337ab7
 $brand-success:           #5cb85c !default;
@@ -30,9 +30,9 @@ $brand-danger:            #d9534f !default;
 //## Unique Code4Lib conference site components
 // Sections
 $section-2-bg:            $primary;
-$section-2-color:         $gray-base;
-$section-2-link:          $accent-dark;
-$section-2-hover:         darken($accent-dark, 10%);
+$section-2-color:         color-contrast($primary);
+$section-2-link:          $accent-light;
+$section-2-hover:         $accent-light;
 
 $section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;

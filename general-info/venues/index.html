@@ -5,16 +5,22 @@ nav: general-info
 active: Venues
 subnav:
 - name: Conference Hotel
+  include: hotel.html
   url: '#conference-hotel'
 #- name: Workshops
+#  include: workshops.html
 #  url: '#workshops'
 #- name: Reception
+#  include: reception.html
 #  url: '#reception'
-#- name: Accommodations
-#  url: '#accommodations'
+- name: Accommodations
+  include: accommodations.html
+  url: '#accommodations'
 #- name: Newcomer Dinner
+#  include: dinner.html
 #  url: '#dinner'
 #- name: Game Night
+#  include: gaming.html
 #  url: '#gaming'
 ---
 
@@ -22,41 +28,13 @@ subnav:
     <div class="row">
       <h1>Venues</h1>
 
-      <div class="row">
-        <div class="col-xs-12">
-          {% include_relative hotel.html %}
-        </div>
-      </div>
-
-      <!-- <div class="row">
-        <div class="col-xs-12">
-          {% include_relative workshops.html %}
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          {% include_relative reception.html %}
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          {% include_relative accommodations.html %}
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          {% include_relative dinner.html %}
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          {% include_relative gaming.html %}
-        </div>
-      </div> -->
+      {% for item in page.subnav %}
+          <div class="row">
+            <div class="col-xs-12">
+              {% include_relative {{item.include}} %}
+            </div>
+          </div>
+      {% endfor %}
 
     </div>
 </div>

@@ -9,8 +9,10 @@ published: true
         <div class="row">
             <div class="col-xs-12">
                 <h1>Code4Lib {{site.data.conf.year}} Sponsor Prospectus</h1>
-                <img src="{{ site.baseurl }}/assets/img/persistent/prospectus-collage.jpg" title="Credit sdellis on Twitter" alt="Code4Lib Collage" width="100%">
-                <p style="margin-top: 20px">
+                <p>
+                    <img src="{{ site.baseurl }}/assets/img/persistent/prospectus-collage.jpg" title="Credit sdellis on Twitter" alt="Code4Lib Collage" width="100%">
+                </p>
+                <p>
                   Held in San Jose, California, the Code4Lib {{site.data.conf.year}} Conference presents an opportunity for vendors, organizations, libraries, and projects to show their support for open and collaborative solutions for higher education, libraries, museums, and archives by providing financial support and attending the conference.
                 </p>
 
@@ -61,13 +63,12 @@ published: true
                   Your sponsorship of the conference can also provide immediate, concrete benefits to you and your organization. Code4Lib attendees include active practitioners who may be interested in your product, open source project, or services as well as department heads and senior administrators (15% of attendees last year) who make purchase decisions. Sponsors are strongly encouraged to send their staff to the conference to take advantage of access to the people and ideas who make up the Code4Lib community.
                 </p>
 
-                <!-- <p>
-                  If you're ready to make a pledge or have more questions, please get in touch with Mary Jinglewski at <a href="mailto:{{site.data.conf.sponsor-contact-email}}">{{site.data.conf.sponsor-contact-email}}</a>.
-                </p> -->
-
+                {% if site.data.conf.sponsor-contact-email != "" %}
                 <p>
-                    A <a href="{{ site.baseurl }}/assets/2018-infosheet.pdf">one-page information sheet</a> (PDF) is available to assist with making a case to sponsor the Code4Lib Conference.
+                  If you're ready to make a pledge or have more questions, please get in touch at <a href="mailto:{{site.data.conf.sponsor-contact-email}}">{{site.data.conf.sponsor-contact-email}}</a>.
                 </p>
+                {% endif %}
+
             </div>
         </div>
     </div>
@@ -241,7 +242,7 @@ published: true
                             <b>Non-profit organization: $500</b><br/>
                             <b>For-profit organization, early-bird (on or before November 15, 2017): $900</b><br/>
                             <b>For-profit organization, normal rate: $1,300</b><br/>
-                            <b>15 available, <span class="text-danger">14 left</span></b><br/>
+                            <b>15 available, <span class="text-danger">15 left</span></b><br/>
 
                             <p>
                                 Tables in a high-traffic area provide organizations, projects, and vendors a chance to interact with the Code4lib community on-site, and visibility throughout the conference. Participants will be able to visit tables during the morning and afternoon breaks, lunches, breakout sessions, and immediately following daily sessions. General sponsors are encouraged to also get exhibitor tables.
@@ -266,7 +267,7 @@ published: true
 
                     <p><b>1 available at $5,500, <span class="text-danger">1 left</span></b></p>
                     <p>
-                        A live webcast and recording of the code4lib Conference is provided to ensure the entire community can participate. Sponsor benefits will include:
+                        A live webcast and recording of the Code4lib Conference is provided to ensure the entire community can participate. Sponsor benefits will include:
                     </p>
                     <ul>
                         <li>Gold Sponsorship benefits</li>
@@ -280,7 +281,7 @@ published: true
                 <a name="Diversity-Scholarships"></a>
                     <h3>Diversity Scholarships</h3>
 
-                    <p><b>15 available at $1,500, <span class="text-danger">3 left</span></b></p>
+                    <p><b>15 available at $1,500, <span class="text-danger">15 left</span></b></p>
                     <p>
                         These scholarships provide travel costs and conference fees for qualified applicants from groups typically underrepresented at the conference, including women, transgender people, and minority ethnic and racial groups. Applicants must be interested in actively contributing to the mission and goals of the Code4lib conference. Benefits of sponsoring a scholarship:
                     </p>
@@ -297,7 +298,7 @@ published: true
                     <a name="Realtime-Transcription"></a>
                     <h3>Real-time Transcription and Closed Captioning of Talks</h3>
 
-                    <p><b>1 available at $2,000, <span class="text-danger">0 left</span></b></p>
+                    <p><b>1 available at $2,000, <span class="text-danger">1 left</span></b></p>
                     <p>
                         To facilitate universal participation and access to conference content, real-time live transcription and closed captioning of all presentations, lightning talks, and announcements from the podium at the annual Code4Lib conference will be included with the webstream and in-person, along with full transcription after the fact to accompany recordings.  Benefits of sponsoring transcription and closed captioning include:
                     <ul>
@@ -328,8 +329,8 @@ published: true
     </div>
 </section>
 
-
-
+{% if site.data.conf.sponsor-contact-email != "" %}
+<!-- this floats in a tab along the side of the page -->
 <div id="contact">
     <img src="{{ site.baseurl }}/assets/img/persistent/contact.png" alt="Contact" />
     <div class="thumbnail" id="contact_inner">
@@ -339,3 +340,4 @@ published: true
         </p>
     </div>
 </div>
+{% endif %}

@@ -19,7 +19,7 @@ active: Attend Code4Lib
                             <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
                         {% endif %}
                     {% else %}
-                        <p>When the price and date of registration are known, they will be posted here.</p>
+                        <p>Code4Lib will be held from February 19th to the 22nd this year. We have reserved a block at the DoubleTree Hilton; see more details on the <a href="venues/">Venues</a> page.</p>
                     {% endif %}
 
                     {% if site.data.conf.workshop-registration.show %}
@@ -35,8 +35,8 @@ active: Attend Code4Lib
             <div class="col-xs-12">
                 <h3>Registration Fees</h3>
                 <ul>
-                    <li><strong>Main Conference  (on or before January 19)</strong> : $350</li>
-                    <li><strong>Main Conference  (on or after January 20)</strong> : $420</li>
+                    <li><strong>Main Conference (on or before January 19)</strong> : $350</li>
+                    <li><strong>Main Conference (on or after January 20)</strong> : $420</li>
                     <li><strong>Pre-Conference </strong> : $60</li>
                 </ul>
 
@@ -65,22 +65,6 @@ active: Attend Code4Lib
             </div>
         </div>
         {% endcomment %}
-
-        <!-- Hotel Fees -->
-        <!--
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>Hotel Fees</h3>
-                <p>After you register for the conference, you will get links to register to stay at one of the conference hotels.</p>
-                <ul>
-                    <li><strong>Luskin Center</strong> $229/night (no tax is charged)</li>
-                    <li><strong>Hotel Angeleno</strong> $175/night + 15.695% tax</li>
-                    <li><strong>UCLA Guest House</strong> $199-$259/night + 15.695% tax</li>
-                </ul>
-                <p>More information about the conference hotels, including <a href="/venue/index.html#parking">parking options</a>, can be found on the <a href="/venue/">venue</a> page.</p>
-            </div>
-        </div>
-        -->
 
         <!-- Additional Info
         <div class="row">
@@ -149,7 +133,7 @@ active: Attend Code4Lib
 
                 <!--
                 <h3>Live Transcription</h3>
-                <p>We are thrilled to be able to provide <a href="https://2020captioning.1capapp.com/event/code4lib/">live transcriptions of all the presentations</a>,
+                <p>We are thrilled to be able to provide <a href="{{site.data.conf.captioning-url}}">live transcriptions of all the presentations</a>,
                     thanks to Temple University Libraries.
                 </p>
 

@@ -4,9 +4,9 @@
 year: 2019
 hashtag: 'c4l19'
 captioning-url: ""
-main-conf-email: ""
+main-conf-email: "code4lib@concentra-cms.com"
 sponsor-contact-email: ""
-scholarship-contact-email: ""
+scholarship-contact-email: "code4libaward@gmail.com"
 # NOTE: this doubles as a "show donation text" toggle when not an empty string
 donate-link: ""
 hero-image-alt: "a plane flying over a street lined with palm trees"
@@ -143,6 +143,7 @@ diversity-scholarship-applications:
   url-text: "How to Apply"
   end-date: "2017-11-17"
 
+# @TODO this should be part of the above
 scholarship-application:
   url: ""
 

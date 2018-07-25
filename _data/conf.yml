@@ -4,9 +4,6 @@
 year: 2019
 hashtag: 'c4l19'
 captioning-url: ""
-main-conf-email: "code4lib@concentra-cms.com"
-sponsor-contact-email: ""
-scholarship-contact-email: "code4libaward@gmail.com"
 # NOTE: this doubles as a "show donation text" toggle when not an empty string
 donate-link: ""
 hero-image-alt: "a plane flying over a street lined with palm trees"
@@ -15,6 +12,16 @@ search: false
 # If false (we don't have program info yet), the main nav links go:
 # schedule -> preparation timeline, speakers -> past keynotes
 program-nav-links: false
+
+#############################
+# Various Emails/contact info
+################
+main-conf-email: "code4lib@concentra-cms.com"
+sponsor-contact-email: ""
+scholarship-contact-email: "code4libaward@gmail.com"
+# when empty, Duty Officers page will use main-conf-email
+duty-officer-email: ""
+anonymous-form: ""
 
 ###################
 # Homepage section

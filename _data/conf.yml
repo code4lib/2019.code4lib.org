@@ -19,6 +19,9 @@ program-nav-links: false
 main-conf-email: "code4lib@concentra-cms.com"
 sponsor-contact-email: ""
 scholarship-contact-email: "code4libaward@gmail.com"
+# when empty, Duty Officers page will use main-conf-email
+duty-officer-email: ""
+anonymous-form: ""
 
 ###################
 # Homepage section

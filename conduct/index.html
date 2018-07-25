@@ -91,17 +91,23 @@ active: 'Conduct & Safety'
 
                     <h3>Contacting a Duty Officer</h3>
 
-                    <p>
-                      Code4Lib 2018 is now over, but you can contact the duty officers through at least
-                      5 March 2018 if you wish to report an incident that occurred during the conference.
-                      Please also feel free to ask questions about how the code of conduct was applied
-                      during the conference or to give us feedback.  To do so, you can:
+                    {% unless site.data.duty-officers %}
+                        <p>Duty Officers for the {{site.data.conf.year}} conference have not year been selected. You still may send concerns or questions about the Code of Conduct and how it's been applied in the past using the means listed below.</p>
+                    {% endunless %}
+
                       <ul>
-                        <li>Send an email to <a href="mailto:c4l18-duty-officers@googlegroups.com">c4l18-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
-                        <li>Use the <a href="https://c4l18.libraryexchange.org/">anonymous reporting form</a>.</li>
+                        {% if site.data.conf.duty-officer-email != '' %}
+                            <li>Send an email to <a href="mailto:{{site.data.conf.duty-officer-email}}">{{site.data.conf.duty-officer-email}}</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.
+                        {% else %}
+                            <li>While no Duty Officer email is available yet, you can contact the Local Planning Committee at <a href="mailto:{{site.data.conf.main-conf-email}}">{{site.data.conf.main-conf-email}}</a>
+                        {% endif %}
+
+                        {% if site.data.conf.anonymous-form != '' %}
+                            <li>Use the <a href="https://c4l18.libraryexchange.org/">anonymous reporting form</a>.
+                        {% endif %}
+
                         <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a> Not a member of the Slack team? <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">Sign up here</a>.</li>
                       </ul>
-                    </p>
 
                     {% if site.data.duty-officers %}
                         {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
@@ -137,7 +143,7 @@ active: 'Conduct & Safety'
                 </div>
            </div>
 
-                    {% if site.data.duty-officer-schedule %}
+            {% if site.data.duty-officer-schedule %}
             <div class="row">
                 <div class="col-md-12">
                     <h2 id="schedule">Duty Officer Schedule</h2>
@@ -174,7 +180,7 @@ active: 'Conduct & Safety'
                     {% endfor %}
                 </div>
             </div>
-                    {% endif %}
+            {% endif %}
 
 
             <div class="row">

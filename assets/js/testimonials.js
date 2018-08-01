@@ -27,8 +27,8 @@ for(var i=0; i<maxDraws; i++) {
       2. pick a number x from 2 to n, place testimonial x at the front.
       3. and so on...
    */     
-   var x = getRndInteger(1 + i, nTotal);
-   testimonialsContainer.insertBefore( $testimonials[x - 1], testimonialsContainer.firstChild )
+   var x = getRndInteger(i, nTotal);
+   testimonialsContainer.insertBefore( $testimonials[x], testimonialsContainer.firstChild )
 }
 
 /* change CSS toshow up to the first 6 testimonial divs */

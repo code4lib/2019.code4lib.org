@@ -12,7 +12,7 @@ More details are available in the [GitHub wiki](https://github.com/code4lib/2019
 
 ## About Jekyll
 
-[Jekyll](http://jekyllrb.com) is a Rails gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details.
+[Jekyll](http://jekyllrb.com) is a Ruby gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details.
 
 ## Contributing
 

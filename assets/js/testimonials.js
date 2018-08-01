@@ -19,7 +19,21 @@ var N_TO_SHOW = 6;
 var testimonialsContainer = document.getElementById('testimonials');
 var $testimonials = document.querySelectorAll('.testimonial');
 var nTotal = $testimonials.length;i
+/* generate random permutation of 1 to nTotal using in-place Fisher-Yates */
+var indexes = [];
+for(var i=0; i<nTotal; i++) {
+   var j = getRndInteger(0,i+1);
+   if(i != j) 
+      indexes[i] = indexes[j];
+   indexes[j] = i;
+}
 /* in case there are fewer testimonials than we want to show */
+<<<<<<< HEAD
+var maxShows = Math.min(N_TO_SHOW, nTotal);
+/* move the first maxDraws testimonials at indices in indexes to the front */
+for(var i=0; i<maxShows; i++) {
+   testimonialsContainer.insertBefore( $testimonials[ indexes[i] ], testimonialsContainer.firstChild )
+=======
 var maxDraws = Math.min(N_TO_SHOW, nTotal);
 for(var i=0; i<maxDraws; i++) {
    /* basic idea of the shuffle: 
@@ -29,11 +43,11 @@ for(var i=0; i<maxDraws; i++) {
    */     
    var x = getRndInteger(i, nTotal);
    testimonialsContainer.insertBefore( $testimonials[x], testimonialsContainer.firstChild )
+>>>>>>> 5d621a362de13718700cc76b5b46240037b96442
 }
 
-/* change CSS toshow up to the first 6 testimonial divs */
-/* grab the testimonials again to get their new ordering */
+/* change CSS toshow up to the first maxShows testimonial divs */
 $testimonials = document.querySelectorAll('.testimonial');
-for(var i=0; i<maxDraws; i++) {
+for(var i=0; i<maxShows; i++) {
    $testimonials[i].style.display = "block";
 }

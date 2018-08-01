@@ -362,7 +362,9 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 /* ==========================================================================
    Testimonials
    ========================================================================== */
-
+.testimonial {
+  display: none;
+}
 .speech-bubble {
   color: $testimonial-color;
   background-color: $testimonial-bg;

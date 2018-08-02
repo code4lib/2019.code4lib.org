@@ -44,7 +44,7 @@ title: code4lib 2019 - San Jose, California
     <div class="container">
         <div class="row" id="testimonials">
         {% for testimonial in site.data.testimonials %}
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 testimonial">
                 <div class="thumbnail">
                     <div class="speech-bubble">
                         <div class="arrow bottom right"></div>
@@ -57,6 +57,7 @@ title: code4lib 2019 - San Jose, California
                 </div>
             </div>
         {% endfor %}
+        <script src="{{ "/assets/js/testimonials.js" | relative_url }}"></script>
         </div>
     </div>
 </section>

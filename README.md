@@ -12,7 +12,7 @@ More details are available in the [GitHub wiki](https://github.com/code4lib/2019
 
 ## About Jekyll
 
-[Jekyll](http://jekyllrb.com) is a Rails gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details.
+[Jekyll](http://jekyllrb.com) is a Ruby gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details.
 
 ## Contributing
 
@@ -46,7 +46,7 @@ See a list of [outstanding issues](https://github.com/code4lib/2019.code4lib.org
   * ```git push --set-upstream origin issue#3```
 9. switch back to the master branch
   * ```git checkout master```
-10. go to https://github.com/code4lib/2017.code4lib.org
+10. go to https://github.com/code4lib/2019.code4lib.org
 11. make a pull request base:master and compare:issue-3
 12. wait for someone to test your changes and merge
 13. do the dance of joy

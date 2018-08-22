@@ -128,7 +128,7 @@
   border-radius: 0 5px 5px 0;
 
   &:hover {
-    left: 250px;
+    left: 300px;
   }
   &:hover #contact_inner {
     left: 0;
@@ -159,8 +159,8 @@
   background-color: $accent-light;
   margin: 0;
   top: 60px;
-  left: -250px;
-  width: 250px;
+  left: -300px;
+  width: 300px;
   padding: 25px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;

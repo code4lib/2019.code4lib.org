@@ -39,8 +39,8 @@ homepage-display: pre
 # Sponsors
 ###########
 # If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: false
-homepage-sponsor-button: false
+call-for-sponsors: true
+homepage-sponsor-button: true
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD

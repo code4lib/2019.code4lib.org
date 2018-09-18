@@ -62,9 +62,9 @@ workshop-proposals:
   end-date: "2017-09-30"
 
 talk-proposals:
-  show: false
-  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSdtLIIPmQeOJRUoPDl6mEj0thtmV3qu4Me9z8-ffbne0qUqTw/viewform?usp=sf_link"
-  end-date: "2017-10-15"
+  show: true
+  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSeGNEkTAVyeUAhQViIrr-dE0WgUNPQ6s55EOqxj6T5KDKJqMw/viewform?c=0&w=1"
+  end-date: "2018-10-04"
 
 panel-proposals:
   show: false

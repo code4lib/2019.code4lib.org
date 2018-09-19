@@ -1,11 +1,4 @@
 <div class="col-xs-12">
-    <h3>Conference Hotel</h3>
-
-    <div class="row">
-        <p class="col-sm-4"><img class="img-responsive" src="/assets/img/venues/doubletree.jpg" alt="DoubleTree San Joses"></p>
-        <p class="col-sm-8">We've negotiated rooms at the San José DoubleTree by Hilton. Conveniently located near the San Jose International Airport, the DoubleTree is a great location. It includes an on-site restaurant and sushi bar, coffee shops, WiFi (included in our room rate), and a pool plus hot tub area. The hotel is a short ten-minute drive from downtown San Jose with access to public transit as well. <strong><a href="/general-info/venues">See more details on the Venues page</a></strong>.</p>
-    </div>
-
     {% comment %} details known/announced but can't register yet {% endcomment %}
     {% if site.data.conf.conference-registration.show
     and site.data.conf.conference-registration.open == false %}
@@ -210,7 +203,6 @@
     </div>
     {% endif %}
 
-
 </div>
 <div class="col-xs-12">
     {% assign ad_sponsors = site.data.sponsors | where: "level","adamantium" %}
@@ -247,4 +239,13 @@
         </div>
         {% endif %}
     {% endif %}
+</div>
+
+<div class="col-xs-12">
+    <h3>Conference Hotel</h3>
+
+    <div class="row">
+        <p class="col-sm-4"><img class="img-responsive" src="/assets/img/venues/doubletree.jpg" alt="DoubleTree San Joses"></p>
+        <p class="col-sm-8">We've negotiated rooms at the San José DoubleTree by Hilton. Conveniently located near the San Jose International Airport, the DoubleTree is a great location. It includes an on-site restaurant and sushi bar, coffee shops, WiFi (included in our room rate), and a pool plus hot tub area. The hotel is a short ten-minute drive from downtown San Jose with access to public transit as well. <strong><a href="/general-info/venues">See more details on the Venues page</a></strong>.</p>
+    </div>
 </div>

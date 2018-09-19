@@ -375,8 +375,14 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
    ========================================================================== */
 #testimonials {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+#testimonials:before, #testimonials:after {
+  display: none;
 }
 .testimonial {
   display: none;

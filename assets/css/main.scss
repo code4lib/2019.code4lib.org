@@ -373,8 +373,25 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 /* ==========================================================================
    Testimonials
    ========================================================================== */
+#testimonials {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+#testimonials:before, #testimonials:after {
+  display: none;
+}
 .testimonial {
   display: none;
+  float: none;
+  flex: 1 1 auto;
+}
+.testimonial h3 {
+  margin-top: ($line-height-computed / 2);
+  margin-bottom: 0;
 }
 .speech-bubble {
   color: $testimonial-color;
@@ -392,7 +409,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 }
 
 .bottom {
-  border-color: $primary-dark transparent transparent transparent;
+  border-color: $testimonial-bg transparent transparent transparent;
   border-width: 8px 8px 0px 8px;
   bottom: -8px;
 }

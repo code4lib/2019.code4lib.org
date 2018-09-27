@@ -236,7 +236,21 @@ p {
 }
 
 .username {
-  color: $accent-dark;
+  color: $gray-lighter;
+  background: $primary;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+  &:focus, &:hover {
+    text-decoration: none;
+    border: none;
+    background: $accent;
+  }
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
 }
 
 .subfoot {
@@ -453,6 +467,10 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   padding: 0 15px;
 }
 
+a.speaker-bio-link {
+  color: darken($accent-light, 20%);
+}
+
 p.speaker-title, p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
@@ -466,7 +484,11 @@ p.speaker-title {
 p.speaker-bio {
   color: $speaker-info-color;
   padding: 0.5em;
+}
+
+p.speaker-bio:not(:nth-of-type(1)) {
   margin-bottom: 5px;
+  padding-top: 0;
 }
 
 p.speaker-title {
@@ -481,7 +503,7 @@ p.speaker-inst {
 }
 
 .speaker-info {
-  background-color: $speaker-info-bg;
+  background-color: $brand-info;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -538,7 +560,7 @@ p.speaker-inst {
   text-decoration: none;
 }
 .speaker-box.selected p {
-  color: $speaker-selected-color;
+  color: #fff;
 }
 
 .arrow-down {

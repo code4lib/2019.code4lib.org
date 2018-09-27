@@ -18,6 +18,7 @@ $primary-light:           lighten($primary, 10%) !default;
 $accent:                  #E57200;
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
+$accent-darker:           darken($accent, 20%);
 
 $brand-primary:           $accent !default; // #337ab7
 $brand-success:           #5cb85c !default;
@@ -60,7 +61,7 @@ $sponsor-badge-bg:        $gray-lighter;
 //Speaker Box
 $speaker-selected-bg:     $accent;
 $speaker-selected-color:  $gray-lighter;
-$speaker-info-bg:         $gray-light;
+$speaker-info-bg:         $accent;
 $speaker-info-color:      $gray-base;
 
 //Menu

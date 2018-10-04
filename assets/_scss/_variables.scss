@@ -113,9 +113,9 @@ $body-bg:               $gray-lighter !default;
 $text-color:            $gray-base !default;
 
 //** Global textual link color.
-$link-color:            $accent !default;
+$link-color:            $accent-dark !default;
 
-$link-hover-color:      $accent-dark !default;
+$link-hover-color:      $accent-darker !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 

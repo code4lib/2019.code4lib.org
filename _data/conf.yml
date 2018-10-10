@@ -100,9 +100,9 @@ workshop-voting:
   end-date: "2017-10-20"
 
 talk-voting:
-  show: false
-  url: "https://www.surveymonkey.com/r/c4l2018-presentations"
-  end-date: "2017-11-13"
+  show: true
+  url: "https://goo.gl/xvQXyu"
+  end-date: "2018-10-25"
 
 panel-voting:
   show: false

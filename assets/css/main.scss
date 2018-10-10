@@ -133,7 +133,6 @@ p {
   background-color: $accent;
   color: $primary-dark;
   font-size: .9em;
-//font-weight: bold;
   a {
     color: $primary-dark;
   }
@@ -458,7 +457,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 
 .speaker-name {
   margin-top: 8px;
-  font-size: 1.5em;
+  font-size: 1.65em;
   margin-bottom: 5px;
 }
 
@@ -468,9 +467,12 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 }
 
 a.speaker-bio-link {
-  color: darken($accent-light, 20%);
+  color: darken($accent, 10%);
+  font-weight: 500;
 }
-
+a.speaker-info-toggle {
+  color: $accent;
+}
 p.speaker-title, p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
@@ -503,7 +505,7 @@ p.speaker-inst {
 }
 
 .speaker-info {
-  background-color: $brand-info;
+  // background-color: $brand-info;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -511,6 +513,7 @@ p.speaker-inst {
   justify-content: space-around;
   border-radius: 5px;
   max-height:0;
+  border: none;
   overflow:hidden;
   -webkit-transition: max-height .15s ease;
   -o-transition: max-height .15s ease;
@@ -520,6 +523,7 @@ p.speaker-inst {
 }
 .speaker-info.show {
   max-height: 600px;
+  border: 2px solid $primary;
   -webkit-transition: max-height .35s ease;
   -o-transition: max-height .35s ease;
   -moz-transition: max-height .35s ease;
@@ -553,11 +557,11 @@ p.speaker-inst {
   border-top-left-radius: 10px;
 }
 .speaker-box.selected a{
-  color: $speaker-selected-color;
+  color: white;
 }
 .speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
   color: $speaker-selected-color;
-  text-decoration: none;
+  border: none;
 }
 .speaker-box.selected p {
   color: #fff;

@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" aria-label="Home"  href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
+            <a class="navbar-brand" aria-label="Code4Lib Home"  href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <!-- HOME -->
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}" aria-label="Return to Code4Lib Index Page">Home</a></li>
 
                 {% if site.data.conf.program-nav-links %}
                     <li><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>

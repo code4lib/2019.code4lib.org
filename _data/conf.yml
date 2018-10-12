@@ -57,7 +57,7 @@ keynote-proposals:
   end-date: "2018-10-22"
 
 workshop-proposals:
-  show: true
+  show: false
   submission-form: "https://goo.gl/forms/DXyX8OGKBtHKkXzv1"
   end-date: "2018-10-11"
 

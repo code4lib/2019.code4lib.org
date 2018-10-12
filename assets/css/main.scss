@@ -202,67 +202,6 @@ p {
 }
 
 /* ==========================================================================
-   Footer
-   ========================================================================== */
-
-.footer {
-  bottom: 0;
-  box-sizing: border-box;
-  left: 0;
-  height: 21.6125em;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  color: $footer-color;
-  background-color: $footer-bg;
-  padding-top: 3em;
-  text-align: center;
-
-  p {
-    font-size: .8em;
-  }
-
-  a {
-    color: $footer-link;
-  }
-  a:hover, a:focus {
-    color: $footer-hover;
-  }
-  ul {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-  }
-}
-
-.username {
-  color: $gray-lighter;
-  background: $primary;
-  padding: 5px 10px;
-  border-radius: 5px;
-  margin-left: 5px;
-
-  &:focus, &:hover {
-    text-decoration: none;
-    border: none;
-    background: $accent;
-  }
-}
-
-a:-webkit-any-link {
-  text-decoration: none;
-}
-
-.subfoot {
-  text-decoration: underline;
-}
-
-@media (min-width: $screen-sm-min){
-  .footer{
-    padding: 5em 0;
-  }
-}
-
-/* ==========================================================================
    Sections
    ========================================================================== */
 
@@ -962,5 +901,79 @@ p.speaker-inst {
       margin: 0;
       line-height: initial;
     }
+  }
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+  .footer {
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  height: 21.6125em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  color: $footer-color;
+  background-color: $footer-bg;
+  padding-top: 3em;
+  text-align: center;
+
+  p {
+    font-size: .8em;
+  }
+
+  a {
+    color: $footer-link !important;
+  }
+  a:hover, a:focus {
+    color: $footer-hover;
+  }
+  ul {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+}
+
+.username {
+  color: $gray-lighter;
+  background: $primary;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+  &:focus, &:hover {
+    text-decoration: none;
+    border: none;
+    background: $accent;
+  }
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-dark;
+  }
+}
+p a:-webkit-any-link {
+  text-decoration: none;
+  color: $accent-dark;
+  font-weight: 500;
+  &:hover {
+    color: $accent-darker;
+  }
+}
+
+.subfoot {
+  text-decoration: underline;
+}
+
+@media (min-width: $screen-sm-min){
+  .footer{
+    padding: 5em 0;
   }
 }

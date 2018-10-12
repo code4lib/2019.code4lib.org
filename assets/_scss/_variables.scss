@@ -35,8 +35,8 @@ $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
 // Sections
 $section-2-bg:            $primary;
 $section-2-color:         color-contrast($primary);
-$section-2-link:          $accent-link-primary;
-$section-2-hover:         $accent-primary-hover;
+$section-2-link:          $accent-dark;
+$section-2-hover:         $accent-darker;
 
 $section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;

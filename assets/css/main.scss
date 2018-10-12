@@ -133,7 +133,6 @@ p {
   background-color: $accent;
   color: $primary-dark;
   font-size: .9em;
-//font-weight: bold;
   a {
     color: $primary-dark;
   }
@@ -199,53 +198,6 @@ p {
 @media (min-width: 1600px) {
   .hero-image {
     height: 550px;
-  }
-}
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
-.footer {
-  bottom: 0;
-  box-sizing: border-box;
-  left: 0;
-  height: 21.6125em;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  color: $footer-color;
-  background-color: $footer-bg;
-  padding-top: 3em;
-  text-align: center;
-
-  p {
-    font-size: .8em;
-  }
-
-  a {
-    color: $footer-link;
-  }
-  a:hover, a:focus {
-    color: $footer-hover;
-  }
-  ul {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-  }
-}
-
-.username {
-  color: $accent-dark;
-}
-
-.subfoot {
-  text-decoration: underline;
-}
-
-@media (min-width: $screen-sm-min){
-  .footer{
-    padding: 5em 0;
   }
 }
 
@@ -321,7 +273,7 @@ ul.secondarynav > li.active > a:hover,
 ul.secondarynav > li.active > a:focus {
   background-color: transparent;
   font-weight: 500;
-  color: $accent;
+  color: $accent-dark;
 }
 
 ul.secondarynav > li.active > a > .secondnav-item,
@@ -444,7 +396,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 
 .speaker-name {
   margin-top: 8px;
-  font-size: 1.5em;
+  font-size: 1.65em;
   margin-bottom: 5px;
 }
 
@@ -453,6 +405,13 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   padding: 0 15px;
 }
 
+a.speaker-bio-link {
+  color: darken($accent, 10%);
+  font-weight: 500;
+}
+a.speaker-info-toggle {
+  color: $accent;
+}
 p.speaker-title, p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
@@ -466,7 +425,11 @@ p.speaker-title {
 p.speaker-bio {
   color: $speaker-info-color;
   padding: 0.5em;
+}
+
+p.speaker-bio:not(:nth-of-type(1)) {
   margin-bottom: 5px;
+  padding-top: 0;
 }
 
 p.speaker-title {
@@ -481,7 +444,7 @@ p.speaker-inst {
 }
 
 .speaker-info {
-  background-color: $speaker-info-bg;
+  // background-color: $brand-info;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -489,6 +452,7 @@ p.speaker-inst {
   justify-content: space-around;
   border-radius: 5px;
   max-height:0;
+  border: none;
   overflow:hidden;
   -webkit-transition: max-height .15s ease;
   -o-transition: max-height .15s ease;
@@ -498,6 +462,7 @@ p.speaker-inst {
 }
 .speaker-info.show {
   max-height: 600px;
+  border: 2px solid $primary;
   -webkit-transition: max-height .35s ease;
   -o-transition: max-height .35s ease;
   -moz-transition: max-height .35s ease;
@@ -531,14 +496,14 @@ p.speaker-inst {
   border-top-left-radius: 10px;
 }
 .speaker-box.selected a{
-  color: $speaker-selected-color;
+  color: white;
 }
 .speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
   color: $speaker-selected-color;
-  text-decoration: none;
+  border: none;
 }
 .speaker-box.selected p {
-  color: $speaker-selected-color;
+  color: #fff;
 }
 
 .arrow-down {
@@ -936,5 +901,79 @@ p.speaker-inst {
       margin: 0;
       line-height: initial;
     }
+  }
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+  .footer {
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  height: 21.6125em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  color: $footer-color;
+  background-color: $footer-bg;
+  padding-top: 3em;
+  text-align: center;
+
+  p {
+    font-size: .8em;
+  }
+
+  a {
+    color: $footer-link !important;
+  }
+  a:hover, a:focus {
+    color: $footer-hover;
+  }
+  ul {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+}
+
+.username {
+  color: $gray-lighter;
+  background: $primary;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+  &:focus, &:hover {
+    text-decoration: none;
+    border: none;
+    background: $accent;
+  }
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-dark;
+  }
+}
+p a:-webkit-any-link {
+  text-decoration: none;
+  color: $accent-dark;
+  font-weight: 500;
+  &:hover {
+    color: $accent-darker;
+  }
+}
+
+.subfoot {
+  text-decoration: underline;
+}
+
+@media (min-width: $screen-sm-min){
+  .footer{
+    padding: 5em 0;
   }
 }

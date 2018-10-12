@@ -62,7 +62,7 @@ workshop-proposals:
   end-date: "2018-10-11"
 
 talk-proposals:
-  show: true
+  show: false
   submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSeGNEkTAVyeUAhQViIrr-dE0WgUNPQ6s55EOqxj6T5KDKJqMw/viewform?c=0&w=1"
   end-date: "2018-10-04"
 
@@ -100,9 +100,9 @@ workshop-voting:
   end-date: "2017-10-20"
 
 talk-voting:
-  show: false
-  url: "https://www.surveymonkey.com/r/c4l2018-presentations"
-  end-date: "2017-11-13"
+  show: true
+  url: "https://goo.gl/xvQXyu"
+  end-date: "2018-10-25"
 
 panel-voting:
   show: false

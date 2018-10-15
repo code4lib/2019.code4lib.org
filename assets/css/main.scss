@@ -954,10 +954,6 @@ p.speaker-inst {
 
 a:-webkit-any-link {
   text-decoration: none;
-
-  &:hover {
-    color: $accent-dark;
-  }
 }
 p a:-webkit-any-link {
   text-decoration: none;

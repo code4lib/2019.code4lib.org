@@ -52,7 +52,7 @@ homepage-sponsor-button: true
 ###########
 # data from 2019 is left here but not displayed to show the format
 keynote-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2019_Keynote_Speakers_Nominations"
   end-date: "2018-10-22"
 

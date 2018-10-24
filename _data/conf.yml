@@ -4,8 +4,6 @@
 year: 2019
 hashtag: 'c4l19'
 captioning-url: ""
-# NOTE: this doubles as a "show donation text" toggle when not an empty string
-donate-link: ""
 hero-image-alt: "a plane flying over a street lined with palm trees"
 
 search: false
@@ -144,6 +142,13 @@ slides:
 ################
 # Scholarships
 ################
+
+angel-fund:
+    show: true
+    # whether to show the "donation thermometer" & Google Spreadsheet key for it
+    thermometer: false
+    spreadsheet-key: ""
+    url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
   show: false

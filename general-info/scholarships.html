@@ -8,8 +8,8 @@ subnav:
   url: '#criteria'
 - name: 'How to Apply'
   url: '#how-to-apply'
-#- name: 'Individual Giving'
-#  url: '#angel-fund'
+- name: 'Individual Giving'
+  url: '#angel-fund'
 ---
 
 {% assign year = site.data.conf.year %}
@@ -35,15 +35,12 @@ subnav:
                 </div>
                 {% endif %}
 
-                {% if site.data.conf.donate-link != '' %}
+                <p>
+                    We are seeking organizations to sponsor diversity scholarships; if you are interested, please contact <a href="mailto:{{site.data.conf.sponsor-contact-email}}">{{site.data.conf.sponsor-contact-email}}</a>.
+                </p>
+                {% if site.data.conf.angel-fund.show %}
                     <p>
-                        We are seeking organizations to sponsor diversity scholarships;
-                        if you are interested, please
-                        contact <a href="mailto:{{site.data.conf.sponsor-contact-email}}">{{site.data.conf.sponsor-contact-email}}</a>.
-                    </p>
-                    <p>
-                        Individual community members can also support the Diversity Scholarships program via our
-                        <a href="{{ site.baseurl }}/general-info/angel-fund.html">individual giving page</a>.
+                        Individual community members can also support the Diversity Scholarships program via our <a href="{{ site.baseurl }}/general-info/angel-fund.html">individual giving page</a>.
                     </p>
                 {% endif %}
 
@@ -164,7 +161,6 @@ subnav:
    </div>
 </div>
 
-
 <div class="container-fluid">
    <div class="row">
        <div class="col-xs-12">
@@ -205,4 +201,6 @@ subnav:
    </div>
 </div>
 
-<!-- will "include_relative angel-fund.html" here when ready -->
+{% if site.data.conf.angel-fund.show %}
+    {% include_relative angel-fund.html %}
+{% endif %}

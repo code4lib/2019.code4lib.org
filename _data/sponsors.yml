@@ -1,0 +1,37 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+  # annotation: "Closed captioning"
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Index Data
+  img: /assets/img/sponsors/index_data.png
+  link: https://www.indexdata.com/
+  level: gold
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/MIT.png
+  link: https://libraries.mit.edu/
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"

@@ -98,7 +98,7 @@ workshop-voting:
   end-date: "2017-10-20"
 
 talk-voting:
-  show: true
+  show: false
   url: "https://goo.gl/xvQXyu"
   end-date: "2018-10-25"
 

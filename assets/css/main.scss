@@ -964,6 +964,15 @@ p a:-webkit-any-link {
   }
 }
 
+/* above rule causes buttons within <p>s to have dark text on dark bg */
+p a.btn {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+}
+
 .subfoot {
   text-decoration: underline;
 }

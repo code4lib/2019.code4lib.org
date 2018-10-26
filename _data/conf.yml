@@ -36,8 +36,8 @@ homepage-display: pre
 ###########
 # Sponsors
 ###########
-# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: true
+# If true, any "Sponsors" links will go to /prospectus instead of /sponsors
+call-for-sponsors: false
 homepage-sponsor-button: true
 
 ##########

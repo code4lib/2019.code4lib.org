@@ -3,6 +3,7 @@
 ###########
 year: 2019
 hashtag: 'c4l19'
+location: 'San José, California'
 captioning-url: ""
 hero-image-alt: "a plane flying over a street lined with palm trees"
 
@@ -151,14 +152,12 @@ angel-fund:
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
-  end-date: "2017-11-17"
-
-# @TODO this should be part of the above
-scholarship-application:
-  url: ""
+  end-date: "2018-11-16"
+  notification-date: "2018-12-05"
+  apply-url: "https://docs.google.com/forms/d/e/1FAIpQLSetEMsBxZYXj_GGyxwWj_FnIxgxDRjxuZ-t16QqPtKuKKQ8Eg/viewform?usp=sf_link"
 
 # When true, sponsors for diversity scholarship will show
 diversity-scholarship-general-sponsors:

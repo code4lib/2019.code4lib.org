@@ -97,7 +97,7 @@ subnav:
        <div class="col-xs-12">
            <h2>Accepting Applications Now!</h2>
            <p>
-               As part of Code4Lib's ongoing commitment to reducing economic barriers that prevent participation for underrepresented groups, and to achieving a balanced representation of the human experience, we are pleased to announce that we are now seeking applicants for our <a href="/general-info/scholarships">{{site.data.conf.year}} Diversity Scholarship program</a>! The <a href="https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees#Scholarship_Committee">Code4Lib Scholarship Committee</a> hopes to award 15 Diversity Scholarships, based on merit and need.  Each scholarship will cover up to $1500 for travel costs, lodging, and conference fees for selected applicants to attend the <a href="/">{{site.data.conf.year}} Code4Lib Conference</a> in Washington, D.C.
+               As part of Code4Lib's ongoing commitment to reducing economic barriers that prevent participation for underrepresented groups, and to achieving a balanced representation of the human experience, we are pleased to announce that we are now seeking applicants for our <a href="/general-info/scholarships">{{site.data.conf.year}} Diversity Scholarship program</a>! The <a href="https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees#Scholarship_Committee">Code4Lib Scholarship Committee</a> hopes to award 15 Diversity Scholarships, based on merit and need.  Each scholarship will cover up to $1500 for travel costs, lodging, and conference fees for selected applicants to attend the <a href="/">{{site.data.conf.year}} Code4Lib Conference</a> in {{site.data.conf.location}}.
            </p>
            <p>
               <strong>The deadline for applications is {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date%} at 11:59 PM ET</strong> (<a href="#how-to-apply">see below for more details</a>).
@@ -168,7 +168,7 @@ subnav:
            <h2>How to Apply</h2>
            {% if site.data.conf.diversity-scholarship-applications.show %}
            <p>
-               Submit your application materials via the Code4Lib online form: <a href="{{ site.data.conf.scholarship-application.url }}">{{ site.data.conf.scholarship-application.url }}</a>
+               Submit your application materials via the Code4Lib online form: <a href="{{ site.data.conf.diversity-scholarship-applications.apply-url }}">{{ site.data.conf.diversity-scholarship-applications.apply-url }}</a>
            </p>
          <p>
            You will need to prepare:
@@ -190,7 +190,7 @@ subnav:
                The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-date | date: '%b %-d, %Y '}}at 11:59 PM ET</strong>.
            </p>
            <p>
-              The scholarship committee will notify all applicants by <strong>Friday, December 1, 2018</strong>, regardless of award results.
+              The scholarship committee will notify all applicants by <strong>{{ site.data.conf.diversity-scholarship-applications.notification-date | date: '%b %-d, %Y'}}</strong>, regardless of award results.
            </p>
            {% else %}
            <p>

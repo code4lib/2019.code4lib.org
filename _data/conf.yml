@@ -137,7 +137,7 @@ conference-registration:
 volunteer-committee:
   show: true
   url: https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees
-  end-date: ""
+  end-date: "2019-01-18"
 
 volunteer-dutyoff:
   show: true

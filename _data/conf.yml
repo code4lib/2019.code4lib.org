@@ -162,8 +162,9 @@ slides:
 angel-fund:
     show: true
     # whether to show the "donation thermometer" & Google Spreadsheet key for it
-    thermometer: false
-    spreadsheet-key: ""
+    thermometer: true
+    # NOTE: spreadsheet needs to be "published to the web"
+    spreadsheet-key: "1DTMECsa9KznCK90UQRjyZ6X_SqI0Zeq7-DZ_ByDsM6w"
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:

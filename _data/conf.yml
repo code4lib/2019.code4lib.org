@@ -89,9 +89,9 @@ host-proposals:
 # Voting
 ###########
 keynote-voting:
-  show: false
-  url: "https://www.surveymonkey.com/r/c4l2018-keynote"
-  end-date: "2017-11-13"
+  show: true
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
+  end-date: "2018-11-16"
 
 workshop-voting:
   show: false

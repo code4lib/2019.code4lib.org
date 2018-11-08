@@ -30,8 +30,39 @@
   level: gold
 
 - name: MIT Libraries
-  img: /assets/img/sponsors/MIT.png
+  img: /assets/img/sponsors/mit.png
   link: https://libraries.mit.edu/
   level: bronze
   diversity: true
   annotation: "Diversity Scholarship"
+
+- name: ByWater Solutions
+  img: /assets/img/sponsors/bywater_solutions.jpg
+  link: https://bywatersolutions.com
+  level: supporter
+
+- name: San José State University Library
+  img: /assets/img/sponsors/sjsu.png
+  link: https://library.sjsu.edu
+  level: supporter
+
+- name: Rockefeller Archive Center
+  img: /assets/img/sponsors/rockefeller_archive_center.png
+  link: http://rockarch.org
+  level: contributor
+
+- name: Humboldt State University
+  img: /assets/img/sponsors/humboldt_state_university.png
+  link: https://library.humboldt.edu
+  level: supporter
+
+- name: Rutgers
+  img: /assets/img/sponsors/rutgers.gif
+  link: https://comminfo.rutgers.edu
+  level: bronze
+  annotation: "Childcare"
+
+- name: Jetbrains
+  img: /assets/img/sponsors/jetbrains.png
+  link: https://www.jetbrains.com
+  level: giveaway

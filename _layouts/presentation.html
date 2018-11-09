@@ -22,7 +22,7 @@
 
             <h1>{{ page.title }}{% if page.full == true %}<small class="text-danger">This workshop is full</small>{% endif %}</h1>
 
-            {{ content }}
+            <p>{{ content }}</p>
 
             {% if page.youtube_key %}
             <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube_key }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

@@ -6,8 +6,8 @@ speakers-text: Eli Zoller
 speakers:
   - eli-zoller
 time: am
-startTime: 9:00
-endTime: 12:00
+startTime: 9:00 AM
+endTime: 12:00 PM
 location: doubletree
 #room: santa-clara
 slugTitle: using-node-to-listen-to-alma-webhooks

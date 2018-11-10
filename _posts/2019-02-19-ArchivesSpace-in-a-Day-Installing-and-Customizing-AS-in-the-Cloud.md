@@ -6,8 +6,8 @@ speakers-text: Tristan Dahn
 speakers:
   - tristan-dahn
 time: full
-startTime: 9:00
-endTime: 17:00
+startTime: 9:00 AM
+endTime: 5:00 PM
 location: doubletree
 #room: san-carlos
 slugTitle: archivesspace-in-a-day-installing-and-customizing-as-in-the-cloud

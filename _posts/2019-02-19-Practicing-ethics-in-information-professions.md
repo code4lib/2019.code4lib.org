@@ -7,8 +7,8 @@ speakers:
   - sarah-rice
   - bernadette-irizarry
 time: am
-startTime: 9:00
-endTime: 12:00
+startTime: 9:00 AM
+endTime: 12:00 PM
 location: doubletree
 #room: san-juan
 slugTitle: practicing-ethics-in-information-professions

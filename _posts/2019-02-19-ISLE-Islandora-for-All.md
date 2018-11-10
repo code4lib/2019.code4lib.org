@@ -8,8 +8,8 @@ speakers:
   - derek-merleaux
   - ben-rosner
 time: am
-startTime: 9:00
-endTime: 12:00
+startTime: 9:00 AM
+endTime: 12:00 PM
 location: doubletree
 #room: oak
 slugTitle: isle-islandora-for-all

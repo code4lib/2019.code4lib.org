@@ -8,19 +8,17 @@ speakers:
   - astrid-usong
   - huda-khan
 time: full
-startTime: 9:00
-endTime: 17:00
+startTime: 9:00 AM
+endTime: 5:00 PM
 location: doubletree
 #room: donner
 slugTitle: ld4p-s-sinopia-linked-data-editing-environment
 title: LD4P's Sinopia Linked Data Editing Environment
 ---
 
-The Sinopia Linked Data Editing Environment is part of a Mellon Grant funded
-the Linked Data for Production 2 (LD4P2) project. Based on the Library of Congress's BIBFRAME Editor (BFE) and BIBFRAME Profile Editor projects, Sinopia is a linked data platform for original and cooperative cataloging using BIBFRAME and other vocabularies.
+The Sinopia Linked Data Editing Environment is part of a Mellon Grant funded the Linked Data for Production 2 (LD4P2) project. Based on the Library of Congress's BIBFRAME Editor (BFE) and BIBFRAME Profile Editor projects, Sinopia is a linked data platform for original and cooperative cataloging using BIBFRAME and other vocabularies.
 
-Running on Amazon Web Services, the technical implementation of Sinopia is a project of Stanford University Libraries that in cooperation of a Cornell University-lead project, Questioning Authority search server, is scheduled to release an minimal viable product (MVP) in April 2019. A Cohort of over
-17 universities and colleges are also developing linked-data technologies, practices, and workflows using Sinopia.
+Running on Amazon Web Services, the technical implementation of Sinopia is a project of Stanford University Libraries that in cooperation of a Cornell University-lead project, Questioning Authority search server, is scheduled to release an minimal viable product (MVP) in April 2019. A Cohort of over 17 universities and colleges are also developing linked-data technologies, practices, and workflows using Sinopia.
 
 This two-session workshop will cover the following topics:
 

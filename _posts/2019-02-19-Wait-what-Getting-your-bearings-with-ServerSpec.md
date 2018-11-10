@@ -6,8 +6,8 @@ speakers-text: Hardy Pottinger
 speakers:
   - hardy-pottinger
 time: am
-startTime: 9:00
-endTime: 12:00
+startTime: 9:00 AM
+endTime: 12:00 PM
 location: doubletree
 #room: san-jose
 slugTitle: wait-what-getting-your-bearings-with-serverspec

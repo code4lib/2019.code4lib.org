@@ -6,8 +6,8 @@ speakers-text: Jordan Pedersen
 speakers:
   - jordan-pedersen
 time: full
-startTime: 9:00
-endTime: 17:00
+startTime: 9:00 AM
+endTime: 5:00 PM
 location: doubletree
 #room: pine
 slugTitle: introduction-to-handling-data-and-sql

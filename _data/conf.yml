@@ -71,7 +71,7 @@ panel-proposals:
   end-date:
 
 poster-proposals:
-  show: true
+  show: false
   submission-form: "https://tinyurl.com/y9489rmc"
   end-date: "2018-11-12"
 

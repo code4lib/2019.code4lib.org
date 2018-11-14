@@ -32,30 +32,28 @@
                 {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                 {% if speaker %}
                 <h2>Speaker(s)</h2>
-                    <div class="row">
-                        <div class="col-xs-12">
-                    <div class="col-sm-3 text-center">
-                        <a href="/speakers/#{{ speaker.id }}">
-                            <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.name }}">
-                            <span>{{ speaker.name }}</span>
-                        </a>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 text-center">
+                            <a href="/speakers/#{{ speaker.id }}">
+                                <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.name }}">
+                                <span>{{ speaker.name }}</span>
+                            </a>
+                        </div>
                     </div>
-                    {% endif %}
-            {% endfor %}
                 </div>
-            </div>
+                {% endif %}
+            {% endfor %}
 
             {% if page.type == 'workshop' %}
-            <h2>Location</h2>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
-                        <iframe src="{{ location.embed_code }}"></iframe>
-                    </div>
-                    <p class="text-center">
-                        <a class="btn btn-primary" href="{{ location.floor_plan }}" target="_blank">Floor Plan</a>
-                    </p>
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                <h2>Location</h2>
+                <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
+                    <iframe src="{{ location.embed_code }}"></iframe>
                 </div>
+                <p class="text-center">
+                    <a class="btn btn-primary" href="{{ location.floor_plan }}" target="_blank">Floor Plan</a>
+                </p>
             </div>
             {% endif %}
         </div>

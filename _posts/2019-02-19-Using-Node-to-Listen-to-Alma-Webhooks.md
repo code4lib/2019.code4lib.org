@@ -9,7 +9,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: santa-clara
+room: santa-clara
 slugTitle: using-node-to-listen-to-alma-webhooks
 title: Using Node to Listen to Alma Webhooks
 ---

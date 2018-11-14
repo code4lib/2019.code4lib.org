@@ -10,7 +10,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: san-juan
+room: san-juan
 slugTitle: practicing-ethics-in-information-professions
 title: Practicing ethics in information professions
 ---

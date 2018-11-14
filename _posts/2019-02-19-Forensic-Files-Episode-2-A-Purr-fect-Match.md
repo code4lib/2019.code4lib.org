@@ -10,7 +10,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: cascade
+room: cascade
 slugTitle: forensic-files-episode-2-a-purr-fect-match
 title: Forensic Files, Episode 2&#58; "A Purr-fect Match"
 ---

@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: carmel
+room: carmel
 slugTitle: maximizing-library-inventories
 title: Maximizing library inventories
 ---

@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: fir
+room: fir
 slugTitle: leveling-up-your-accessibility-skills-the-aria-feat
 title: Leveling Up Your Accessibility Skills&#58; The ARIA Feat
 ---

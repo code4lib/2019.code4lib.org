@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: santa-clara
+room: santa-clara
 slugTitle: automated-testing-with-selenium-no-programming-required
 title: Automated testing with Selenium, no programming required
 ---

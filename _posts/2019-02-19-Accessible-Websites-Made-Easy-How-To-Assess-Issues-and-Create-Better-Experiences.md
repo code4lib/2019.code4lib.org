@@ -9,7 +9,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: carmel
+room: carmel
 slugTitle: accessible-websites-made-easy-how-to-assess-issues-and-create-better-experiences
 title: Accessible Websites Made Easy&#58; How To Assess Issues and Create Better Experiences
 ---

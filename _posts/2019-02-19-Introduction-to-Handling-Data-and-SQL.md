@@ -5,11 +5,11 @@ categories: workshops
 speakers-text: Jordan Pedersen
 speakers:
   - jordan-pedersen
-time: full
+time: am
 startTime: 9:00 AM
-endTime: 5:00 PM
+endTime: 12:00 PM
 location: doubletree
-#room: pine
+room: pine
 slugTitle: introduction-to-handling-data-and-sql
 title: Introduction to Handling Data and SQL
 ---

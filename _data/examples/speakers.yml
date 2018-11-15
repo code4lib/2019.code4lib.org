@@ -8,9 +8,9 @@
   slack_handle:
   github_handle:
   keynote: false
-  work-title: Supporting Character
+  work_title: Supporting Character
   institution: Hamlet
-  image-src: /assets/img/nopics/nopic8.jpg
+  image_src: /assets/img/nopics/nopic8.jpg
 - id: melancholy-jaques
   name: Melancholy Jaques
   last: Jaques
@@ -20,25 +20,25 @@
   slack_handle:
   github_handle:
   keynote: false
-  work-title: Introvert
+  work_title: Introvert
   institution: Arden
-  image-src: /assets/img/nopics/nopic10.jpg
+  image_src: /assets/img/nopics/nopic10.jpg
 - id: duke-senior
   name: Duke Senior
   last: Senior
   bio: |
     The Yin to Jaques' Yang
   keynote: false
-  work-title: Robin Hood
+  work_title: Robin Hood
   institution: Arden
-  image-src: /assets/img/nopics/nopic9.jpg
+  image_src: /assets/img/nopics/nopic9.jpg
 - id: lady-macbeth
   name: Lady Macbeth
   last: Macbeth
   bio: |
     Out out...
   twitter-handle: ???
-  work-title: Heroine
+  work_title: Heroine
   institution: Dunsinane
-  image-src: /assets/img/nopics/nopic1.jpg
+  image_src: /assets/img/nopics/nopic1.jpg
   keynote: 1

@@ -29,9 +29,26 @@
   link: https://www.indexdata.com/
   level: gold
 
+- name: Penn State Libraries
+  img: /assets/img/sponsors/penn_state_libraries.png
+  link: https://libraries.psu.edu
+  level: bronze
+
+- name: Springshare
+  img: /assets/img/sponsors/springshare.png
+  link: https://www.springshare.com
+  level: bronze
+
 - name: MIT Libraries
   img: /assets/img/sponsors/mit.png
   link: https://libraries.mit.edu/
+  level: silver
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: UC San Diego Library
+  img: /assets/img/sponsors/uc_san_diego.png
+  link: https://library.ucsd.edu/
   level: bronze
   diversity: true
   annotation: "Diversity Scholarship"

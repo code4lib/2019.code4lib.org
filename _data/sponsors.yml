@@ -35,7 +35,7 @@
   level: bronze
 
 - name: Springshare
-  img: /assets/img/sponsors/springshare.png
+  img: /assets/img/sponsors/springshare.jpg
   link: https://www.springshare.com
   level: bronze
 
@@ -47,7 +47,7 @@
   annotation: "Diversity Scholarship"
 
 - name: UC San Diego Library
-  img: /assets/img/sponsors/uc_san_diego.png
+  img: /assets/img/sponsors/uc_san_diego.jpg
   link: https://library.ucsd.edu/
   level: bronze
   diversity: true

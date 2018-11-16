@@ -76,7 +76,7 @@ poster-proposals:
   end-date: "2018-11-12"
 
 shirt-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2019_Code4Lib_T-Shirt_Design_Competition"
   end-date: "2018-11-15"
 
@@ -107,6 +107,11 @@ panel-voting:
   show: false
   url: ""
   end-date:
+
+poster-voting:
+  show: true
+  url: "https://goo.gl/tM4JJq"
+  end-date: "2018-11-29"
 
 shirt-voting:
   show: false

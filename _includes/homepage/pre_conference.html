@@ -27,7 +27,7 @@
     {% endif %}
 
     <!-- Voting -->
-    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show %}
+    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show or site.data.conf.poster-voting.show %}
     <div class="row">
         <div class="col-xs-12">
             <h4 class="expo">Voting</h4>
@@ -78,6 +78,18 @@
                     url=site.data.conf.workshop-voting.url
                     url-text='Vote!'
                 %}
+            {% endif %}
+
+            <!-- Posters -->
+            {% if site.data.conf.poster-voting.show %}
+            {% include homepage/going_on_block.html
+                title='Posters'
+                more-info-link='/posters/proposed-posters.html'
+                more-info-text='View proposed posters'
+                end-date=site.data.conf.poster-voting.end-date
+                url=site.data.conf.poster-voting.url
+                url-text='Vote!'
+            %}
             {% endif %}
 
             <!-- T-shirt Logos -->

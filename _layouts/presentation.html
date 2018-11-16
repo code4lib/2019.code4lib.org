@@ -3,11 +3,11 @@
 
 {% if page.type == 'workshop' %}
     {% assign page_date = page.date %}
-    {% capture page_length %}{{page.startTime}} - {{page.endTime}}{% endcapture %}
+    {% capture page_length %}{{ page.startTime }} - {{ page.endTime }}{% endcapture %}
     {% assign location = site.data.locations | where: 'id', page.location | first %}
     {% assign location_display = location.name %}
-    {% if workshop.room %}
-        {% assign room = location.rooms | where: 'id', workshop.room | first %}
+    {% if page.room %}
+        {% assign room = location.rooms | where: 'id', page.room | first %}
         {% capture location_display %}{{ location.name }} - {{ room.name }}{% endcapture %}
     {% endif %}
 {% endif %}

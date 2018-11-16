@@ -10,7 +10,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: fir
+room: fir
 slugTitle: advocating-for-library-accessibility-an-introduction
 title: Advocating for Library Accessibility&#58; An Introduction
 ---

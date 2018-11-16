@@ -9,7 +9,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: sierra
+room: sierra
 slugTitle: leveraging-serverless-technologies-to-improve-library-workflows
 title: Leveraging Serverless Technologies to Improve Library Workflows
 ---

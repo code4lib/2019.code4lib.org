@@ -11,7 +11,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: monterey
+room: monterey
 slugTitle: when-in-rome-bringing-silicon-valley-startup-methods-to-library-innovation
 title: When in Rome&#58; Bringing Silicon Valley Startup Methods to Library Innovation
 ---

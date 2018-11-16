@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: sierra
+room: sierra
 slugTitle: protecting-patron-privacy-pythonically
 title: Protecting Patron Privacy Pythonically
 ---

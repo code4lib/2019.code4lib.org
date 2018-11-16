@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: oak
+room: oak
 slugTitle: representing-diversity-on-the-web-how-to-create-inclusive-virtual-campus-environments
 title: Representing diversity on the web&#58; How to create inclusive virtual campus environments
 ---

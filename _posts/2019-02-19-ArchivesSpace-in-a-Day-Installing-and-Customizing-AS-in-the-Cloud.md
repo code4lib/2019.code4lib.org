@@ -9,7 +9,7 @@ time: full
 startTime: 9:00 AM
 endTime: 5:00 PM
 location: doubletree
-#room: san-carlos
+room: san-carlos
 slugTitle: archivesspace-in-a-day-installing-and-customizing-as-in-the-cloud
 title: ArchivesSpace in a Day&#58; Installing and Customizing AS in the Cloud
 ---

@@ -9,7 +9,7 @@ time: full
 startTime: 9:00 AM
 endTime: 5:00 PM
 location: doubletree
-#room: san-martin
+room: san-martin
 slugTitle: all-the-things-nifi-for-data-processing-api-requests-and-more-
 title: All the Things! NiFi for Data Processing, API requests and More!
 ---

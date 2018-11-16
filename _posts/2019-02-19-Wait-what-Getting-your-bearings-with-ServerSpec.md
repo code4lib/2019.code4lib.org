@@ -9,7 +9,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: san-jose
+room: san-jose
 slugTitle: wait-what-getting-your-bearings-with-serverspec
 title: Wait, what? Getting your bearings with ServerSpec
 ---

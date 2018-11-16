@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-#room: tbd
+room: pine
 slugTitle: solr-for-newbies
 title: Solr for newbies
 ---

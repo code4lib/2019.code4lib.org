@@ -11,7 +11,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-#room: oak
+room: oak
 slugTitle: isle-islandora-for-all
 title: ISLE&#58; Islandora for All
 ---

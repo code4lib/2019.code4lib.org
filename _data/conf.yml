@@ -89,7 +89,7 @@ host-proposals:
 # Voting
 ###########
 keynote-voting:
-  show: true
+  show: false
   url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
   end-date: "2018-11-16"
 
@@ -173,7 +173,7 @@ angel-fund:
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
-  show: true
+  show: false
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
   end-date: "2018-11-16"

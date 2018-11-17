@@ -1,0 +1,85 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+  # annotation: "Closed captioning"
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Index Data
+  img: /assets/img/sponsors/index_data.png
+  link: https://www.indexdata.com/
+  level: gold
+
+- name: Penn State Libraries
+  img: /assets/img/sponsors/penn_state_libraries.png
+  link: https://libraries.psu.edu
+  level: bronze
+
+- name: Springshare
+  img: /assets/img/sponsors/springshare.jpg
+  link: https://www.springshare.com
+  level: bronze
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit.png
+  link: https://libraries.mit.edu/
+  level: silver
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: UC San Diego Library
+  img: /assets/img/sponsors/uc_san_diego.jpg
+  link: https://library.ucsd.edu/
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: ByWater Solutions
+  img: /assets/img/sponsors/bywater_solutions.jpg
+  link: https://bywatersolutions.com
+  level: supporter
+
+- name: San José State University Library
+  img: /assets/img/sponsors/sjsu.png
+  link: https://library.sjsu.edu
+  level: supporter
+
+- name: Rockefeller Archive Center
+  img: /assets/img/sponsors/rockefeller_archive_center.png
+  link: http://rockarch.org
+  level: contributor
+
+- name: Humboldt State University
+  img: /assets/img/sponsors/humboldt_state_university.png
+  link: https://library.humboldt.edu
+  level: supporter
+
+- name: Rutgers
+  img: /assets/img/sponsors/rutgers.gif
+  link: https://comminfo.rutgers.edu
+  level: bronze
+  annotation: "Childcare"
+
+- name: Jetbrains
+  img: /assets/img/sponsors/jetbrains.png
+  link: https://www.jetbrains.com
+  level: giveaway

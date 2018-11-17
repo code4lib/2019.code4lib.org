@@ -1,5 +1,7 @@
-const key = '1l7zZGlulF9nHoPlrbUmt7nteqmkUsCOQirs_9T2gzgU'
-// first spreadsheet is donations, second is list of goals
+---
+---
+const key = '{{ site.data.conf.angel-fund.spreadsheet-key }}'
+// data is on separate worksheets of the same spreadsheet
 const donations_url = `https://spreadsheets.google.com/feeds/cells/${key}/1/public/basic?alt=json`
 const goals_url = `https://spreadsheets.google.com/feeds/cells/${key}/2/public/basic?alt=json`
 const total_url = `https://spreadsheets.google.com/feeds/cells/${key}/3/public/basic?alt=json`

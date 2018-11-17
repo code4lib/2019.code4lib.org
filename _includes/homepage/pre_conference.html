@@ -27,7 +27,7 @@
     {% endif %}
 
     <!-- Voting -->
-    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show %}
+    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show or site.data.conf.poster-voting.show %}
     <div class="row">
         <div class="col-xs-12">
             <h4 class="expo">Voting</h4>
@@ -78,6 +78,18 @@
                     url=site.data.conf.workshop-voting.url
                     url-text='Vote!'
                 %}
+            {% endif %}
+
+            <!-- Posters -->
+            {% if site.data.conf.poster-voting.show %}
+            {% include homepage/going_on_block.html
+                title='Posters'
+                more-info-link='/posters/proposed-posters.html'
+                more-info-text='View proposed posters'
+                end-date=site.data.conf.poster-voting.end-date
+                url=site.data.conf.poster-voting.url
+                url-text='Vote!'
+            %}
             {% endif %}
 
             <!-- T-shirt Logos -->
@@ -152,7 +164,7 @@
             <!-- Posters -->
             {% if site.data.conf.poster-proposals.show %}
                 {% include homepage/going_on_block.html
-                    title='Propose a Poster!'
+                    title='Posters'
                     end-date=site.data.conf.poster-proposals.end-date
                     url=site.data.conf.poster-proposals.submission-form
                     url-text='Submit a Poster'
@@ -199,6 +211,31 @@
                     end-date=site.data.conf.diversity-scholarship-applications.end-date
                     url=site.data.conf.diversity-scholarship-applications.url
                     url-text=site.data.conf.diversity-scholarship-applications.url-text
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Volunteering -->
+    {% if site.data.conf.volunteer-committee.show or site.data.conf.volunteer-dutyoff.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Volunteering</h4>
+            {% if site.data.conf.volunteer-committee.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Committees'
+                    end-date=site.data.conf.volunteer-committee.end-date
+                    url=site.data.conf.volunteer-committee.url
+                    url-text='Sign up'
+                %}
+            {% endif %}
+            {% if site.data.conf.volunteer-dutyoff.show %}
+                {% include homepage/going_on_block.html
+                    title='Duty Officers'
+                    end-date=site.data.conf.volunteer-dutyoff.end-date
+                    url=site.data.conf.volunteer-dutyoff.url
+                    url-text='Sign up'
                 %}
             {% endif %}
         </div>

@@ -3,10 +3,9 @@
 ###########
 year: 2019
 hashtag: 'c4l19'
+location: 'San José, California'
 captioning-url: ""
-# NOTE: this doubles as a "show donation text" toggle when not an empty string
-donate-link: ""
-hero-image-alt: "collage of various San Jose landmarks"
+hero-image-alt: "a plane flying over a street lined with palm trees"
 
 search: false
 # If false (we don't have program info yet), the main nav links go:
@@ -38,8 +37,8 @@ homepage-display: pre
 ###########
 # Sponsors
 ###########
-# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: true
+# If true, any "Sponsors" links will go to /prospectus instead of /sponsors
+call-for-sponsors: false
 homepage-sponsor-button: true
 
 ##########
@@ -52,7 +51,7 @@ homepage-sponsor-button: true
 ###########
 # data from 2019 is left here but not displayed to show the format
 keynote-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2019_Keynote_Speakers_Nominations"
   end-date: "2018-10-22"
 
@@ -73,11 +72,11 @@ panel-proposals:
 
 poster-proposals:
   show: false
-  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSfT9F22hexnAHDc5YWdC28dD1AErH05njVRnRgb8krvctKdNw/viewform?usp=sf_link"
-  end-date: "2018-01-14"
+  submission-form: "https://tinyurl.com/y9489rmc"
+  end-date: "2018-11-12"
 
 shirt-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2019_Code4Lib_T-Shirt_Design_Competition"
   end-date: "2018-11-15"
 
@@ -91,8 +90,8 @@ host-proposals:
 ###########
 keynote-voting:
   show: false
-  url: "https://www.surveymonkey.com/r/c4l2018-keynote"
-  end-date: "2017-11-13"
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
+  end-date: "2018-11-16"
 
 workshop-voting:
   show: false
@@ -100,7 +99,7 @@ workshop-voting:
   end-date: "2017-10-20"
 
 talk-voting:
-  show: true
+  show: false
   url: "https://goo.gl/xvQXyu"
   end-date: "2018-10-25"
 
@@ -108,6 +107,11 @@ panel-voting:
   show: false
   url: ""
   end-date:
+
+poster-voting:
+  show: true
+  url: "https://goo.gl/tM4JJq"
+  end-date: "2018-11-29"
 
 shirt-voting:
   show: false
@@ -130,6 +134,21 @@ conference-registration:
   end-date:
   open: false
 
+
+###############
+# Volunteer
+###############
+
+volunteer-committee:
+  show: true
+  url: https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees
+  end-date: "2019-01-18"
+
+volunteer-dutyoff:
+  show: true
+  url: https://goo.gl/forms/2DkdbUUDSSOMi1f33
+  end-date: "2018-11-18"
+
 ###########
 # Misc
 ###########
@@ -145,15 +164,21 @@ slides:
 # Scholarships
 ################
 
+angel-fund:
+    show: true
+    # whether to show the "donation thermometer" & Google Spreadsheet key for it
+    thermometer: true
+    # NOTE: spreadsheet needs to be "published to the web"
+    spreadsheet-key: "1DTMECsa9KznCK90UQRjyZ6X_SqI0Zeq7-DZ_ByDsM6w"
+    url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
+
 diversity-scholarship-applications:
   show: false
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
-  end-date: "2017-11-17"
-
-# @TODO this should be part of the above
-scholarship-application:
-  url: ""
+  end-date: "2018-11-16"
+  notification-date: "2018-12-05"
+  apply-url: "https://docs.google.com/forms/d/e/1FAIpQLSetEMsBxZYXj_GGyxwWj_FnIxgxDRjxuZ-t16QqPtKuKKQ8Eg/viewform?usp=sf_link"
 
 # When true, sponsors for diversity scholarship will show
 diversity-scholarship-general-sponsors:

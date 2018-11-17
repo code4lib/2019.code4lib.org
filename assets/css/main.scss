@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: .02em;
 
   &.expo {
-    border-bottom: 1px solid $gray-base;
+    border-bottom: 1px solid $gray-light;
   }
 }
 
@@ -962,6 +962,15 @@ p a:-webkit-any-link {
   &:hover {
     color: $accent-darker;
   }
+}
+
+/* above rule causes buttons within <p>s to have dark text on dark bg */
+p a.btn {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
 }
 
 .subfoot {

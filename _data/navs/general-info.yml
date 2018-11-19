@@ -6,7 +6,7 @@
   url: /general-info/accessibility
 - name: Scholarships
   url: /general-info/scholarships
-#- name: First Timers
-#  url: /general-info/first-timers
+- name: First Timers
+  url: /general-info/first-timers
 - name: About Code4Lib
   url: /general-info/about-c4l

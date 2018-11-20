@@ -145,7 +145,7 @@ volunteer-committee:
   end-date: "2019-01-18"
 
 volunteer-dutyoff:
-  show: true
+  show: false
   url: https://goo.gl/forms/2DkdbUUDSSOMi1f33
   end-date: "2018-11-18"
 

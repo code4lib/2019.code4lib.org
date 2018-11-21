@@ -2,9 +2,10 @@
 layout: presentation
 type: workshop
 categories: workshops
-speakers-text: Colin Nickels
+speakers-text: Colin Nickels, Natalia Lopez
 speakers:
   - colin-nickels
+  - natalia-lopez
 time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM

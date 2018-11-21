@@ -5,6 +5,7 @@ categories: workshops
 speakers-text: Drew Heles
 speakers:
   - drew-heles
+  - valerie-addonizio
 time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM

@@ -2,7 +2,7 @@
 layout: presentation
 type: workshop
 categories: workshops
-speakers-text: Sara Allain
+speakers-text: Sara Allain, Ashley Blewer
 speakers:
   - sara-allain
   - ashley-blewer

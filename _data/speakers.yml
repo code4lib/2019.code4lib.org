@@ -1,44 +1,254 @@
-# NOTE: we've not traditionally used the github, twitter, slack, or bio at all
-- id: ophelia-the-omnipresent
-  name: Ophelia
-  last: Ophelia
-  bio: |
-    She toats loves Hamlet...a bit too much.
-  twitter_handle:
-  slack_handle:
-  github_handle:
+- id: lauren-ajamie
+  name: Lauren Ajamie
+  last: Ajamie
+  title: Systems Librarian
+  institution: University of Notre Dame
+  image_src: /assets/img/speakers/ajamie_lauren.jpg
   keynote: false
-  work_title: Supporting Character
-  institution: Hamlet
+
+- id: sarah-rice
+  name: Sarah Rice
+  last: Rice
+  title: Information Architect
+  institution: Seneb Consulting
+  image_src: /assets/img/speakers/rice_sarah.jpg
+  keynote: false
+
+- id: tristan-dahn
+  name: Tristan Dahn
+  last: Dahn
+  title: Digital Projects Librarian
+  institution: The College of Physicians of Philadelphia
+  image_src: /assets/img/speakers/dahn_tristan.jpg
+  keynote: false
+
+- id: hardy-pottinger
+  name: Hardy Pottinger
+  last: Pottinger
+  title: Programmer Analyst
+  institution: UCLA
+  image_src: /assets/img/speakers/pottinger_hardy.jpg
+  keynote: false
+
+- id: eli-zoller
+  name: Eli Zoller
+  last: Zoller
+  title: Web Developer and Designer
+  institution: Northeastern University Libraries
+  image_src: /assets/img/speakers/zoller_eli.jpg
+  keynote: false
+
+- id: michaela-blackham
+  name: Michaela Blackham
+  last: Blackham
+  title: Front End Developer
+  institution: Aten Design Group
+  image_src: /assets/img/speakers/blackham_michaela.png
+  keynote: false
+
+- id: andreas-orphanides
+  name: Andreas Orphanides
+  last: Orphanides
+  title: Associate Head of User Experience
+  institution: NCSU Libraries
+  image_src: /assets/img/speakers/orphanides_andreas.jpg
+  keynote: false
+
+- id: jordan-pedersen
+  name: Jordan Pedersen
+  last: Pedersen
+  title: M.I. Candidate, TALInt Student
+  institution: University of Toronto
+  image_src: /assets/img/speakers/pedersen_jordan.jpg
+  keynote: false
+
+- id: katherine-deibel
+  name: Katherine Deibel
+  last: Deibel
+  title: Inclusion & Accessibility Librarian
+  institution: Syracuse University Libraries
+  image_src: /assets/img/speakers/deibel_katherine.jpg
+  keynote: false
+
+- id: david-keiser-clark
+  name: David Keiser-Clark
+  last: Keiser-Clark
+  title: Project Manager, Islandora for All project
+  institution: Williams College
+  image_src: /assets/img/speakers/keiser-clark_david.jpg
+  keynote: false
+
+- id: karen-coombs
+  name: Karen Coombs
+  last: Coombs
+  title: Senior Product Analyst
+  institution: OCLC
+  image_src: /assets/img/speakers/coombs_karen.jpg
+  keynote: false
+
+- id: jeremy-nelson
+  name: Jeremy Nelson
+  last: Nelson
+  title: Software Engineer
+  institution: Stanford University
+  image_src: /assets/img/nopics/nopic2.jpg
+  keynote: false
+
+- id: josh-weisman
+  name: Josh Weisman
+  last: Weisman
+  title: VP Development
+  institution: Ex Libris
+  image_src: /assets/img/speakers/weisman_josh.jpg
+  keynote: false
+
+- id: colin-nickels
+  name: Colin Nickels
+  last: Nickels
+  title: Fellow
+  institution: NCSU Libraries
+  image_src: /assets/img/speakers/nickels_colin.jpg
+
+- id: kaitlin-newson
+  name: Kaitlin Newson
+  last: Newson
+  title: Digital Projects Librarian
+  institution: University of Toronto Libraries
+  image_src: /assets/img/speakers/newson_kaitlin.jpg
+  keynote: false
+
+- id: craig-boman
+  name: Craig Boman
+  last: Boman
+  title: Discovery Services Librarian
+  institution: Miami University Libraries
+  image_src: /assets/img/nopics/nopic5.jpg
+  keynote: false
+
+- id: ellie-collier
+  name: Ellie Collier
+  last: Collier
+  title: Library Services Engineer
+  institution: EBSCO Information Services
+  image_src: /assets/img/speakers/collier_ellie.jpg
+  keynote: false
+
+- id: conny-liegl
+  name: Conny Liegl
+  last: Liegl
+  title: Senior Designer for Web, Graphics and UX at Robert E. Kennedy Library
+  institution: California Polytechnic State University
+  image_src: /assets/img/speakers/liegl_conny.jpg
+  keynote: false
+
+- id: drew-heles
+  name: Drew Heles
+  last: Heles
+  title: Software Engineer
+  institution: Johns Hopkins University
+  image_src: /assets/img/speakers/heles_drew.jpg
+  keynote: false
+
+- id: sara-allain
+  name: Sara Allain
+  last: Allain
+  title: Systems Archivist
+  institution: Artefactual
+  image_src: /assets/img/speakers/allain_sara.jpg
+  keynote: false
+
+- id: hector-correa
+  name: Hector Correa
+  last: Correa
+  title: Senior Library Applications Developer
+  institution: Brown University
+  image_src: /assets/img/speakers/correa_hector.jpg
+  keynote: false
+
+- id: bernadette-irizarry
+  name: Bernadette Irizarry
+  last: Irizarry
+  title: CEO
+  institution: Velvet Hammer Design
+  image_src: /assets/img/speakers/irizarry_bernadette.jpg
+  keynote: false
+
+- id: jenn-dandle
+  name: Jenn Dandle
+  last: Dandle
+  title: Web Manager
+  institution: UC San Diego Library
+  image_src: /assets/img/speakers/dandle_jenn.jpg
+  keynote: false
+
+- id: derek-merleaux
+  name: Derek Merleaux
+  last: Merleaux
+  title: Senior Project Manager
+  institution: Born-Digital
+  image_src: /assets/img/speakers/merleaux_derek.png
+  keynote: false
+
+- id: astrid-usong
+  name: Astrid Usong
+  last: Usong
+  title: User Experience Designer
+  institution: Stanford University
+  image_src: /assets/img/speakers/usong_astrid.png
+  keynote: false
+
+- id: natalia-lopez
+  name: Natalia Lopez
+  last: Lopez
+  title: Data & Visualization Librarian
+  institution: NCSU Libraries
+  image_src: /assets/img/speakers/lopez_natalia.jpg
+  keynote: false
+
+- id: madeline-dale
+  name: Madeline Dale
+  last: Dale
+  title: Library Services Engineer
+  institution: EBSCO Information Services
+  image_src: /assets/img/speakers/dale_madeline.jpg
+  keynote: false
+
+- id: valerie-addonizio
+  name: Valerie Addonizio
+  last: Addonizio
+  title: Description Management Archivist
+  institution: Johns Hopkins University
+  image_src: /assets/img/speakers/addonizio_valerie.jpg
+  keynote: false
+
+- id: ashley-blewer
+  name: Ashley Blewer
+  last: Blewer
+  title: AV Preservation Specialist
+  institution: Artefactual
+  image_src: /assets/img/speakers/blewer_ashley.jpg
+  keynote: false
+
+- id: ben-rosner
+  name: Ben Rosner
+  last: Rosner
+  title: Senior Instructional Applications Developer
+  institution: Barnard College
+  image_src: /assets/img/speakers/rosner_ben.jpg
+  keynote: false
+
+- id: huda-khan
+  name: Huda Khan
+  last: Khan
+  title: Semantic Applications Programmer
+  institution: Cornell University
   image_src: /assets/img/nopics/nopic8.jpg
-- id: melancholy-jaques
-  name: Melancholy Jaques
-  last: Jaques
-  bio: |
-    Depressed much?
-  twitter_handle:
-  slack_handle:
-  github_handle:
   keynote: false
-  work_title: Introvert
-  institution: Arden
-  image_src: /assets/img/nopics/nopic10.jpg
-- id: duke-senior
-  name: Duke Senior
-  last: Senior
-  bio: |
-    The Yin to Jaques' Yang
+
+- id: eric-frierson
+  name: Eric Frierson
+  last: Frierson
+  title: Senior Director of Field Engineering, North America
+  institution: EBSCO Information Services
+  image_src: /assets/img/speakers/frierson_eric.png
   keynote: false
-  work_title: Robin Hood
-  institution: Arden
-  image_src: /assets/img/nopics/nopic9.jpg
-- id: lady-macbeth
-  name: Lady Macbeth
-  last: Macbeth
-  bio: |
-    Out out...
-  twitter-handle: ???
-  work_title: Heroine
-  institution: Dunsinane
-  image_src: /assets/img/nopics/nopic1.jpg
-  keynote: 1

@@ -108,12 +108,13 @@
   title: Fellow
   institution: NCSU Libraries
   image_src: /assets/img/speakers/nickels_colin.jpg
+  keynote: false
 
 - id: kaitlin-newson
   name: Kaitlin Newson
   last: Newson
   title: Digital Projects Librarian
-  institution: University of Toronto Libraries
+  institution: Scholars Portal
   image_src: /assets/img/speakers/newson_kaitlin.jpg
   keynote: false
 

@@ -19,6 +19,7 @@ $accent:                  #E57200;
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
 $accent-darker:           darken($accent, 20%);
+$accent-lighter:          lighten($accent, 20%);
 
 $brand-primary:           $accent !default; // #337ab7
 $brand-success:           #5cb85c !default;
@@ -35,8 +36,8 @@ $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
 // Sections
 $section-2-bg:            $primary;
 $section-2-color:         color-contrast($primary);
-$section-2-link:          $accent-dark;
-$section-2-hover:         $accent-darker;
+$section-2-link:          $accent-light;
+$section-2-hover:         $accent-lighter;
 
 $section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;
@@ -59,9 +60,9 @@ $sponsor-badge-ribbon:    $accent-light;
 $sponsor-badge-bg:        $gray-lighter;
 
 //Speaker Box
-$speaker-selected-bg:     $primary;
+$speaker-selected-bg:     $accent;
 $speaker-selected-color:  $gray-lighter;
-$speaker-info-bg:         $accent;
+$speaker-info-bg:         $gray-light;
 $speaker-info-color:      $gray-base;
 
 //Menu

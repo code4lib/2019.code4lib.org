@@ -253,3 +253,11 @@
   institution: EBSCO Information Services
   image_src: /assets/img/speakers/frierson_eric.png
   keynote: false
+
+- id: may-chan
+  name: May Chan
+  last: Chan
+  title: Head, Metadata Services
+  institution: University of Toronto Libraries
+  image_src: /assets/img/speakers/chan_may.jpg
+  keynote: false

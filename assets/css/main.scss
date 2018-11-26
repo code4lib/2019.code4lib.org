@@ -55,9 +55,11 @@ p {
   filter: alpha(opacity=50);
   z-index: 0;
 }
+
 .modal-dialog {
   z-index: 1;
 }
+
 .sequence {
   padding: 0;
   margin: 0;
@@ -67,17 +69,11 @@ p {
   justify-content: space-around;
 }
 
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-sm-min) {}
 
-}
+@media (min-width: $screen-md-min) {}
 
-@media (min-width: $screen-md-min) {
-
-}
-
-@media (min-width: $screen-lg-min) {
-
-}
+@media (min-width: $screen-lg-min) {}
 
 /* ==========================================================================
    Jumbotron
@@ -151,6 +147,7 @@ p {
  The following breakpoint is based on the dimensions of the selected hero image
  It should be equal to 325 * (image's natural width) / (image's natural height)
  */
+
 @media (min-width: 651px) {
   .hero-image img{
     width: 100%;
@@ -163,6 +160,7 @@ p {
     position: relative;
     height: 370px;
   }
+
   .hero-image img{
     position: absolute;
     z-index: -9999;
@@ -174,6 +172,7 @@ p {
       margin-right: auto;
       font-size: 3em;
   }
+
   #conferenceActions {
     text-align: left;
     max-width: 1050px;
@@ -189,6 +188,7 @@ p {
   #conferenceInfo h1 {
     font-size: 4.5em;
   }
+
   #conferenceActions {
     margin-top: -4.2em;
     padding-bottom: 4.2em;
@@ -325,6 +325,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
 /* ==========================================================================
    Testimonials
    ========================================================================== */
+
 #testimonials {
   display: flex;
   display: -webkit-flex;
@@ -333,18 +334,22 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   justify-content: space-between;
   -webkit-justify-content: space-between;
 }
+
 #testimonials:before, #testimonials:after {
   display: none;
 }
+
 .testimonial {
   display: none;
   float: none;
   flex: 1 1 auto;
 }
+
 .testimonial h3 {
   margin-top: ($line-height-computed / 2);
   margin-bottom: 0;
 }
+
 .speech-bubble {
   color: $testimonial-color;
   background-color: $testimonial-bg;
@@ -380,6 +385,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   background-color: transparent;
   border: 0px;
 }
+
 @media (min-width: 992px) {
   #testimonials .thumbnail {
     min-height: 450px;
@@ -409,9 +415,11 @@ a.speaker-bio-link {
   color: darken($accent, 10%);
   font-weight: 500;
 }
+
 a.speaker-info-toggle {
   color: $accent;
 }
+
 p.speaker-title, p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
@@ -438,13 +446,13 @@ p.speaker-title {
 
 p.speaker-inst {
   line-height: 1.4em;
-  font-size: .9em;
+  font-size: 1.1em;
   position: relative;
   z-index: 100;
 }
 
 .speaker-info {
-  // background-color: $brand-info;
+  background-color: $speaker-info-bg;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -453,13 +461,13 @@ p.speaker-inst {
   border-radius: 5px;
   max-height:0;
   border: none;
-  overflow:hidden;
+  overflow: hidden;
   -webkit-transition: max-height .15s ease;
   -o-transition: max-height .15s ease;
   -moz-transition: max-height .15s ease;
   transition: max-height .15s ease;
-
 }
+
 .speaker-info.show {
   max-height: 600px;
   border: 2px solid $primary;
@@ -469,12 +477,23 @@ p.speaker-inst {
   transition: max-height .35s ease;
   transition-delay: .15s;
 }
+
 .speaker-info-inner {
   padding: 20px 15px 10px 15px;
 }
+
 .speaker-info-inner h4 {
   padding: 0.5em;
   color: $speaker-info-color;
+}
+
+.speaker-info-inner h4 a {
+  color: $accent-dark;
+}
+
+.speaker-info-inner h4 a:focus,
+.speaker-info-inner h4 a:hover {
+  color: $accent-darker;
 }
 
 .speaker-box {
@@ -486,22 +505,27 @@ p.speaker-inst {
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.speaker-box-inner{
+
+.speaker-box-inner {
   padding: 15px 0;
   width: 100%
 }
-.speaker-box.selected .speaker-box-inner{
+
+.speaker-box.selected .speaker-box-inner {
   background-color: $speaker-selected-bg;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-.speaker-box.selected a{
+
+.speaker-box.selected a {
   color: white;
 }
-.speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
+
+.speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited {
   color: $speaker-selected-color;
   border: none;
 }
+
 .speaker-box.selected p {
   color: #fff;
 }
@@ -519,7 +543,7 @@ p.speaker-inst {
 }
 
 .speaker-box.selected .arrow-down{
-  opacity:1;
+  opacity: 1;
 }
 
 .icon > svg {
@@ -541,6 +565,7 @@ p.speaker-inst {
 .talk-row:nth-child(odd) {
   background-color: #e9e9e9;
 }
+
 .talk-row {
   padding: 11px 0 11px 11px;
   margin-top: 11px;
@@ -575,22 +600,22 @@ p.speaker-inst {
 
 .talk-box-detail-icon {
   display: table-cell;
-  width:50px;
+  width: 50px;
   height: 100px;
   vertical-align: middle;
-  padding:10px;
+  padding: 10px;
   font-size: 16px;
 }
 
 .talk-box-detail-value {
   display: table-cell;
-  width:100%;
+  width: 100%;
   height: 100px;
   vertical-align: middle;
   font-size: 25px;
   font-weight: bold;
   text-align: left;
-  padding:10px;
+  padding: 10px;
 }
 
 @keyframes intro {
@@ -611,13 +636,10 @@ p.speaker-inst {
   padding: 10px 10px 0px 10px;
   width: 300px;
   margin-top: 10px;
-
   display: flex;
-
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   justify-content: space-around;
-
   border-radius: 5px;
 }
 
@@ -646,10 +668,12 @@ p.speaker-inst {
   border-radius: 10px;
   box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
 }
+
 .sched-well h3 {
   padding: 0px 0px 5px 0px;
   text-align: left;
 }
+
 .sched-well p {
   line-height: 1.7em;
   font-size: .9em;
@@ -736,7 +760,7 @@ p.speaker-inst {
 
 .search_results {
   position: relative;
-  display:none;
+  display: none;
   background-color: #fff;
 }
 
@@ -777,6 +801,7 @@ p.speaker-inst {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
+
 .spinner {
   margin: 100px auto;
   width: 50px;
@@ -871,11 +896,13 @@ p.speaker-inst {
   %card-content {
     padding: 1em;
   }
+
   .card-toolbar {
     @extend %card-content;
     background: $day-event;
     color: #fff;
     height: 3em;
+
     .img-avatar {
       position: relative;
       left: 50%;
@@ -888,14 +915,17 @@ p.speaker-inst {
       background: $night-event;
     }
   }
+
   .card-body {
     @extend %card-content;
     padding: 1em 1em .4em;
     overflow: hidden;
     text-align: center;
+
     h3 {
       font-size: 1.5em;
     }
+
     p {
       color: #a1a1a1;
       margin: 0;
@@ -904,12 +934,11 @@ p.speaker-inst {
   }
 }
 
-
 /* ==========================================================================
    Footer
    ========================================================================== */
 
-  .footer {
+.footer {
   bottom: 0;
   box-sizing: border-box;
   left: 0;
@@ -929,9 +958,11 @@ p.speaker-inst {
   a {
     color: $footer-link !important;
   }
+
   a:hover, a:focus {
     color: $footer-hover;
   }
+
   ul {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
@@ -955,6 +986,7 @@ p.speaker-inst {
 a:-webkit-any-link {
   text-decoration: none;
 }
+
 p a:-webkit-any-link {
   text-decoration: none;
   color: $accent-dark;
@@ -977,7 +1009,7 @@ p a.btn {
   text-decoration: underline;
 }
 
-@media (min-width: $screen-sm-min){
+@media (min-width: $screen-sm-min) {
   .footer{
     padding: 5em 0;
   }

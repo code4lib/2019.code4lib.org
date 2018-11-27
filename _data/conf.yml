@@ -114,9 +114,9 @@ poster-voting:
   end-date: "2018-11-29"
 
 shirt-voting:
-  show: false
-  url: "https://www.surveymonkey.com/r/F3T2V8V"
-  end-date: "2017-12-24"
+  show: true
+  url: "https://goo.gl/forms/Bgo590LPEhjfJGkT2"
+  end-date: "2018-12-07"
 
 ###############
 # Registration

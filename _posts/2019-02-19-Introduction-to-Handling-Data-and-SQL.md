@@ -5,6 +5,7 @@ categories: workshops
 speakers-text: Jordan Pedersen
 speakers:
   - jordan-pedersen
+  - may-chan
 time: am
 startTime: 9:00 AM
 endTime: 12:00 PM

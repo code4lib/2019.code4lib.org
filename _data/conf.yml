@@ -109,7 +109,7 @@ panel-voting:
   end-date:
 
 poster-voting:
-  show: true
+  show: false
   url: "https://goo.gl/tM4JJq"
   end-date: "2018-11-29"
 

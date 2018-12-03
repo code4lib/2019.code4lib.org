@@ -27,6 +27,10 @@
   last: Rice
   title: Information Architect
   institution: Seneb Consulting
+  bio: "Sarah Rice is an information architect with over two decades of strategy and consulting experience, designing and executing excellent user experiences for companies such as Google, Sony, Sun Microsystems, Microsoft, eBay, Princess Cruises and Yahoo! She has a master's degree in Information Science and consults with a number of user experience firms. She served on the Board of Directors of the Information Architecture Institute, is active in the Information Architecture Conference (formerly the IA Summit). She also speaks regularly at industry conferences."
+  twitter_handle: seneb
+  slack_handle:
+  github_handle:
   image_src: /assets/img/speakers/rice_sarah.jpg
   keynote: false
 
@@ -68,6 +72,10 @@
   title: Associate Head of User Experience
   institution: NCSU Libraries
   image_src: /assets/img/speakers/orphanides_andreas.jpg
+  bio: "Dre is Associate Head, User Experience at the NCSU Libraries. He thinks about systems. A lot."
+  twitter_handle:
+  slack_handle: akorphan
+  github_handle:
   keynote: false
 
 - id: jordan-pedersen
@@ -83,6 +91,10 @@
   last: Deibel
   title: Inclusion & Accessibility Librarian
   institution: Syracuse University Libraries
+  bio: "Kate Deibel is the Inclusion & Accessibility Librarian at Syracuse University Libraries in New York. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, technology adoption, and changing the world."
+  twitter_handle: metageeky
+  slack_handle: metageeky
+  github_handle: metageeky
   image_src: /assets/img/speakers/deibel_katherine.jpg
   keynote: false
 
@@ -185,8 +197,12 @@
 - id: bernadette-irizarry
   name: Bernadette Irizarry
   last: Irizarry
-  title: CEO
-  institution: Velvet Hammer Design
+  title: Founder and CEO
+  institution: VLVT / Velvet Hammer Design
+  bio: "A creative leader with her roots in graphic design and sculpture, Bern Irizarry has built and led cross-disciplinary teams for over 20 years. She has researched and developed award-winning products and experiences for Fortune 500 companies and late stage startups as Founder and CEO of Velvet Hammer Design. Bern delights in combining the aesthetic with the usable and holds two patents in color selection methods. She also gives back to the UX community, heading the Los Angeles Ladies that UX Chapter."
+  twitter_handle:
+  slack_handle:
+  github_handle:
   image_src: /assets/img/speakers/irizarry_bernadette.jpg
   keynote: false
 
@@ -276,4 +292,374 @@
   title: Head, Metadata Services
   institution: University of Toronto Libraries
   image_src: /assets/img/speakers/chan_may.jpg
+  keynote: false
+
+- id: noah-geraci
+  name: Noah Geraci
+  last: Geraci
+  title:
+  institution: UC Riverside
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic7.jpg
+  keynote: false
+
+- id: scott-w-h-young
+  name: Scott W. H. Young
+  last: Young
+  title: User Experience & Assessment Librarian
+  institution: Montana State University Library
+  bio: "Hi. I'm Scott, a librarian and designer building a human-centered library at Montana State University."
+  twitter_handle: hei_scott
+  slack_handle:
+  github_handle: swyoung
+  image_src: /assets/img/speakers/young_scott.jpg
+  keynote: false
+
+- id: emily-higgs
+  name: Emily Higgs
+  last: Higgs
+  title: NCSU Libraries Fellow
+  institution: North Carolina State University
+  bio: "Emily Higgs is an NCSU Libraries Fellow at North Carolina State University. There, she works in the Special Collections Research Center on access and discovery for born-digital materials, and in Learning Spaces & Services on interactive library exhibits."
+  twitter_handle: emilyhiggs24
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/speakers/higgs_emily.jpg
+  keynote: false
+
+- id: dhanushka-samarakoon
+  name: Dhanushka Samarakoon
+  last: Samarakoon
+  title: Assistant Head of Software Development
+  institution: The University of Utah
+  bio:
+  twitter_handle: dhanushka_sam
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/speakers/samarakoon_dhanushka.jpg
+  keynote: false
+
+- id: jeff-mixter
+  name: Jeff Mixter
+  last: Mixter
+  title: Software Engineer
+  institution: OCLC Research
+  bio: "Jeff Mixter works as a software engineer at OCLC Research. His work focuses on linked data and digital humanities research. He holds Bachelor's Degrees in History and German from The Ohio State University as well as Master's Degrees in Library Information Science and Information Architecture/Knowledge Management from Kent State University."
+  twitter_handle: JeffMixter
+  slack_handle: mixterj
+  github_handle: mixterj
+  image_src: /assets/img/speakers/mixter_jeff.png
+  keynote: false
+
+- id: sheree-fu
+  name: Sheree Fu
+  last: Fu
+  title: Engineering Librarian
+  institution: Cal State LA
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic2.jpg
+  keynote: false
+
+- id: dominique-luster
+  name: Dominique Luster
+  last: Luster
+  title: Teenie Harris Archivist
+  institution: Carnegie Museum of Art
+  bio: "Dominique Luster, is a native of Kentucky transplanted to Pittsburgh and currently serves as the Teenie Harris Archivist at Carnegie Museum of Art. She has an undergraduate degree from the University of Kentucky in Theatre Design and Technology, and an MLIS in Archives and Information Management Science from the University of Pittsburgh. She also studied at the Freie Universität Berlin in Germany as a Fulbright scholar, but has sadly lost almost all of her German."
+  twitter_handle: luster_Luster
+  slack_handle: dominiqueluster
+  github_handle: dominiqueluster
+  image_src: /assets/img/speakers/luster_dominique.jpg
+  keynote: false
+
+- id: shawn-kiewel
+  name: Shawn Kiewel
+  last: Kiewel
+  title: Application Analyst Specialist
+  institution: University of Georgia
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic3.jpg
+  keynote: false
+
+- id: teresa-hebron
+  name: Teresa Hebron
+  last: Hebron
+  title: Digital Metadata Librarian
+  institution: Mountain West Digital Library
+  bio: Metadata/Systems Librarian at Mountain West Digital Library
+  twitter_handle: EndivesArchives
+  slack_handle:
+  github_handle: tkhebron
+  image_src: /assets/img/nopics/nopic4.jpg
+  keynote: false
+
+- id: carli-spina
+  name: Carli Spina
+  last: Spina
+  title: Associate Professor & Head of Research and Instructional Services
+  institution: Fashion Institute of Technology
+  bio: "Carli Spina is the Head of Research and Instructional Services at the Fashion Institute of Technology. She holds a J.D. from the University of Chicago Law School, an MLIS from Simmons GSLIS, and an M.Ed. from the Harvard Graduate School of Education. She presents, teaches, and writes about Universal Design, accessibility, and technology in libraries. Most recently, she co-authored ARL's SPEC Kit 358: Accessibility and Universal Design and published an article on social media accessibility in Marketing Libraries Journal. She can be contacted on twitter as @CarliSpina."
+  twitter_handle: CarliSpina
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic5.jpg
+  keynote: false
+
+- id: tammy-allgood-wolf
+  name: Tammy Allgood Wolf
+  last: Allgood
+  title: Director of Discovery Services
+  institution: Arizon State University Library
+  bio: "Tammy Allgood Wolf is currently an Associate Librarian and Director of Discovery Services at Arizona State University Library for all 8 libraries on 5 campuses. She is responsible for providing leadership in the development, implementation, and assessment of policies, practices and technologies designed to enhance online strategy and discovery. Tammy currently manages the ASU Library Discovery Services development team and serves on the Arizona State University Web Standards Committee, the Digital Strategy Board, and the ASU Voice Search Task Force."
+  twitter_handle: tallgood
+  slack_handle: tallgood
+  github_handle: tallgood
+  image_src: /assets/img/speakers/allgood_wolf_tammy.jpg
+  keynote: false
+
+- id: pujit-koirala
+  name: Pujit Koirala
+  last: Koirala
+  title: Collection Management Technology GA
+  institution: Minnesota State University
+  bio: "I am a Graduate Assistant at Minnesota State University, Mankato working in the Collection Management Technology group within Technical Services."
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic7.jpg
+  keynote: false
+
+- id: jason-priem
+  name: Jason Priem
+  last: Priem
+  title: cofounder
+  institution: Impactstory
+  bio: "As an Information Science PhD student at the University of North Carolina at Chapel Hill, Jason led the creation of the field of altmetrics--coining the term, authoring the influential Altmetrics Manifesto, and leading the first altmetrics workshops. He left the doctoral program in 2013 to co-found Impactstory, a nonprofit that grew out of his dissertation work. Since then Impactstory has received funding from the US National Science Foundation and National Institutes of Health, the Alfred P. Sloan Foundation, and the Arcadia Fund, and continues to work building software tools that promote the growth of open science. Jason’s latest project with Impactstory is Unpaywall, an open database of 20 million free-to-read scholarly papers used by millions of researchers and lay readers worldwide."
+  twitter_handle: jasonpriem
+  slack_handle:
+  github_handle: jasonpriem
+  image_src: /assets/img/speakers/priem_jason.jpg
+  keynote: false
+
+- id: rhonda-kauffman
+  name: Rhonda Kauffman
+  last: Kauffman
+  title: Metadata Librarian
+  institution: MIT Libraries
+  bio: "Rhonda is the metadata librarian at MIT Libraries in Cambridge where she focuses on metadata things of any kind, heads up the Metadata Knowledge Series, and moonlights as a zine librarian and adjunct professor."
+  twitter_handle: crafterslane
+  slack_handle: rhonda@mit.edu
+  github_handle:
+  image_src: /assets/img/speakers/kauffman_rhonda.jpg
+  keynote: false
+
+- id: tim-walsh
+  name: Tim Walsh
+  last: Walsh
+  title: Digital Preservation Librarian
+  institution: Concordia University
+  bio: "Tim Walsh is a librarian, digital preservationist, and software developer employed as the Digital Preservation Librarian at Concordia University Library in Montreal, Canada. He is the developer of several open-source digital preservation utilities, including Brunnhilde, a reporting tool for disk images and directories of files, and Bulk Reviewer, an application for identifying and managing sensitive and confidential information in digital archives."
+  twitter_handle: bitarchivist
+  slack_handle:
+  github_handle: timothyryanwalsh
+  image_src: /assets/img/speakers/walsh_tim.png
+  keynote: false
+
+- id: ilya-kreymer
+  name: Ilya Kreymer
+  last: Kreymer
+  title: Webrecorder Lead Developer
+  bio:
+  twitter_handle: IlyaKreymer
+  slack_handle:
+  github_handle: ikreymer
+  image_src: /assets/img/nopics/nopic8.jpg
+  keynote: false
+
+- id: jeff-gerhard
+  name: Jeff Gerhard
+  last: Gerhard
+  title: Digital Initiatives Librarian
+  institution: Georgetown Law Library
+  bio: 'Jeff has been working for over a decade in metadata and digital initiatives, but is relatively new to the title of "librarian." He lives in Baltimore, calls DC his hometown, and has a lot of opinions about librarianship, technology, information, and also everything else.'
+  twitter_handle: jeffgerhard
+  slack_handle: jeffgerhard
+  github_handle: jeffgerhard
+  image_src: /assets/img/nopics/nopic9.jpg
+  keynote: false
+
+- id: clara-turp
+  name: Clara Turp
+  last: Turp
+  title: Metadata Analyst Librarian
+  institution: McGill University Libraries
+  bio: "Clara Turp is a metadata analyst librarian at McGill University Libraries. As part of the Collection Services, she proposes automated solutions to metadata challenges to improve access to electronic resources or simplify current processes. She also work with the library's authentication systems."
+  twitter_handle:
+  slack_handle:
+  github_handle: ClaraTurp
+  image_src: /assets/img/speakers/turp_clara.jpg
+  keynote: false
+
+- id: emily-lynema
+  name: Emily Lynema
+  last: Lynema
+  title: Head, Information Technology, NCSU Libraries
+  institution: North Caroline State University
+  bio:
+  twitter_handle: ejlynema
+  slack_handle: ejlynema
+  github_handle:
+  image_src: /assets/img/speakers/lynema_emily.jpg
+  keynote: false
+
+- id: gregory-wiedeman
+  name: Gregory Wiedeman
+  last: Wiedeman
+  title:
+  bio:
+  twitter_handle: gregwiedeman
+  slack_handle:
+  github_handle: gwiedeman
+  image_src: /assets/img/speakers/wiedeman_gregory.jpg
+  keynote: false
+
+- id: jill-morris
+  name: Jill Morris
+  last: Morris
+  title: Associate Director
+  institution: Pennsylvania Academic Library Consortium (PALCI)
+  bio:
+  twitter_handle: Jillianemorris
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic10.jpg
+  keynote: false
+
+- id: nathan-wittmaier
+  name: Nathan Wittmaier
+  last: Wittmaier
+  title: Web Developer
+  institution: Mid-Continent Public Library
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: false
+
+- id: jason-a-clark
+  name: Jason A. Clark
+  last: Clark
+  title: Head of Special Collections and Archival Informatics
+  institution:  Montana State University Library
+  bio: "As the Head of Special Collections & Archival Informatics, I build and direct the archival branch of the Montana State University (MSU) Library. In my work, I have focused on Semantic Web development, digital library development, metadata and data modeling, web services and APIs, search engine optimization, and interface design."
+  twitter_handle: jaclark
+  slack_handle:
+  github_handle: jasonclark
+  image_src: /assets/img/speakers/clark_jason.jpg
+  keynote: false
+
+- id: harish-maringanti
+  name: Harish Maringanti
+  last: Maringanti
+  title: Associate Dean, IT and Digital Library Services
+  institution: The University of Utah
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic2.jpg
+  keynote: false
+
+- id: shalini-ramachandran
+  name: Shalini Ramachandran
+  last: Ramachandran
+  title: Science & Engineering Librarian
+  institution: University of Southern California
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic3.jpg
+  keynote: false
+
+- id: adriane-hanson
+  name: Adriane Hanson
+  last: Hanson
+  title: Head of Digital Stewardship
+  institution: University of Georgia
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic4.jpg
+  keynote: false
+
+- id: helen-bailey
+  name: Helen Bailey
+  last: Bailey
+  title: Engagement and Data Engineer
+  institution: MIT Libraries
+  bio: "Librarian, programmer, data geek, comedian. Not necessarily in that order. Currently an Application Developer/Analyst at MIT Libraries."
+  twitter_handle: helenkbailey
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/speakers/bailey_helen.jpg
+  keynote: false
+
+- id: sebastian-hammer
+  name: Sebastian Hammer
+  last: Hammer
+  title: Co-founder and President
+  institution: Index Data
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic5.jpg
+  keynote: false
+
+- id: steven-cutchin
+  name: Steven Cutchin
+  last: Cutchin
+  title: Associate Professor of Computer Science
+  institution: Boise State
+  bio:
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  image_src: /assets/img/nopics/nopic6.jpg
+  keynote: false
+
+- id: eric-hellman
+  name: Eric Hellman
+  last: Hellman
+  title: President
+  institution: Free Ebook Foundation
+  bio: 'Eric Hellman is Co-Founder and President of the Free Ebook Foundation. After 10 years doing physics research at Bell Labs, Eric got interested in electronic publishing, started an e-journal, started a company, built linking technology for libraries, sold that company to OCLC and worked there a few years, started blogging (at Go To Hellman), and then started working to make free ebooks work for libraries and everyone else. Eric has been raising awareness about "privacy leakage" in the internet services of libraries and scholarly publishers and has volunteered with the Library Freedom Project to promote encryption for library and publishing websites.'
+  twitter_handle: gluejar
+  slack_handle: gluejar/eric
+  github_handle: eshellman
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: false
+
+- id: veronica-ramshaw
+  name: Veronica Ramshaw
+  last: Ramshaw
+  title: Web Services Librarian
+  institution: American University of Sharjah
+  bio: "Veronica Ramshaw has worked at the American University of Sharjah (\"it's next-door to Dubai\") for over 4 years as the Web Services Librarian. She has previously worked at McGill, where she completed her Masters; at the CBC; and got her start in libraries at the Guelph Public Library."
+  twitter_handle: verolynne
+  slack_handle: verolynne
+  github_handle: verolynne
+  image_src: /assets/img/speakers/ramshaw_veronica.jpg
   keynote: false

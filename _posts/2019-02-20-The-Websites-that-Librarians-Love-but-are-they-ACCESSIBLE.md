@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 11:00
 startTime: 1550851200
-speakers-text: Katherine Deibel, , 
+speakers-text: Katherine Deibel 
 speakers:
 - katherine-deibel
 - 

@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 16:00
 startTime: 1550782800
-speakers-text: Andreas Orphanides, , 
+speakers-text: Andreas Orphanides 
 speakers:
 - andreas-orphanides
 - 

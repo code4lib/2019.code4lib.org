@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 13:45
 startTime: 1550688300
-speakers-text: Tim Walsh, , 
+speakers-text: Tim Walsh 
 speakers:
 - tim-walsh
 - 

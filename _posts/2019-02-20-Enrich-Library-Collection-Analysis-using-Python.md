@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 11:35
 startTime: 1550680500
-speakers-text: Pujit Koirala, , 
+speakers-text: Pujit Koirala 
 speakers:
 - pujit-koirala
 - 

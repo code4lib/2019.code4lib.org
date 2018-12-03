@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 11:20
 startTime: 1550679600
-speakers-text: Dominique Luster, , 
+speakers-text: Dominique Luster 
 speakers:
 - dominique-luster
 - 

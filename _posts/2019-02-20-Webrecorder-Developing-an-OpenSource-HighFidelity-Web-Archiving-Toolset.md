@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 9:35
 startTime: 1550759700
-speakers-text: Ilya Kreymer, , 
+speakers-text: Ilya Kreymer 
 speakers:
 - ilya-kreymer
 - 

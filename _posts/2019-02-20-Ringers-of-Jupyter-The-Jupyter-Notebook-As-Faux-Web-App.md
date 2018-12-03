@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 13:55
 startTime: 1550775300
-speakers-text: Jeff Gerhard, , 
+speakers-text: Jeff Gerhard 
 speakers:
 - jeff-gerhard
 - 

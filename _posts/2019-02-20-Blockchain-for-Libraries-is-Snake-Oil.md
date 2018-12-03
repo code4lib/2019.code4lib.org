@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 14:25
 startTime: 1550690700
-speakers-text: Eric Hellman, ,
+speakers-text: Eric Hellman
 speakers:
 - eric-hellman
 -

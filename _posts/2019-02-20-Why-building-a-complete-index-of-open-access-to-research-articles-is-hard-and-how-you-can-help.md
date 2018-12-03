@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 16:40
 startTime: 1550785200
-speakers-text: Jason Priem, , 
+speakers-text: Jason Priem 
 speakers:
 - jason-priem
 - 

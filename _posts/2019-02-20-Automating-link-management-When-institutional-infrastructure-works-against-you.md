@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 16:20
 startTime: 1550784000
-speakers-text: Clara Turp, , 
+speakers-text: Clara Turp 
 speakers:
 - clara-turp
 - 

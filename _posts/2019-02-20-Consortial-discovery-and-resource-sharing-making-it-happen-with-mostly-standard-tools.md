@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 14:15
 startTime: 1550690100
-speakers-text: Emily Lynema, , 
+speakers-text: Emily Lynema 
 speakers:
 - emily-lynema
 - 

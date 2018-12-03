@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 9:55
 startTime: 1550760900
-speakers-text: Nathan Wittmaier, , 
+speakers-text: Nathan Wittmaier 
 speakers:
 - nathan-wittmaier
 - 

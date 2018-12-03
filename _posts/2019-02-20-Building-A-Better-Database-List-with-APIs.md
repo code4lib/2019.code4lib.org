@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 10:30
 startTime: 1550676600
-speakers-text: Veronica Ramshaw, , 
+speakers-text: Veronica Ramshaw 
 speakers:
 - veronica-ramshaw
 - 

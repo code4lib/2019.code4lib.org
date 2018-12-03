@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 11:55
 startTime: 1550768100
-speakers-text: Jeff Mixter, , 
+speakers-text: Jeff Mixter 
 speakers:
 - jeff-mixter
 - 

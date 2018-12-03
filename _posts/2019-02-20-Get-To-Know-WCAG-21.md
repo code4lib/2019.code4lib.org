@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 10:10
 startTime: 1550761800
-speakers-text: Carli Spina, , 
+speakers-text: Carli Spina 
 speakers:
 - carli-spina
 - 

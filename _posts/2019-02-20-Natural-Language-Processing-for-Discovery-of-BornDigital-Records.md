@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 13:30
 startTime: 1550687400
-speakers-text: Emily Higgs, , 
+speakers-text: Emily Higgs 
 speakers:
 - emily-higgs
 - 

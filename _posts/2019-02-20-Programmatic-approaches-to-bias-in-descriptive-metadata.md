@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 10:15
 startTime: 1550675700
-speakers-text: Noah Geraci, , 
+speakers-text: Noah Geraci 
 speakers:
 - noah-geraci
 - 

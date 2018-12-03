@@ -8,7 +8,7 @@ type: talk
 categories: talks
 time: 11:40
 startTime: 1550853600
-speakers-text: Tammy Allgood Wolf, , 
+speakers-text: Tammy Allgood Wolf 
 speakers:
 - tammy-allgood-wolf
 - 

@@ -10,7 +10,7 @@ hero-image-alt: "a plane flying over a street lined with palm trees"
 search: false
 # If false (we don't have program info yet), the main nav links go:
 # schedule -> preparation timeline, speakers -> past keynotes
-program-nav-links: false
+program-nav-links: true
 
 #############################
 # Various Emails/contact info

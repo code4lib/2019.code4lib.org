@@ -7,12 +7,14 @@
   keynote: true
   bio: "Dr. Safiya U. Noble is an assistant professor at the University of Southern California (USC) Annenberg School of Communication. She is the recipient of a Hellman Fellowship and the UCLA Early Career Award. Noble’s academic research focuses on the design of digital media platforms on the internet and their impact on society. Her work is both sociological and interdisciplinary, marking the ways that digital media impacts and intersects with issues of race, gender, culture, and technology design. Her critically-acclaimed monograph on racist and sexist algorithmic bias in commercial search engines is entitled <a href='https://nyupress.org/books/9781479837243/'>Algorithms of Oppression: How Search Engines Reinforce Racism</a> (NYU Press)."
 
-- id: tbd
-  name: To Be Determined!
-  last: ZzzgoesafterNoble
-  image_src: /assets/img/nopics/nopic3.jpg
+- id: tara-robertson
+  name: Tara Robertson
+  last: Robertson
+  title: Diversity & Inclusion Strategic Partner
+  institution: Mozilla
+  image_src: /assets/img/speakers/robertson_tara.jpg
   keynote: true
-  bio: "Announcement coming soon!"
+  bio: "Tara Robertson is an intersectional feminist who uses data and research to advocate for equality and inclusion. She has more than 10 years experience making open source and tech communities more diverse and welcoming. Her core values are social justice, collaboration and all things open–open source, open access and open education. Her curiosity and delight in connecting people come together in person and online, where she can often be found asking good questions. <a href=https://tararobertson.ca/about/>Read more on her personal website</a>."
 
 - id: lauren-ajamie
   name: Lauren Ajamie

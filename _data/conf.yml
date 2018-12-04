@@ -12,6 +12,17 @@ search: false
 # schedule -> preparation timeline, speakers -> past keynotes
 program-nav-links: false
 
+# day 0 = preconf day
+days:
+  - weekday: Tuesday
+    date: February 19th
+  - weekday: Wednesday
+    date: February 20th
+  - weekday: Thursday
+    date: February 21st
+  - weekday: Friday
+    date: February 22nd
+
 #############################
 # Various Emails/contact info
 ################

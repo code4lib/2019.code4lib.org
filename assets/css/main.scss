@@ -216,15 +216,7 @@ section:nth-of-type(3n+1) {
 }
 
 section:nth-of-type(3n+2) {
-  background: $section-2-bg;
-  color: $section-2-color;
-  a {
-    color: $section-2-link;
-    text-decoration: underline;
-  }
-  a:hover, a:focus {
-    color: $section-2-hover;
-  }
+  border-top: 2px solid $primary; 
 }
 
 section:nth-of-type(3n+3) {

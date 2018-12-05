@@ -150,13 +150,13 @@
 
 # keynotes
 - timeImg: 9.15.png
-  title: Opening Keynote - Safiya Noble
+  title: Opening Keynote - Tara Robertson
   day1: true
   groupId: key-open
   time: 09:15-10:00
 
 - timeImg: 9.15.png
-  title: Closing Keynote - Tara Robertson
+  title: Closing Keynote - Safiya Noble
   day3: true
   groupId: key-close
   time: 09:15-10:00

@@ -5,7 +5,7 @@ year: 2019
 hashtag: 'c4l19'
 location: 'San José, California'
 captioning-url: ""
-hero-image-alt: "a plane flying over a street lined with palm trees"
+hero-image-alt: "a collage of several San José landmarks"
 
 search: false
 # If false (we don't have program info yet), the main nav links go:
@@ -50,7 +50,7 @@ homepage-display: pre
 ###########
 # If true, any "Sponsors" links will go to /prospectus instead of /sponsors
 call-for-sponsors: false
-homepage-sponsor-button: true
+homepage-sponsor-button: false
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
@@ -140,10 +140,10 @@ workshop-registration:
 # "show" just means display on home page, "open" means people can register
 conference-registration:
   show: true
-  url: http://www.cvent.com/d/3tqn5s/4W
+  url: http://www.cvent.com/d/ybq5dx/4W
   start-date: "2018-12-05"
   end-date: Null
-  open: false
+  open: true
 
 ##################
 # Schedule events

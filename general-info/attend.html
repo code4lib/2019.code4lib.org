@@ -10,8 +10,6 @@ active: Attend Code4Lib
             <div class="col-xs-12">
                 <h1>Attend Code4Lib</h1>
 
-                    <h3>Conference</h3>
-
                     {% if site.data.conf.conference-registration.show %}
                         {% if site.data.conf.conference-registration.open %}
                             <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
@@ -35,8 +33,9 @@ active: Attend Code4Lib
                 <h3>Registration Fees</h3>
                 <ul>
                     <li><strong>Main Conference</strong>: $395</li>
-                    <!-- <li><strong>Main Conference (on or after January 20)</strong> : $420</li> -->
+                    <!-- <li><strong>Main Conference (on or after January 23)</strong> : $420</li> -->
                     <li><strong>Pre-Conference </strong>: $50 per half day ($100 for full day)</li>
+                    <li><strong>Reception "plus one"</strong>: $60 (limit one "plus one" per registration)</li>
                 </ul>
 
                 <p>
@@ -58,9 +57,9 @@ active: Attend Code4Lib
                     <strong>Payment Policy</strong>: Payment for the full amount of registration fees must be made at the time of registration or within 48 hours of the completion of registration.
                 </p>
 
-                <!-- <p>
-                    <strong>Cancellation Policy</strong>:  All cancellations received on or before January 25, {{site.data.conf.year}} are eligible for a full refund of fees paid, less a 10% cancellation fee. No refunds will be issued after the January 18 cut-off date.
-                </p> -->
+                <p>
+                    <strong>Cancellation Policy</strong>:  All cancellations received on or before January 23rd, {{site.data.conf.year}} are eligible for a full refund of fees paid, less a 10% cancellation fee. No refunds will be issued after the January 23rd cut-off date.
+                </p>
             </div>
         </div>
 
@@ -85,8 +84,10 @@ active: Attend Code4Lib
                         closed.
                     </li>
                     <li>
-                        <a href="/talks/">Conference Talks</a>
-                        See conference program <a href="/schedule/">on the schedule page</a> to get an idea of what will be part of the program. Conference speakers still need to register for the conference at full price.
+                        <strong><a href="/talks/">Conference Talks</a></strong>:
+                        See conference program <a href="/schedule/">on the schedule page</a> to get
+                        an idea of what will be part of the program. Conference speakers still need
+                        to register for the conference at full price.
                     </li>
                 </ol>
             </div>

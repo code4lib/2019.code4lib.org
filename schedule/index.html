@@ -26,7 +26,7 @@ title: Schedule
         </div>
     </div>
 
-    <!-- newcomer dinner, turn on when details/links are known -->
+    {% if site.data.conf.newcomer-dinner.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
             <h4>Evening</h4>
@@ -36,17 +36,19 @@ title: Schedule
             <p>
                 It is a Code4Lib tradition to welcome those who are new to the conference
                 by organizing dinner groups on the night before the general conference begins.
-                Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_2018_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
+                Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_{{site.data.conf.year}}_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
                 on the wiki, and we try to mix a few newcomers with a few veterans
-                who can offer an informal introduction to the conference.  Great for making new friends!
+                who can offer an informal introduction to the conference.  Great for making
+                new friends!
             </p>
-            {% comment %}
+            {% if site.data.conf.newcomer-dinner.signup-url != '' %}
             <p>
                 <a class="btn btn-default" href="https://docs.google.com/document/d/1UCLr7wdwDyJaJ77naTUwYmqGzngYiZprgK7T4w8to4c/edit?usp=sharing">Sign-up for the Newcomer Dinner</a>
             </p>
-            {% endcomment %}
+            {% endif %}
         </div>
     </div>
+    {% endif %}
 
     <div class="row">
         <div class="col-xs-12 sched-date">

@@ -145,6 +145,14 @@ conference-registration:
   end-date: Null
   open: false
 
+###############
+# Schedule matters
+###############
+
+newcomer-dinner:
+    show: true
+    # entering the URL doubles as a "show more info" switch, too
+    signup-url: ''
 
 ###############
 # Volunteer

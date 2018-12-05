@@ -1,19 +1,19 @@
 ---
 layout: presentation
 day: 1
-group: 
+group: 1
 spot: 7
 length: 15
 type: talk
 categories: talks
 time: 10:15
 startTime: 1550675700
-speakers-text: Noah Geraci 
+speakers-text: Noah Geraci
 speakers:
 - noah-geraci
-- 
-- 
-slides: 
+-
+-
+slides:
 title: Programmatic approaches to bias in descriptive metadata
 ---
 "Cleaning" descriptive metadata is a frequent task in digital library work, often enabled by scripting or OpenRefine. But what about when the issue at hand isn't an odd schema, trailing whitespace, or inconsistent capitalization; but pervasive racial or gender bias in the descriptive language? Currently, the work of seeking to remediate the latter tends to be highly manual and reliant on individual judgment and prioritization, despite their systemic nature.

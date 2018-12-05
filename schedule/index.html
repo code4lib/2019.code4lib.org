@@ -6,13 +6,13 @@ title: Schedule
 <div class="container">
     <div class="row">
         <div class="col-xs-12 sched-date">
-            <h2>Tuesday, February 13th</h2>
+            <h2>{{site.data.conf.days[0].weekday}}, {{site.data.conf.days[0].date}}</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>9AM - 5:30PM</h4>
+            <h4>9AM - 5PM</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
             <h3><a href="/workshops">Preconference Workshops</a></h3>
@@ -26,7 +26,7 @@ title: Schedule
         </div>
     </div>
 
-    <!-- newcomer dinner, turn on when details/links are known -->
+    {% if site.data.conf.newcomer-dinner.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
             <h4>Evening</h4>
@@ -36,35 +36,34 @@ title: Schedule
             <p>
                 It is a Code4Lib tradition to welcome those who are new to the conference
                 by organizing dinner groups on the night before the general conference begins.
-                Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_2018_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
+                Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_{{site.data.conf.year}}_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
                 on the wiki, and we try to mix a few newcomers with a few veterans
-                who can offer an informal introduction to the conference.  Great for making new friends!
+                who can offer an informal introduction to the conference.  Great for making
+                new friends!
             </p>
-            {% comment %}
+            {% if site.data.conf.newcomer-dinner.signup-url != '' %}
             <p>
                 <a class="btn btn-default" href="https://docs.google.com/document/d/1UCLr7wdwDyJaJ77naTUwYmqGzngYiZprgK7T4w8to4c/edit?usp=sharing">Sign-up for the Newcomer Dinner</a>
             </p>
-            {% endcomment %}
+            {% endif %}
         </div>
     </div>
+    {% endif %}
 
     <div class="row">
         <div class="col-xs-12 sched-date">
-            <h2>Wednesday, February  14th</h2>
+            <h2>{{site.data.conf.days[1].weekday}}, {{site.data.conf.days[1].date}}</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>9AM - 5PM</h4>
+            <h4>9AM - 5:20PM</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
             <h3><a href="/schedule/day-1">General Conference, Day One</a></h3>
             <p>
                 Keynote #1 kicks off the conference. Talks will be selected by the community. Lunch will be provided.
-                <!--
-                <a href="/childcare.html">Childcare offered</a>, thanks to Equinox and CurateCamp.
-                -->
             </p>
             {% comment %}
             <p>
@@ -74,6 +73,7 @@ title: Schedule
         </div>
     </div>
 
+    {% if site.data.conf.game-night.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
             <h4>7PM - 10PM</h4>
@@ -86,24 +86,22 @@ title: Schedule
             </p>
         </div>
     </div>
+    {% endif %}
 
    <div class="row">
         <div class="col-xs-12 sched-date">
-            <h2>Thursday, February 15th</h2>
+            <h2>{{site.data.conf.days[2].weekday}}, {{site.data.conf.days[2].date}}</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>9AM - 5PM</h4>
+            <h4>9AM - 5:10PM</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
             <h3><a href="/schedule/day-2">General Conference, Day Two</a></h3>
             <p>
                 Talks will be selected by the community. Lunch will be provided.
-                <!--
-                <a href="childcare.html">Childcare offered</a>, thanks to Equinox and CurateCamp.
-                -->
             </p>
             {% comment %}
                 <p><a href="/schedule/day-2">See the full schedule</a>.</p>
@@ -111,9 +109,7 @@ title: Schedule
         </div>
     </div>
 
-    {% comment %}
-    add reception details when we can announce on dec. 6th
-    {% endcomment %}
+    {% if site.data.reception.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
             <h4>7PM - 9PM</h4>
@@ -127,6 +123,7 @@ title: Schedule
             </p>
         </div>
     </div>
+    {% endif %}
 
     {% comment %}
         <!-- play-n-share, move this section to the right date/time -->
@@ -150,21 +147,18 @@ title: Schedule
 
     <div class="row">
         <div class="col-xs-12 sched-date">
-            <h2>Friday, February 16th</h2>
+            <h2>{{site.data.conf.days[3].weekday}}, {{site.data.conf.days[3].date}}</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>9AM - 12PM</h4>
+            <h4>9AM - 12:30PM</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
             <h3><a href="/schedule/day-3">General Conference, Day Three</a></h3>
             <p>
                 Keynote #2 closes out the conference. Talks have been selected by the community.
-                <!--
-                <a href="childcare.html">Childcare offered</a>, thanks to Equinox and CurateCamp.
-                -->
             </p>
             {% comment %}
             <p><a href="/schedule/day-3">See the full schedule</a>.</p>

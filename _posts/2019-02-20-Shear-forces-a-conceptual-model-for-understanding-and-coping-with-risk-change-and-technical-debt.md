@@ -1,19 +1,19 @@
 ---
 layout: presentation
 day: 2
-group: 
+group: 6
 spot: 51
 length: 20
 type: talk
 categories: talks
 time: 16:00
 startTime: 1550782800
-speakers-text: Andreas Orphanides 
+speakers-text: Andreas Orphanides
 speakers:
 - andreas-orphanides
-- 
-- 
-slides: 
+-
+-
+slides:
 title: Shear forces&#58; a conceptual model for understanding (and coping with) risk, change, and technical debt
 ---
 A student searches in vain for a seat close enough to a power outlet to plug in her laptop. The IT department maintains a Windows XP server to support critical software for which there's no modern replacement. Your local fitness studio has a never-used, wall-mounted iPod dock set into the drywall.

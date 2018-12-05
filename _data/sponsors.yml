@@ -29,18 +29,6 @@
   link: https://www.indexdata.com/
   level: gold
 
-- name: Blacklight
-  img: /assets/img/sponsors/blacklight-logo.png
-  link: http://projectblacklight.org/
-  level: diamond
-  
-- name: OCLC
-  img: /assets/img/sponsors/OCLC_Logo.png
-  link: https://www.oclc.org
-  level: bronze
-  diversity: true
-  annotation: "Diversity Scholarship"
-
 - name: Penn State Libraries
   img: /assets/img/sponsors/penn_state_libraries.png
   link: https://libraries.psu.edu
@@ -54,13 +42,6 @@
 - name: MIT Libraries
   img: /assets/img/sponsors/mit.png
   link: https://libraries.mit.edu/
-  level: silver
-  diversity: true
-  annotation: "Diversity Scholarship"
-
-- name: Temple University Libraries
-  img: /assets/img/sponsors/templelibraries-logo.svg
-  link: https://library.temple.edu/
   level: silver
   diversity: true
   annotation: "Diversity Scholarship"

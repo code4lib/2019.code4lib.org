@@ -16,14 +16,6 @@
   keynote: true
   bio: "Tara Robertson is an intersectional feminist who uses data and research to advocate for equality and inclusion. She has more than 10 years experience making open source and tech communities more diverse and welcoming. Her core values are social justice, collaboration and all things open–open source, open access and open education. Her curiosity and delight in connecting people come together in person and online, where she can often be found asking good questions. <a href=https://tararobertson.ca/about/>Read more on her personal website</a>."
 
-- id: lauren-ajamie
-  name: Lauren Ajamie
-  last: Ajamie
-  title: Systems Librarian
-  institution: University of Notre Dame
-  image_src: /assets/img/speakers/ajamie_lauren.jpg
-  keynote: false
-
 - id: sarah-rice
   name: Sarah Rice
   last: Rice

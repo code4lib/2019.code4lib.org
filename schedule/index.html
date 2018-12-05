@@ -73,6 +73,22 @@ title: Schedule
         </div>
     </div>
 
+    {% if site.data.conf.reception.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>7PM - 9PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <a href="/general-info/venues/#reception">
+                <h3>Reception</h3>
+            </a>
+            <p>
+                All attendees are invited to join us for the reception at the Tech Museum of Innovation. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
     {% if site.data.conf.game-night.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
@@ -108,22 +124,6 @@ title: Schedule
             {% endcomment %}
         </div>
     </div>
-
-    {% if site.data.reception.show %}
-    <div class="row">
-        <div class="col-xs-12 col-md-3 text-right">
-            <h4>7PM - 9PM</h4>
-        </div>
-        <div class="col-xs-12 col-md-9 sched-well">
-            <a href="/general-info/venues/#reception">
-                <h3>Reception</h3>
-            </a>
-            <p>
-                All attendees are invited to join us for the reception at the Great Hall at the Library of Congress. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
-            </p>
-        </div>
-    </div>
-    {% endif %}
 
     {% comment %}
         <!-- play-n-share, move this section to the right date/time -->

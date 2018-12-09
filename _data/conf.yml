@@ -125,7 +125,7 @@ poster-voting:
   end-date: "2018-11-29"
 
 shirt-voting:
-  show: true
+  show: false
   url: "https://goo.gl/forms/Bgo590LPEhjfJGkT2"
   end-date: "2018-12-07"
 

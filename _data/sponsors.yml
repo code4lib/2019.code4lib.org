@@ -24,10 +24,21 @@
 # - contributor
 # - supporter
 
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight.svg
+  link: http://projectblacklight.org/
+  level: gold
+
 - name: Index Data
   img: /assets/img/sponsors/index_data.png
   link: https://www.indexdata.com/
   level: gold
+
+- name: OCLC
+  img: /assets/img/sponsors/oclc.png
+  link: https://www.oclc.org
+  level: gold
+  annotation: "Streaming Video"
 
 - name: Penn State Libraries
   img: /assets/img/sponsors/penn_state_libraries.png

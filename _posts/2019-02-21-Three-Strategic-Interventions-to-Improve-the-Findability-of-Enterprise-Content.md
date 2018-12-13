@@ -6,7 +6,7 @@ day: 2
 categories: posters
 location: TBD
 layout: presentation
-startTime: 1550694600
+startTime: 2019-02-21T15:30:00 -05:00
 title: Three Strategic Interventions to Improve the Findability of Enterprise Content
 ---
 For any organization with significant digital content, the ability to search across this content has become an operational necessity. Despite this, unified enterprise search and retrieval of digital content remains an elusive goal for many organizations. A further complication rests on the fact that, regardless of the specific content management system (CMS) used by an organization, effective enterprise content findability requires some manual review and editing in order to produce results that meet users' expectations. 

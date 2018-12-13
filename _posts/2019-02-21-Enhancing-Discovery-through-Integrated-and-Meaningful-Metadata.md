@@ -6,7 +6,7 @@ day: 2
 categories: posters
 location: TBD
 layout: presentation
-startTime: 1550694600
+startTime: 2019-02-21T15:30:00 -05:00
 title: Enhancing Discovery through Integrated and Meaningful Metadata
 ---
 While libraries once offered only physical spaces and collections, they now offer much more - people with knowledge/technical expertise, event programming, services, and technologies that support a variety of activities. However, discovery tools and search engines have limited understanding of the dynamic nature of libraries. How might libraries leverage modern technologies to make their full range of offerings more discoverable through local tools, as well as web search engines?

@@ -55,6 +55,9 @@
                         {% endfor %}
                     </div>
                 </div>
+            {% comment %} poster sessions have no speaker data, only text {% endcomment %}
+            {% elsif page.type == 'poster' and page.speakers-text != '' %}
+                <h2>Presenter(s): {{ page.speakers-text }}</h2>
             {% endif %}
 
             {% if page.type == 'workshop' %}
@@ -108,7 +111,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 time-length">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                     <div class="talk-box-detail-value">
-                        Lobby
+                        {{ page.location }}
                     </div>
                 </div>
                 {% endif %}

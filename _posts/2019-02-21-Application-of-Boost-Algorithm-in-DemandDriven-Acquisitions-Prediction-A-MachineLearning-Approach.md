@@ -1,5 +1,5 @@
 ---
-speakers-text: Dr. Zhehan Jiang and Dr.Kevin Walker
+speakers-text: Dr. Zhehan Jiang and Dr. Kevin Walker
 type: poster
 length: 30
 day: 2

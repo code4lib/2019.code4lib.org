@@ -95,11 +95,11 @@
   link: https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks#Day_3_Lightning_Talks_-_Feb_22.2C_2019
 
 # Poster Session
-- timeImg: 3.15.png
+- timeImg: 3.30.png
   title: Poster Session
   day2: true
-  time: 15:15 - 15:35
-  link: https://wiki.code4lib.org/Code4Lib2019_Posters#Code4Lib2019_Posters
+  time: 15:30 - 14:00
+  link: /posters/
 
 # wrap ups
 - timeImg: 5.10.png

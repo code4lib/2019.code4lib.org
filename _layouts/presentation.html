@@ -55,6 +55,9 @@
                         {% endfor %}
                     </div>
                 </div>
+            {% comment %} poster sessions have no speaker data, only text {% endcomment %}
+            {% elsif page.type == 'poster' and page.speakers-text != '' %}
+                <h2>Presenter(s): {{ page.speakers-text }}</h2>
             {% endif %}
 
             {% if page.type == 'workshop' %}
@@ -77,6 +80,9 @@
                     {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
                         <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ page_date | date: "%B %e" }}{% include date_ordinals.html date=page_date %}</a></div>
+                    {% elsif page.type == 'poster'%}
+                    <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                    <div class="talk-box-detail-value"> <a href="/posters">{{ page_date | date: "%B %e" }}{% include date_ordinals.html date=page_date %}</a></div>
                     {% else %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
                         <div class="talk-box-detail-value"> <a href="/workshops">{{ page_date | date: "%B %e" }}{% include date_ordinals.html date=page_date %}</a></div>
@@ -108,7 +114,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 time-length">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                     <div class="talk-box-detail-value">
-                        Lobby
+                        {{ page.location }}
                     </div>
                 </div>
                 {% endif %}

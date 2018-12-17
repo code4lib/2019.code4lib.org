@@ -145,6 +145,17 @@
   diversity: true
   annotation: "Diversity Scholarship"
 
+- name: LibTech Women & Friends
+  diversity: true
+  img: /assets/img/sponsors/libtechwomen.jpg
+  link: http://libtechwomen.org/
+  level: silver
+  annotation: "Diversity Scholarship"
+
+- name: Generous Individuals from the Code4Lib Community
+  link: https://code4lib.org
+  diversity: true
+
 - name: Califa Library Group
   img: /assets/img/sponsors/califa.png
   link: https://califa.org/

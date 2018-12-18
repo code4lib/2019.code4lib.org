@@ -71,10 +71,8 @@
   level: bronze
 
 - name: DPLA
-  img: /assets/img/sponsors/dpla.png
   link: https://dp.la/
   level: supporter
-  annotation: "Exhibitor Table-Non Profit"
 
 - name: MIT Libraries
   img: /assets/img/sponsors/mit.png
@@ -98,12 +96,10 @@
   annotation: "Diversity Scholarship"
 
 - name: ByWater Solutions
-  img: /assets/img/sponsors/bywater_solutions.jpg
   link: https://bywatersolutions.com
   level: supporter
 
 - name: California Digital Library
-  img: /assets/img/sponsors/cdl.png
   link: https://www.cdlib.org/
   level: supporter
 
@@ -113,7 +109,6 @@
   level: contributor
 
 - name: The University of Rhode Island University Libraries
-  img: /assets/img/sponsors/URI_Librareis_Logo.png
   link: https://web.uri.edu/library/
   level: supporter
 
@@ -123,7 +118,6 @@
   level: contributor
 
 - name: Humboldt State University
-  img: /assets/img/sponsors/humboldt_state_university.png
   link: https://library.humboldt.edu
   level: supporter
 

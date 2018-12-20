@@ -30,6 +30,7 @@ main-conf-email: "code4lib@concentra-cms.com"
 sponsor-contact-email: "code4lib.sponsorship@gmail.com"
 scholarship-contact-email: "code4libaward@gmail.com"
 lpc-contact-email: "code4liblpc@gmail.com"
+accessibility-email: "code4lib.accessibility@gmail.com"
 # when empty, Duty Officers page will use main-conf-email
 duty-officer-email: ""
 anonymous-form: ""
@@ -153,12 +154,16 @@ newcomer-dinner:
     show: true
     # entering the URL doubles as a "show more info" switch, too
     signup-url: ''
+    date: "2019-02-19"
+
 
 game-night:
     show: false
+    date: ""
 
 reception:
     show: true
+    date: "2019-02-20"
 
 ###############
 # Volunteer

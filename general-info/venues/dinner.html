@@ -1,7 +1,7 @@
 <section class="general-info">
   <div class="col-xs-12">
       <h2 id="dinner">Newcomer Dinner</h2>
-      <p><strong>When: </strong>{{site.data.conf.days[0].weekday}}, {{site.data.conf.days[0].date}}</p>
+      <p><strong>When: </strong>{{site.data.conf.newcomer-dinner.date | date: '%A, %B %-d, %Y'}}</p>
       <p>
           The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner the night before the main sessions of conference begin.
           {% if site.data.conf.newcomer-dinner.signup-url != '' %}

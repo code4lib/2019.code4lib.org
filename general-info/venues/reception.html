@@ -37,7 +37,7 @@
         <h3>Reception Details</h3>
 
         <p><strong>When: </strong>
-            {{site.data.conf.days[1].weekday}}, {{site.data.conf.days[1].date}} from 7:00pm-9:00pm
+            {{site.data.conf.reception.date | date: '%A, %B %-d, %Y'}} from 7:00pm-9:00pm
         </p>
         <p>
             Light refreshments and drinks will be provided.

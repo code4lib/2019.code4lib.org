@@ -159,3 +159,31 @@
   img: /assets/img/sponsors/jetbrains.png
   link: https://www.jetbrains.com
   level: giveaway
+
+- name: Equinox
+  link: https://www.equinoxinitiative.org/
+  level: supporter
+
+- name: VALE
+  link: https://vale.njedge.net/
+  level: supporter
+
+- name: ArchivesSpace
+  link: https://archivesspace.org/
+  level: supporter
+
+- name: Aten Design Group
+  link: https://atendesigngroup.com/
+  level: supporter
+
+- name: Springer Nature
+  link: https://www.springernature.com/gp
+  level: supporter
+
+- name: UCLA Information Studies Dept
+  link: https://is.gseis.ucla.edu/
+  level: supporter
+
+- name: University of Alabama School of Library & Information Studies
+  link: https://slis.ua.edu/
+  level: supporter

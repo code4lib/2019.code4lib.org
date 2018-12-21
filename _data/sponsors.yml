@@ -95,6 +95,21 @@
   diversity: true
   annotation: "Diversity Scholarship"
 
+- name: Unicon
+  img: /assets/img/sponsors/unicon.jpg
+  link: https://www.unicon.net/
+  level: contributor
+
+- name: University of California, Berkeley
+  img: /assets/img/sponsors/uc-berkeley.jpg
+  link: https://www.berkeley.edu/
+  level: contributor
+
+- name: UNT Libraries
+  img: /assets/img/sponsors/unt-libraries.png
+  link: https://library.unt.edu/
+  level: contributor
+
 - name: ByWater Solutions
   link: https://bywatersolutions.com
   level: supporter

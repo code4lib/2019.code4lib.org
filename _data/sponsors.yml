@@ -45,6 +45,27 @@
   level: gold
   annotation: "Streaming Video"
 
+- name: Atlas Systems
+  img: /assets/img/sponsors/atlas-systems.jpg
+  link: https://www.atlas-sys.com
+  level: bronze
+
+- name: Lyrasis
+  img: /assets/img/sponsors/lyrasis.jpg
+  link: https://www.lyrasis.org
+  level: bronze
+
+# NOTE: never provided logo, img is SVG pulled from website & edited to black PNG
+- name: UCLA Library
+  img: /assets/img/sponsors/ucla.png
+  link: https://www.library.ucla.edu
+  level: bronze
+
+- name: UC Santa Barbara
+  img: /assets/img/sponsors/uc-santa-barbara.png
+  link: https://www.ucsb.edu
+  level: bronze
+
 - name: Penn State Libraries
   img: /assets/img/sponsors/penn_state_libraries.png
   link: https://libraries.psu.edu

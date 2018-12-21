@@ -34,11 +34,37 @@
   link: https://www.indexdata.com/
   level: gold
 
+- name: Ex Libris, a ProQuest Company
+  img: /assets/img/sponsors/ex-libris.png
+  link: https://www.exlibrisgroup.com/
+  level: silver
+
 - name: OCLC
   img: /assets/img/sponsors/oclc.png
   link: https://www.oclc.org
   level: gold
   annotation: "Streaming Video"
+
+- name: Atlas Systems
+  img: /assets/img/sponsors/atlas-systems.jpg
+  link: https://www.atlas-sys.com
+  level: bronze
+
+- name: Lyrasis
+  img: /assets/img/sponsors/lyrasis.jpg
+  link: https://www.lyrasis.org
+  level: bronze
+
+# NOTE: never provided logo, img is SVG pulled from website & edited to black PNG
+- name: UCLA Library
+  img: /assets/img/sponsors/ucla.png
+  link: https://www.library.ucla.edu
+  level: bronze
+
+- name: UC Santa Barbara
+  img: /assets/img/sponsors/uc-santa-barbara.png
+  link: https://www.ucsb.edu
+  level: bronze
 
 - name: Penn State Libraries
   img: /assets/img/sponsors/penn_state_libraries.png
@@ -94,6 +120,28 @@
   level: bronze
   diversity: true
   annotation: "Diversity Scholarship"
+
+# NOTE: missing logo for them
+- name: Oregon State University Libraries & Press
+  link: https://osulibrary.oregonstate.edu/about/OSU-Libraries
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: Unicon
+  img: /assets/img/sponsors/unicon.jpg
+  link: https://www.unicon.net/
+  level: contributor
+
+- name: University of California, Berkeley
+  img: /assets/img/sponsors/uc-berkeley.jpg
+  link: https://www.berkeley.edu/
+  level: contributor
+
+- name: UNT Libraries
+  img: /assets/img/sponsors/unt-libraries.png
+  link: https://library.unt.edu/
+  level: contributor
 
 - name: ByWater Solutions
   link: https://bywatersolutions.com
@@ -159,3 +207,31 @@
   img: /assets/img/sponsors/jetbrains.png
   link: https://www.jetbrains.com
   level: giveaway
+
+- name: Equinox
+  link: https://www.equinoxinitiative.org/
+  level: supporter
+
+- name: VALE
+  link: https://vale.njedge.net/
+  level: supporter
+
+- name: ArchivesSpace
+  link: https://archivesspace.org/
+  level: supporter
+
+- name: Aten Design Group
+  link: https://atendesigngroup.com/
+  level: supporter
+
+- name: Springer Nature
+  link: https://www.springernature.com/gp
+  level: supporter
+
+- name: UCLA Information Studies Dept
+  link: https://is.gseis.ucla.edu/
+  level: supporter
+
+- name: University of Alabama School of Library & Information Studies
+  link: https://slis.ua.edu/
+  level: supporter

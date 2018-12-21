@@ -34,6 +34,11 @@
   link: https://www.indexdata.com/
   level: gold
 
+- name: Ex Libris, a ProQuest Company
+  img: /assets/img/sponsors/ex-libris.png
+  link: https://www.exlibrisgroup.com/
+  level: silver
+
 - name: OCLC
   img: /assets/img/sponsors/oclc.png
   link: https://www.oclc.org

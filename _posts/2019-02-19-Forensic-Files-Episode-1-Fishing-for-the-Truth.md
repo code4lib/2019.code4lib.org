@@ -5,6 +5,7 @@ categories: workshops
 speakers-text: Sara Allain
 speakers:
   - sara-allain
+  - ashley-blewer
 time: am
 startTime: 9:00 AM
 endTime: 12:00 PM

@@ -121,8 +121,8 @@
   diversity: true
   annotation: "Diversity Scholarship"
 
-# NOTE: missing logo for them
 - name: Oregon State University Libraries & Press
+  img: /assets/img/sponsors/oregon-state.png
   link: https://osulibrary.oregonstate.edu/about/OSU-Libraries
   level: bronze
   diversity: true

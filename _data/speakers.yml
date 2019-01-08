@@ -610,16 +610,16 @@
   image_src: /assets/img/speakers/bailey_helen.jpg
   keynote: false
 
-- id: sebastian-hammer
-  name: Sebastian Hammer
-  last: Hammer
-  title: Co-founder and President
+- id: kristen-wilson
+  name: Kristen Wilson
+  last: Wilson
+  title: Project Manager / Business Analyst
   institution: Index Data
   bio:
   twitter_handle:
   slack_handle:
   github_handle:
-  image_src: /assets/img/nopics/nopic5.jpg
+  image_src: /assets/img/speakers/wilson_kristen.jpg
   keynote: false
 
 - id: steven-cutchin

@@ -8,11 +8,10 @@ type: talk
 categories: talks
 time: 11:20
 startTime: 1550852400
-speakers-text: Jill Morris, Sebastian Hammer
+speakers-text: Jill Morris, Kristen Wilson
 speakers:
 - jill-morris
-- sebastian-hammer
--
+- kristen-wilson
 slides:
 title: Project ReShare&#58; Development & Piloting of an Open Source Resource Sharing Platform
 ---

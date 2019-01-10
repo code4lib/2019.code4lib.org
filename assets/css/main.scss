@@ -563,6 +563,14 @@ p.speaker-inst {
   margin-top: 11px;
 }
 
+.back-workshops {
+  color: white;
+  margin: 10px 0;
+  display: block;
+  padding: 10px 0 5px 0;
+  border-top: solid 1px white;
+}
+
 .talk-detail-box {
   animation: intro .34s .4s cubic-bezier(1.000, 1.400, 0.410, 1.010) forwards;
   transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);

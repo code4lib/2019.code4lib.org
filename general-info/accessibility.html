@@ -6,8 +6,8 @@ active: Accessibility
 subnav:
 - name: 'Contact'
   url: '#contactus'
-#- name: 'Quiet Room'
-#  url: '#quietroom'
+- name: 'Quiet Room'
+  url: '#quietroom'
 - name: 'For Presenters'
   url: '#presenters'
 ---
@@ -23,15 +23,11 @@ subnav:
             <h2 id="contactus">Contact</h2>
             <p>Contact <a href="mailto:{{site.data.conf.accessibility-email}}">{{site.data.conf.accessibility-email}}</a> with any questions or concerns related to the conference's accessibility.</p>
 
-            <!--
             <h2 id="quietroom">Quiet Room</h2>
             <p>
-               This year, we are providing a quiet room at the conference hotel,
-               located in the VIP Room, behind the Regency Ballroom (signage will
-               help direct onsite.) The purpose of this room is to provide a quiet
-               space so that attendees can take a mental or physical break from
-               the many goings on. The room is open to all attendees during the
-               conference hours.
+               From Tuesday to Friday a quiet room will be available at the conference hotel,
+               located in the Zinfandel Room on the second floor (accessible via elevator). The purpose of this room is to provide a quiet space so that attendees can take a mental or physical break from
+               the many goings on. The room is open to all attendees during the conference hours.
             </p>
             <p>
                If you use the Quiet Room, we ask you to abide by the following rules:
@@ -62,7 +58,7 @@ subnav:
                <li>  Above all, respect your fellow conference goers in this space
                      so that all of you can find a bit of quiet.
                </li>
-            </ul> -->
+            </ul>
 
             <h2>Live Captioning</h2>
             <p>During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning.
@@ -139,9 +135,8 @@ subnav:
             {% if site.data.conf.slides.url != "" %}
             <p>
                 Please submit your slides to the <a href="{{site.data.conf.slides.url}}">Code4Lib {{site.data.conf.year}} repository</a>
-                <!-- @TODO need to make this another conf variable probably -->
-                or to Katherine Lynch
-                (<a href="mailto:katherly@upenn.edu?Subject=Code4Lib%20Slides">katherly@upenn.edu</a>)
+                or to {{site.data.conf.slides.contact}}
+                (<a href="mailto:{{site.data.conf.slides.email}}?Subject=Code4Lib%20Slides">{{site.data.conf.slides.email}}</a>)
                 at least 24 hours before your presentation (the earlier the better).
             </p>
             {% endif %}
@@ -180,7 +175,7 @@ subnav:
                 <li>
                     Choose text and background colors that have good contrast. You can
                     use a <a href="http://webaim.org/resources/contrastchecker/">contrast
-                    checker</a> to check for good constrast. The web accessibility thresholds
+                    checker</a> to check for good contrast. The web accessibility thresholds
                     are not relevant to slide presentations, but higher contrast is still better.
                 </li>
                 <li>

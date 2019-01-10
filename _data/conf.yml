@@ -188,7 +188,9 @@ livestream:
 
 slides:
   show: false
-  url: https://osf.io/view/code4lib2018/
+  url: ""
+  contact: "Katherine Lynch"
+  email: "katherly@upenn.edu"
 
 ################
 # Scholarships

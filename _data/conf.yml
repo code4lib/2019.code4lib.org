@@ -24,6 +24,24 @@ days:
     date: February 22nd
 
 #############################
+# Venue Information 
+################
+#Short Form for location
+city-state: 'San Jose CA'
+
+#Conference 
+venue-street: '2050 Gateway Pl'
+venue-postal-code:  '95110'
+venue-phone: '+1(408)453-4000'
+venue-website: 'http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/index.html'
+
+reception-venue: 'The Tech Museum of Innovation'
+reception-street: '201 South Market Street'
+reception-postal-code: '95113' 
+reception-phone: '+1(408) 294-8324'
+reception-contact: 'info@thetech.org'
+
+#############################
 # Various Emails/contact info
 ################
 main-conf-email: "code4lib@concentra-cms.com"

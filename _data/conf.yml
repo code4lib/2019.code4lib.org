@@ -42,6 +42,15 @@ reception-phone: '+1(408) 294-8324'
 reception-contact: 'info@thetech.org'
 
 #############################
+# C4l Links
+################
+#twitter and instagram are both managed using the code4lib hashtag data
+social-links: 
+  slack: 'http://code4lib.slack.com/'
+  irc: 'http://code4lib.org/irc'
+  youtube: 'https://www.youtube.com/user/code4lib/videos'
+
+#############################
 # Various Emails/contact info
 ################
 main-conf-email: "code4lib@concentra-cms.com"

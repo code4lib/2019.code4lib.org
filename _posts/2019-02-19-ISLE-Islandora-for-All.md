@@ -7,6 +7,7 @@ speakers:
   - david-keiser-clark
   - derek-merleaux
   - ben-rosner
+  - carolyn-moritz
 time: am
 startTime: 9:00 AM
 endTime: 12:00 PM

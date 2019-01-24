@@ -43,14 +43,15 @@
   img: /assets/img/sponsors/oclc.png
   link: https://www.oclc.org
   level: gold
-  annotation: "Streaming Video"
+  diversity: true
+  annotation: "Streaming Video, Diversity Scholarship"
 
 - name: Atlas Systems
   img: /assets/img/sponsors/atlas-systems.jpg
   link: https://www.atlas-sys.com
   level: bronze
 
-- name: Lyrasis
+- name: LYRASIS
   img: /assets/img/sponsors/lyrasis.jpg
   link: https://www.lyrasis.org
   level: bronze
@@ -169,13 +170,13 @@
   link: https://library.humboldt.edu
   level: supporter
 
-- name: Rutgers
+- name: Rutgers, The State University of New Jersey
   img: /assets/img/sponsors/rutgers.gif
   link: https://comminfo.rutgers.edu
   level: bronze
   annotation: "Childcare"
 
-- name: University of Houston M.D. Anderson Library
+- name: University of Houston Libraries
   img: /assets/img/sponsors/UH-Libraries.png
   link: https://libraries.uh.edu/branches/anderson/
   level: bronze

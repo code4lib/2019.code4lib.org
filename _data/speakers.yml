@@ -556,7 +556,7 @@
   twitter_handle:
   slack_handle:
   github_handle:
-  image_src: /assets/img/nopics/nopic1.jpg
+  image_src: /assets/img/speakers/wittmaier_nathan.jpg
   keynote: false
 
 - id: jason-a-clark
@@ -580,7 +580,7 @@
   twitter_handle:
   slack_handle:
   github_handle:
-  image_src: /assets/img/nopics/nopic2.jpg
+  image_src: /assets/img/speakers/maringanti_harish.jpg
   keynote: false
 
 - id: shalini-ramachandran

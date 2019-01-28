@@ -218,7 +218,9 @@
     {% endif %}
 
     <!-- Volunteering -->
-    {% if site.data.conf.volunteer-committee.show or site.data.conf.volunteer-dutyoff.show %}
+    {% if site.data.conf.volunteer-committee.show
+        or site.data.conf.volunteer-dutyoff.show
+        or site.data.conf.volunteer-onsite.show %}
     <div class="row">
         <div class="col-xs-12">
             <h4 class="expo">Volunteering</h4>
@@ -235,6 +237,14 @@
                     title='Duty Officers'
                     end-date=site.data.conf.volunteer-dutyoff.end-date
                     url=site.data.conf.volunteer-dutyoff.url
+                    url-text='Sign up'
+                %}
+            {% endif %}
+            {% if site.data.conf.volunteer-onsite.show %}
+                {% include homepage/going_on_block.html
+                    title='Volunteer at Code4Lib'
+                    end-date=site.data.conf.volunteer-onsite.end-date
+                    url=site.data.conf.volunteer-onsite.url
                     url-text='Sign up'
                 %}
             {% endif %}

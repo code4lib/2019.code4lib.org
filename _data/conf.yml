@@ -24,12 +24,12 @@ days:
     date: February 22nd
 
 #############################
-# Venue Information 
+# Venue Information
 ################
 #Short Form for location
 city-state: 'San Jose CA'
 
-#Conference 
+#Conference
 venue-street: '2050 Gateway Pl'
 venue-postal-code:  '95110'
 venue-phone: '+1(408)453-4000'
@@ -37,7 +37,7 @@ venue-website: 'http://doubletree3.hilton.com/en/hotels/california/doubletree-by
 
 reception-venue: 'The Tech Museum of Innovation'
 reception-street: '201 South Market Street'
-reception-postal-code: '95113' 
+reception-postal-code: '95113'
 reception-phone: '+1(408) 294-8324'
 reception-contact: 'info@thetech.org'
 
@@ -45,7 +45,7 @@ reception-contact: 'info@thetech.org'
 # C4l Links
 ################
 #twitter and instagram are both managed using the code4lib hashtag data
-social-links: 
+social-links:
   slack: 'http://code4lib.slack.com/'
   irc: 'http://code4lib.org/irc'
   youtube: 'https://www.youtube.com/user/code4lib/videos'
@@ -197,7 +197,7 @@ reception:
 ###############
 
 volunteer-committee:
-  show: true
+  show: false
   url: https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees
   end-date: "2019-01-18"
 
@@ -205,6 +205,12 @@ volunteer-dutyoff:
   show: false
   url: https://goo.gl/forms/2DkdbUUDSSOMi1f33
   end-date: "2018-11-18"
+
+# for volunteers during conference like MCs, mic-minders, etc.
+volunteer-onsite:
+  show: true
+  url: https://wiki.code4lib.org/2019_Conference_Volunteers
+  end-date: "2019-02-22"
 
 ###########
 # Misc

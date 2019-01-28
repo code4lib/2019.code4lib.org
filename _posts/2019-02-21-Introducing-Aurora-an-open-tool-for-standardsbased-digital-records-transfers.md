@@ -1,5 +1,5 @@
 ---
-speakers-text: Hannah Sistrunk and Hillel Arnold, Rockefeller Archive Center
+speakers-text: Hannah Sistrunk and Patrick Galligan, Rockefeller Archive Center
 type: poster
 length: 30
 day: 2

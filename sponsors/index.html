@@ -2,8 +2,8 @@
 layout: default
 title: Sponsors
 sponsorLevels:
-#- adamantium
-#- diamond
+- adamantium
+- diamond
 - platinum
 - gold
 - silver
@@ -27,7 +27,15 @@ sponsorLevels:
     </div>
 
     {% for level in page.sponsorLevels %}
+    {% assign sponsors = site.data.sponsors | where: "level",level %}
+    {% if sponsors.size > 0 %}
         {% include sponsors/group_display.html level=level %}
-    {% endfor %}
+    {% endif %}
+{% endfor %}
+
+<!-- 
+    {% for level in page.sponsorLevels %}
+        {% include sponsors/group_display.html level=level %}
+    {% endfor %} -->
 
 </div>

@@ -197,6 +197,10 @@ karaoke-night:
     show: true
     url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
     date: "2019-02-21"
+
+self-event:
+    show: true
+    url: https://docs.google.com/document/d/1VVfaRFpYwXyZfRI5hRTorIW4hSzu4yg13S-R-M-EGoE/edit
 ###############
 # Volunteer
 ###############

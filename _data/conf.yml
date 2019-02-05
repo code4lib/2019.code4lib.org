@@ -180,13 +180,13 @@ conference-registration:
 newcomer-dinner:
     show: true
     # entering the URL doubles as a "show more info" switch, too
-    signup-url: ''
+    signup-url: 'https://drive.google.com/open?id=1XQg7jRiI4YWaCwJo3GiTt98l7eBmXTAyHKoFkdgfJnI'
     date: "2019-02-19"
 
 
 game-night:
     show: false
-    date: ""
+    date: "2019-02-21"
 
 reception:
     show: true

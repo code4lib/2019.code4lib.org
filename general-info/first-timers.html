@@ -59,7 +59,10 @@ active: First Timers
 
       <h3>Newcomer Dinner</h3>
       <p>
-        One activity we want to highlight is the Newcomer dinner on {{site.data.conf.newcomer-dinner.date | date: '%A, %B %-d, %Y'}}. More information forthcoming.
+        One activity we want to highlight is the Newcomer dinner on {{site.data.conf.newcomer-dinner.date | date: '%A, %B %-d, %Y'}}.
+        {% if site.data.conf.newcomer-dinner.signup-url != '' %}
+           See <a target="blank" href="{{site.data.conf.newcomer-dinner.signup-url}}">information about the dinner and the sign-up list here</a>. Attendees are responsible in assessing the accessibility of the restaurant space of their choice.
+        {% endif %}
       <p>
 
       <h3>All-Conference Reception</h3>

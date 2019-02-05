@@ -9,7 +9,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-room: san-juan
+room: monterey
 slugTitle: library-apps-and-the-modern-dev-workflow
 title: Library apps and the modern dev workflow
 ---

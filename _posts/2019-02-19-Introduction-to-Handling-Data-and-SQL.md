@@ -10,7 +10,7 @@ time: am
 startTime: 9:00 AM
 endTime: 12:00 PM
 location: doubletree
-room: pine
+room: san-simeon
 slugTitle: introduction-to-handling-data-and-sql
 title: Introduction to Handling Data and SQL
 ---

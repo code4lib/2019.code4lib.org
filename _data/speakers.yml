@@ -45,14 +45,6 @@
   image_src: /assets/img/speakers/dahn_tristan.jpg
   keynote: false
 
-- id: hardy-pottinger
-  name: Hardy Pottinger
-  last: Pottinger
-  title: Programmer Analyst
-  institution: UCLA
-  image_src: /assets/img/speakers/pottinger_hardy.jpg
-  keynote: false
-
 - id: eli-zoller
   name: Eli Zoller
   last: Zoller
@@ -141,14 +133,6 @@
   image_src: /assets/img/speakers/nickels_colin.jpg
   keynote: false
 
-- id: craig-boman
-  name: Craig Boman
-  last: Boman
-  title: Discovery Services Librarian
-  institution: Miami University Libraries
-  image_src: /assets/img/nopics/nopic5.jpg
-  keynote: false
-
 - id: ellie-collier
   name: Ellie Collier
   last: Collier
@@ -199,14 +183,6 @@
   slack_handle:
   github_handle:
   image_src: /assets/img/speakers/irizarry_bernadette.jpg
-  keynote: false
-
-- id: jenn-dandle
-  name: Jenn Dandle
-  last: Dandle
-  title: Web Manager
-  institution: UC San Diego Library
-  image_src: /assets/img/speakers/dandle_jenn.jpg
   keynote: false
 
 - id: derek-merleaux

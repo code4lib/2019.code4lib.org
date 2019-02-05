@@ -10,7 +10,7 @@ time: pm
 startTime: 2:00 PM
 endTime: 5:00 PM
 location: doubletree
-room: san-jose
+room: silicon-valley
 slugTitle: working-on-workshops-a-little-pedagogy-goes-a-long-way
 title: Working on Workshops&#58; A Little Pedagogy Goes a Long Way
 ---

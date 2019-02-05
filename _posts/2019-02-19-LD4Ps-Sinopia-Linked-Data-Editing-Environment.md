@@ -11,7 +11,7 @@ time: full
 startTime: 9:00 AM
 endTime: 5:00 PM
 location: doubletree
-room: donner
+room: san-jose
 slugTitle: ld4p-s-sinopia-linked-data-editing-environment
 title: LD4P's Sinopia Linked Data Editing Environment
 ---

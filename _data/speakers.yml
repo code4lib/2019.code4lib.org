@@ -141,14 +141,6 @@
   image_src: /assets/img/speakers/collier_ellie.jpg
   keynote: false
 
-- id: conny-liegl
-  name: Conny Liegl
-  last: Liegl
-  title: Senior Designer for Web, Graphics and UX at Robert E. Kennedy Library
-  institution: California Polytechnic State University
-  image_src: /assets/img/speakers/liegl_conny.jpg
-  keynote: false
-
 - id: drew-heles
   name: Drew Heles
   last: Heles

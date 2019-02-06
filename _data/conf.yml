@@ -180,18 +180,28 @@ conference-registration:
 newcomer-dinner:
     show: true
     # entering the URL doubles as a "show more info" switch, too
-    signup-url: ''
+    signup-url: https://drive.google.com/open?id=1XQg7jRiI4YWaCwJo3GiTt98l7eBmXTAyHKoFkdgfJnI
+    transit-info: https://docs.google.com/document/d/1zThXYjzsnXN0V7f1U_iEzgy2pZJna0EMTg59GQJClac/edit
+    activities-info: https://drive.google.com/open?id=1UqZIAHg2qllhbHCsv4JRXkbNqJ1qGOht&usp=sharing
     date: "2019-02-19"
 
-
 game-night:
-    show: false
-    date: ""
+    show: true
+    url: https://wiki.code4lib.org/2019_Social_Activities#Game_Night.2C_Thursday.2C_February_21st
+    date: "2019-02-21"
 
 reception:
     show: true
     date: "2019-02-20"
 
+karaoke-night:
+    show: true
+    url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
+    date: "2019-02-21"
+
+self-event:
+    show: true
+    url: https://docs.google.com/document/d/1VVfaRFpYwXyZfRI5hRTorIW4hSzu4yg13S-R-M-EGoE/edit
 ###############
 # Volunteer
 ###############

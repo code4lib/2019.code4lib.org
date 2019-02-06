@@ -14,8 +14,12 @@
       name: 'San Carlos'
     - id: san-jose
       name: 'San Jose'
+    - id: san-simeon
+      name: 'San Simeon'
     - id: santa-clara
       name: 'Santa Clara'
+    - id: silicon-valley
+      name: 'Silicon Valley'
     - id: carmel
       name: 'Carmel'
     - id: monterey

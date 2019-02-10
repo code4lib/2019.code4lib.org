@@ -89,21 +89,6 @@ title: Schedule
     </div>
     {% endif %}
 
-    {% if site.data.conf.game-night.show %}
-    <div class="row">
-        <div class="col-xs-12 col-md-3 text-right">
-            <h4>7PM - 10PM</h4>
-        </div>
-        <div class="col-xs-12 col-md-9 sched-well">
-            <h3><a href="/general-info/venues/#gaming">Game Night</a></h3>
-            <p>
-                Play games? Come join fellow code4libers in a few board or card games at <a href="http://boardroomdc.com/">The Board Room</a>!
-                We have the second floor to ourselves, as well as unlimited access to their games library. We can bring our own games as well.
-            </p>
-        </div>
-    </div>
-    {% endif %}
-
    <div class="row">
         <div class="col-xs-12 sched-date">
             <h2>{{site.data.conf.days[2].weekday}}, {{site.data.conf.days[2].date}}</h2>
@@ -125,6 +110,22 @@ title: Schedule
         </div>
     </div>
 
+    {% if site.data.conf.game-night.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>6:30PM - 9:30PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/general-info/venues/#gaming">Game Night</a></h3>
+            <p>
+              Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
+                 See the <a target="blank" href="{{site.data.conf.game-night.url}}">
+                 sign up list on the Social Activities wiki</a> to list any games you might bring with you.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+    
     {% comment %}
         <!-- play-n-share, move this section to the right date/time -->
         <div class="row">
@@ -181,4 +182,5 @@ title: Schedule
             </div>
         </div>
     {% endcomment %}
+
 </div>

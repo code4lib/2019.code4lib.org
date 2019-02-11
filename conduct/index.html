@@ -141,12 +141,12 @@ active: 'Conduct & Safety'
                       </ul>
 
                     {% if site.data.duty-officers %}
-                        {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
 
-                        <h3> On-Site Duty Officers </h3>
+                        <h3>On-Site Duty Officers</h3>
+
                         <div class="row">
-                        {% for officer in onsite_officers %}
-
+                          {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
+                            {% for officer in onsite_officers %}
                             <div class="col-md-4">
                                 <div class="speaker-box text-center">
                                     <div class="speaker-box-inner">
@@ -158,16 +158,16 @@ active: 'Conduct & Safety'
                         {% endfor %}
                         </div>
                         <div>
-                          <h3> Online Duty Officers</h3>
-                          <p> Duty Officers are also present on various online code4lib
-                            platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
+                          <h3>Online Duty Officers</h3>
+                          <p>Duty Officers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
                           </p>
+
                           {% assign online_officers = site.data.duty-officers | where:"onsite","false" %}
                           {% for officer in online_officers %}
-                          <div class="col-md-4">
-                            <h4 class="speaker-name">{{ officer.name }}</h4>
-                            <p>Slack: {{ officer.slack_handle }}</p>
-                          </div>
+                            <div class="col-md-4">
+                              <h4 class="speaker-name">{{ officer.name }}</h4>
+                              <p>Slack: {{ officer.slack_handle }}</p>
+                            </div>
                           {% endfor %}
                         </div>
                     {% endif %}

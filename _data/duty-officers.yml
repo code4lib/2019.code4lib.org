@@ -1,0 +1,49 @@
+- id: coyle
+  name: "Karen Coyle"
+  img: assets/img/duty-officers/coyle_karen.jpg
+  onsite: true
+
+- id: coyne
+  name: "Justin Coyne"
+  img: assets/img/duty-officers/coyne_justin.jpg
+  onsite: true
+
+- id: ellis
+  name: "Shaun Ellis"
+  img: assets/img/duty-officers/ellis_shaun.jpg
+  onsite: true
+
+- id: fahy
+  name: "Erin Fahy"
+  img: assets/img/duty-officers/fahy_erin.jpg
+  onsite: true
+
+- id: fox
+  name: "Bobbi Fox"
+  img: assets/img/duty-officers/fox_bobbi.png
+  onsite: true
+
+- id: graham
+  name: "Wayne Graham"
+  img: assets/img/duty-officers/Graham_Wayne.jpg
+  onsite: true
+
+- id: kayiwa
+  name: "Francis Kayiwa"
+  img: assets/img/duty-officers/kayiwa_francis.jpg
+  onsite: true
+
+- id: kudzia
+  name: "Megan Kudzia"
+  img: assets/img/duty-officers/kudzia_megan.jpg
+  onsite: true
+
+- id: nelson
+  name: "Chad Nelson"
+  img: assets/img/duty-officers/nelson_chad.jpg
+  onsite: true
+
+- id: slaughter
+  name: "Anne Slaughter"
+  img: assets/img/duty-officers/slaughter_anne.jpg
+  onsite: true

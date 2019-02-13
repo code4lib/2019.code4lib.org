@@ -1,3 +1,12 @@
+- id: sarah-roberts
+  name: Sarah Roberts
+  last: Roberts
+  title: Assistant Professor of Information Studies
+  institution: UCLA
+  image_src: /assets/img/speakers/roberts_sara.jpg
+  keynote: true
+  bio: "Sarah T. Roberts is assistant professor of information studies in the Graduate School of Education and Information Studies at the University of California, Los Angeles. She is internationally recognized as a leading scholar on the emerging topic of commercial content moderation of social media; her book on the topic, <a href=https://yalebooks.yale.edu/book/9780300235883/behind-screen>Behind the Screen: Content Moderation in the Shadows of Social Media</a>, is forthcoming in 2019 from Yale University Press. Professor Roberts is a 2018 Carnegie Fellow and a 2018 winner of the EFF Pioneer Award."
+
 - id: tara-robertson
   name: Tara Robertson
   last: Robertson
@@ -6,15 +15,6 @@
   image_src: /assets/img/speakers/robertson_tara.jpg
   keynote: true
   bio: "Tara Robertson is an intersectional feminist who uses data and research to advocate for equality and inclusion. She has more than 10 years experience making open source and tech communities more diverse and welcoming. Her core values are social justice, collaboration and all things open–open source, open access and open education. Her curiosity and delight in connecting people come together in person and online, where she can often be found asking good questions. <a href=https://tararobertson.ca/about/>Read more on her personal website</a>."
-
-- id: safiya-noble
-  name: Safiya Noble
-  last: Noble
-  title: Assistant Professor
-  institution: University of Southern California
-  image_src: /assets/img/speakers/noble_safiya.jpg
-  keynote: true
-  bio: "Dr. Safiya Umoja Noble is an Associate Professor at UCLA in the Departments of Information Studies and African American Studies, and a visiting faculty member to the University of Southern California’s Annenberg School of Communication. Previously, she was an Assistant Professor in Department of Media and Cinema Studies and the Institute for Communications Research at the University of Illinois at Urbana-Champaign. She is the author of a best-selling, critically-acclaimed book on racist and sexist algorithmic bias in commercial search engines, entitled <a href='https://nyupress.org/books/9781479837243/'>Algorithms of Oppression: How Search Engines Reinforce Racism</a> (NYU Press). <br /> &nbsp; <br />Safiya is the recipient of a Hellman Fellowship and the UCLA Early Career Award. Her academic research focuses on the design of digital media platforms on the internet and their impact on society. Her work is both sociological and interdisciplinary, marking the ways that digital media impacts and intersects with issues of race, gender, culture, and technology. She is regularly quoted for her expertise on issues of algorithmic discrimination and technology bias by national and international press including The Guardian, the BBC, CNN International, USA Today, Wired, Time, and The New York Times, to name a few."
 
 - id: carolyn-moritz
   name: Carolyn Moritz

@@ -9,8 +9,8 @@ subnav:
   url: '#emergency'
 - name: Duty Officers
   url: '#officers'
-#- name: Duty Officer Schedule
-#  url: '#schedule'
+- name: Duty Officer Schedule
+  url: '#schedule'
 - name: Accessibility
   url: '/general-info/accessibility'
 - name: Photography Policy
@@ -133,8 +133,12 @@ active: 'Conduct & Safety'
                             <li>While no Duty Officer email is available yet, you can contact the Local Planning Committee at <a href="mailto:{{site.data.conf.main-conf-email}}">{{site.data.conf.main-conf-email}}</a>
                         {% endif %}
 
+                        {% if site.data.conf.duty-officer-phone != '' %}
+                            <li>Call a Duty Officer at <a href="tel:{{site.data.conf.duty-officer-phone}}">{{site.data.conf.duty-officer-phone}}</a>.</li>
+                        {% endif %}
+
                         {% if site.data.conf.anonymous-form != '' %}
-                            <li>Use the <a href="https://c4l18.libraryexchange.org/">anonymous reporting form</a>.
+                            <li>Use the <a href="{{site.data.conf.anonymous-form}}">anonymous reporting form</a>.
                         {% endif %}
 
                         <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a> Not a member of the Slack team? <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">Sign up here</a>.</li>
@@ -162,7 +166,7 @@ active: 'Conduct & Safety'
                           <p>Duty Officers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
                           </p>
 
-                          {% assign online_officers = site.data.duty-officers | where:"onsite","false" %}
+                          {% assign online_officers = site.data.duty-officers | where:"online","true" %}
                           {% for officer in online_officers %}
                             <div class="col-md-4">
                               <h4 class="speaker-name">{{ officer.name }}</h4>

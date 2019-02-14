@@ -110,22 +110,71 @@ title: Schedule
         </div>
     </div>
 
-    {% if site.data.conf.game-night.show %}
+    {% if site.data.conf.libtech-women.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>6:30PM - 9:30PM</h4>
+            <h4>{{site.data.conf.libtech-women.time}}</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
-            <h3><a href="/general-info/venues/#gaming">Game Night</a></h3>
+            <h3>
+                {% if site.data.conf.libtech-women.url %}
+                    <a href="{{site.data.conf.libtech-women.url}}">
+                {% endif %}
+                LibTech Women
+                {% if site.data.conf.libtech-women.url %}</a>{% endif %}
+            </h3>
             <p>
-              Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
-                 See the <a target="blank" href="{{site.data.conf.game-night.url}}">
-                 sign up list on the Social Activities wiki</a> to list any games you might bring with you.
+              <a href="http://libtechwomen.org/">LibTechWomen</a> is a supportive space for women and their friends to network, develop skills, build confidence, and lead positive change. Are you a lurker? Are you a newcomer? All are welcome! Come meet wonderful colleagues in library technology!
             </p>
         </div>
     </div>
     {% endif %}
-    
+
+    {% if site.data.conf.game-night.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>{{site.data.conf.game-night.time}}</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3>
+                {% if site.data.conf.game-night.url %}
+                    <a href="{{ site.data.conf.game-night.url }}">
+                {% endif %}
+                Game Night
+                {% if site.data.conf.game-night.url %}</a>{% endif %}
+            </h3>
+            <p>
+              Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
+              See the <a target="blank" href="{{ site.data.conf.game-night.url }}">
+              sign up list on the Social Activities wiki</a> to list any games you might bring with you.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.conf.karaoke-night.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>{{site.data.conf.karaoke-night.time}}</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3>
+                {% if site.data.conf.karaoke-night.url %}
+                    <a href="{{ site.data.conf.karaoke-night.url }}">
+                {% endif %}
+                Karaoke Night
+                {% if site.data.conf.karaoke-night.url %}</a>{% endif %}
+            </h3>
+            <p>
+                We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.
+                {% if site.data.conf.karaoke-night.url %}
+                    <a target="blank" href="{{ site.data.conf.karaoke-night.url }}">Sign up as groups and head over to the lounge at the DIY Events</a>
+                {% endif %}.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
     {% comment %}
         <!-- play-n-share, move this section to the right date/time -->
         <div class="row">

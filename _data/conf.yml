@@ -190,6 +190,13 @@ game-night:
     show: true
     url: https://wiki.code4lib.org/2019_Social_Activities#Game_Night.2C_Thursday.2C_February_21st
     date: "2019-02-21"
+    time: "6:30PM - 9:30PM"
+
+libtech-women:
+    show: true
+    date: "2019-02-21"
+    time: "5:30PM - 7:30PM"
+    location: "2050 Lobby Bar, DoubleTree San José"
 
 reception:
     show: true
@@ -199,6 +206,7 @@ karaoke-night:
     show: true
     url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
     date: "2019-02-21"
+    time: "TBA"
 
 self-event:
     show: true

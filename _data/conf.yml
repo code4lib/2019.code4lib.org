@@ -197,6 +197,7 @@ libtech-women:
     date: "2019-02-21"
     time: "5:30PM - 7:30PM"
     location: "2050 Lobby Bar, DoubleTree San José"
+    hashtag: libtechwomen
 
 reception:
     show: true

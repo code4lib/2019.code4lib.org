@@ -2,9 +2,23 @@
 - timeImg: 8.00.png
   title: Breakfast & Registration
   day1: true
+  time: 08:00-09:00
+  menu: day1-menus
+  submenu: Breakfast
+
+- timeImg: 8.00.png
+  title: Breakfast & Registration
   day2: true
+  time: 08:00-09:00
+  menu: day2-menus
+  submenu: Breakfast
+
+- timeImg: 8.00.png
+  title: Breakfast & Registration
   day3: true
   time: 08:00-09:00
+  menu: day3-menus
+  submenu: Breakfast
 
 # Reception
 - timeImg: 6.30.png
@@ -122,15 +136,15 @@
   title: Lunch
   day1: true
   time: 12:10-13:20
-  #menu: day1-menus
-  #submenu: Lunch
+  menu: day1-menus
+  submenu: Lunch
 
 - timeImg: 12.15.png
   title: Lunch
   day2: true
   time: 12:15-13:25
-  #menu: day2-menus
-  #submenu: Lunch
+  menu: day2-menus
+  submenu: Lunch
 
 # housekeeping (announcements and giveaways)
 - timeImg: 1.20.png

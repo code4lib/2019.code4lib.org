@@ -1,5 +1,5 @@
 ---
-speakers-text: Carolyn Moritz, Vassar College
+speakers-text: Carolyn Moritz, Vassar College, and David Keiser-Clark, Williams College
 type: poster
 length: 30
 day: 2

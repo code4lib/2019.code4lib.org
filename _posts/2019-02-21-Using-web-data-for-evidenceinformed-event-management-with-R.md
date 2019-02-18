@@ -4,7 +4,7 @@ type: poster
 length: 30
 day: 2
 categories: posters
-location: TBD
+location: Foyer
 layout: presentation
 startTime: 2019-02-21T15:30:00 -05:00
 title: Using web data for evidence-informed event management with R

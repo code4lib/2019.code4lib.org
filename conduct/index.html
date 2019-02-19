@@ -7,9 +7,9 @@ subnav:
   url: '#conduct'
 - name: Emergency
   url: '#emergency'
-- name: Duty Officers
+- name: Community Support Volunteers
   url: '#officers'
-- name: Duty Officer Schedule
+- name: Community Support Volunteer Schedule
   url: '#schedule'
 - name: Accessibility
   url: '/general-info/accessibility'
@@ -58,7 +58,7 @@ active: 'Conduct & Safety'
                 <div class="col-md-12">
                     <h2 id="emergency">Emergency Resources</h2>
 
-                    <p>See also the contact information for <a href="#officers">duty officers</a> on this page.</p>
+                    <p>See also the contact information for <a href="#officers">community support volunteers</a> on this page.</p>
 
                     <h3>San Jose Police Department</h3>
                     <p>
@@ -110,43 +110,43 @@ active: 'Conduct & Safety'
 
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="officers">Duty Officers</h2>
+                    <h2 id="officers">Community Support Volunteers</h2>
 
                     <p>
                         During all days of the conference, including pre-conference and sponsored
-                        evening activities, there will be Duty Officers available to help provide
+                        evening activities, there will be Community Support Volunteers available to help provide
                         support for anyone who has been harassed, threatened, abused, or feels the
                         <a href="https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md">
                         CodeOfConduct4Lib</a> has been violated during the conference.
                     </p>
 
-                    <h3>Contacting a Duty Officer</h3>
+                    <h3>Contacting a Community Support Volunteer</h3>
 
                     {% unless site.data.duty-officers %}
-                        <p>Duty Officers for the {{site.data.conf.year}} conference have not year been selected. You still may send concerns or questions about the Code of Conduct and how it's been applied in the past using the means listed below.</p>
+                        <p>Community Support Volunteers for the {{site.data.conf.year}} conference have not year been selected. You still may send concerns or questions about the Code of Conduct and how it's been applied in the past using the means listed below.</p>
                     {% endunless %}
 
                       <ul>
                         {% if site.data.conf.duty-officer-email != '' %}
-                            <li>Send an email to <a href="mailto:{{site.data.conf.duty-officer-email}}">{{site.data.conf.duty-officer-email}}</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.
+                            <li>Send an email to <a href="mailto:{{site.data.conf.duty-officer-email}}">{{site.data.conf.duty-officer-email}}</a>. Only Community Support Volunteers are subscribed to this mailing list, and no archive is kept.
                         {% else %}
-                            <li>While no Duty Officer email is available yet, you can contact the Local Planning Committee at <a href="mailto:{{site.data.conf.main-conf-email}}">{{site.data.conf.main-conf-email}}</a>
+                            <li>While no Community Support Volunteer email is available yet, you can contact the Local Planning Committee at <a href="mailto:{{site.data.conf.main-conf-email}}">{{site.data.conf.main-conf-email}}</a>
                         {% endif %}
 
                         {% if site.data.conf.duty-officer-phone != '' %}
-                            <li>Call a Duty Officer at <a href="tel:{{site.data.conf.duty-officer-phone}}">{{site.data.conf.duty-officer-phone}}</a>.</li>
+                            <li>Call a Community Support Volunteer at <a href="tel:{{site.data.conf.duty-officer-phone}}">{{site.data.conf.duty-officer-phone}}</a>.</li>
                         {% endif %}
 
                         {% if site.data.conf.anonymous-form != '' %}
                             <li>Use the <a href="{{site.data.conf.anonymous-form}}">anonymous reporting form</a>.
                         {% endif %}
 
-                        <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a> Not a member of the Slack team? <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">Sign up here</a>.</li>
+                        <li>Use the <code>/support</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a> Not a member of the Slack team? <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">Sign up here</a>.</li>
                       </ul>
 
                     {% if site.data.duty-officers %}
 
-                        <h3>On-Site Duty Officers</h3>
+                        <h3>On-Site Community Support Volunteers</h3>
 
                         <div class="row">
                           {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
@@ -162,8 +162,8 @@ active: 'Conduct & Safety'
                         {% endfor %}
                         </div>
                         <div>
-                          <h3>Online Duty Officers</h3>
-                          <p>Duty Officers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the duty officers via Slack, email, or the anonymous reporting form.
+                          <h3>Online Community Support Volunteers</h3>
+                          <p>Community Support Volunteers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the community support volunteers via Slack, email, or the anonymous reporting form.
                           </p>
 
                           {% assign online_officers = site.data.duty-officers | where:"online","true" %}
@@ -181,7 +181,7 @@ active: 'Conduct & Safety'
             {% if site.data.duty-officer-schedule %}
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="schedule">Duty Officer Schedule</h2>
+                    <h2 id="schedule">Community Support Volunteer Schedule</h2>
 
                        <h3>On-Site</h3>
                     {% for session in site.data.duty-officer-schedule %}
@@ -189,7 +189,7 @@ active: 'Conduct & Safety'
                         <div class="row">
                             <div class="col-xs-12 keynote-sequence sequence">
                                 {% if session.all-hands %}
-                                    <p><strong>All duty officers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
+                                    <p><strong>All community support volunteers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
                                 {% else %}
                                     {% for officerId in session.officers %}
                                     {% assign officer = site.data.duty-officers[officerId] %}

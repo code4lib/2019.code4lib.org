@@ -72,7 +72,7 @@ anonymous-form: "https://c4l19.libraryexchange.org/"
 # - post:   for after the conference is close (NOTE: we never made a template for 2018)
 #
 ###########
-homepage-display: pre
+homepage-display: peri
 
 ###########
 # Sponsors
@@ -168,7 +168,7 @@ workshop-registration:
 
 # "show" just means display on home page, "open" means people can register
 conference-registration:
-  show: true
+  show: false
   url: http://www.cvent.com/d/ybq5dx/4W
   start-date: "2018-12-05"
   end-date: Null
@@ -228,7 +228,7 @@ volunteer-dutyoff:
 
 # for volunteers during conference like MCs, mic-minders, etc.
 volunteer-onsite:
-  show: true
+  show: false
   url: https://wiki.code4lib.org/2019_Conference_Volunteers
   end-date: "2019-02-22"
 

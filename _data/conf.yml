@@ -4,7 +4,6 @@
 year: 2019
 hashtag: 'c4l19'
 location: 'San José, California'
-captioning-url: ""
 hero-image-alt: "a collage of several San José landmarks"
 
 search: false
@@ -237,13 +236,17 @@ volunteer-onsite:
 ###########
 livestream:
   show: false
-  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNZc3FZMem-uLCPgiTM9IzKg"
+  url: "https://www.youtube.com/code4lib"
 
 slides:
-  show: false
+  show: true
   url: "https://osf.io/view/c4l19/"
   contact: "Roy Tennant"
   email: "roytennant@gmail.com"
+
+closed-captioning:
+  url: ""
+  show: false
 
 ################
 # Scholarships

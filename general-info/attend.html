@@ -115,9 +115,14 @@ active: Attend Code4Lib
                     <a href="{{ site.data.conf.social-links.irc}}">IRC</a>, and <a href="https://instagram.com/explore/tags/{{site.data.conf.hashtag}}/">Instagram</a>.
                 </p>
 
-                <!--
                 <h3>Live Transcription</h3>
-                <p>We are thrilled to be able to provide <a href="{{site.data.conf.captioning-url}}">live transcriptions of all the presentations</a>,
+                <p>
+                    We are thrilled to be able to provide
+                    {% if site.data.conf.closed-captioning.show %}
+                        <a href="{{site.data.conf.closed-captioning.url}}">
+                    {% endif %}
+                        live transcriptions of all the presentations
+                    {% if site.data.conf.closed-captioning.show %}</a>{% endif %},
                     thanks to Temple University Libraries.
                 </p>
 
@@ -128,7 +133,6 @@ active: Attend Code4Lib
                         </a>
                     </div>
                 </div>
-                -->
             </div>
         </div>
     </div>

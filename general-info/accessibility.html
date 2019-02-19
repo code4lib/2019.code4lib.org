@@ -62,9 +62,9 @@ subnav:
 
             <h2>Live Captioning</h2>
             <p>During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning.
-            {% if site.data.conf.captioning-url != "" %}
+            {% if site.data.conf.closed-captioning.show %}
                Attendees, both local and remote, may view the text stream at:
-               <a href="{{site.data.conf.captioning-url}}">{{site.data.conf.captioning-url}}</a>.
+               <a href="{{site.data.conf.closed-captioning.url}}">{{site.data.conf.closed-captioning.url}}</a>.
             {% endif %}
             </p>
 

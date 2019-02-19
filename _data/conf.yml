@@ -58,7 +58,7 @@ sponsor-contact-email: "code4lib.sponsorship@gmail.com"
 scholarship-contact-email: "code4libaward@gmail.com"
 lpc-contact-email: "code4liblpc@gmail.com"
 accessibility-email: "code4lib.accessibility@gmail.com"
-# when empty, Duty Officers page will use main-conf-email
+# when empty, community support volunteers page will use main-conf-email
 duty-officer-email: "c4l19-duty-officers@googlegroups.com"
 duty-officer-phone: "408-309-4560"
 anonymous-form: "https://c4l19.libraryexchange.org/"

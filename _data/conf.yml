@@ -235,7 +235,7 @@ volunteer-onsite:
 # Misc
 ###########
 livestream:
-  show: false
+  show: true
   url: "https://www.youtube.com/code4lib"
 
 slides:
@@ -246,7 +246,7 @@ slides:
 
 closed-captioning:
   url: "https://2020archive.1capapp.com/event/cod4lib"
-  show: false
+  show: true
 
 ################
 # Scholarships

@@ -15,12 +15,17 @@ program-nav-links: true
 days:
   - weekday: Tuesday
     date: February 19th
+    # date in a form that JS Date() constructor understands
+    date-data: 2019-02-19T23:59
   - weekday: Wednesday
     date: February 20th
+    date-data: 2019-02-20T23:59
   - weekday: Thursday
     date: February 21st
+    date-data: 2019-02-21T23:59
   - weekday: Friday
     date: February 22nd
+    date-data: 2019-02-22T23:59
 
 #############################
 # Venue Information

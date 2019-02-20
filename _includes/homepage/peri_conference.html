@@ -15,22 +15,22 @@
             <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}" target="_blank">#{{ site.data.conf.hashtag }}</a></h2>
         <label class="sr-only" id="twitterHashtagLabel">Twitter Hashtag</label>
     </div>
-    <div class="col-xs-12 col-md-3 event-day" data-date="2018-02-13T23:59:59">
+    <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[0].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[0].date | date: "%b. %d"}}</h2>
         {% include homepage/event_card.html time='am' link='/workshops' title='Preconference Workshops' description='Half and full-day workshops about tech, diversity, and more!' %}
         {% include homepage/event_card.html time='pm' link='/general-info/venues/#dinner' title='Newcomer Dinner' description='It is a Code4Lib tradition to welcome those who are new to the conference' %}
     </div>
-    <div class="col-xs-12 col-md-3 event-day" data-date="2018-02-14T23:59:59">
+    <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[1].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[1].date | date: "%b. %d"}}</h2>
         {% include homepage/event_card.html time='am' link='/schedule/day-1' title='Conference, Day 1' description='Keynote #1 kicks off the conference then talks until 5' %}
         {% include homepage/event_card.html time='pm' link='/general-info/venues/#reception' title='Reception' description='Join us for the reception at The Tech Museum of Innovation' %}
     </div>
-    <div class="col-xs-12 col-md-3 event-day" data-date="2018-02-15T23:59:59">
+    <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[2].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[2].date | date: "%b. %d"}}</h2>
         {% include homepage/event_card.html time='am' link='/schedule/day-2' title='Conference, Day 2' description='Talks until 5' %}
         {% include homepage/event_card.html time='pm' link='/general-info/venues/#gaming' title='Game Night' description='Come join fellow code4libers in a few board or card games' %}
     </div>
-    <div class="col-xs-12 col-md-3 event-day" data-date="2018-02-16T23:59:59">
+    <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[3].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[3].date | date: "%b. %d"}}</h2>
         {% include homepage/event_card.html time='am' link='/schedule/day-3' title='Conference, Day 3' description='Keynote #2 closes the conference followed by talks until 12:30' %}
     </div>

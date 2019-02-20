@@ -45,36 +45,36 @@
   title: Morning Break
   day1: true
   time: 10:00-10:15
-  #menu: day1-menus
-  #submenu: Morning
+  menu: day1-menus
+  submenu: Morning
 
 - timeImg: 2.45.png
   title: Afternoon Break
   day1: true
   time: 14:45-15:00
-  #menu: day1-menus
-  #submenu: Afternoon
+  menu: day1-menus
+  submenu: Afternoon
 
 - timeImg: 10.30.png
   title: Morning Break
   day2: true
   time: 10:30-10:45
-  #menu: day2-menus
-  #submenu: Morning
+  menu: day2-menus
+  submenu: Morning
 
 - timeImg: 3.15.png
   title: Afternoon Break
   day2: true
   time: 15:15-15:30
-  #menu: day2-menus
-  #submenu: Afternoon
+  menu: day2-menus
+  submenu: Afternoon
 
 - timeImg: 10.00.png
   title: Morning Break
   day3: true
   time: 10:00-10:15
-  #menu: day3-menus
-  #submenu: Morning
+  menu: day3-menus
+  submenu: Morning
 
 # Breakouts
 - timeImg: 3.00.png

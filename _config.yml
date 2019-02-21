@@ -6,3 +6,8 @@ future: true
 timezone: America/New_York
 sass:
   sass_dir: assets/_scss
+include:
+  - .well-known
+keep_files:
+  - .dat
+  - dat.json

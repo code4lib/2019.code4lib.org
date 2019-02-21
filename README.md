@@ -62,3 +62,24 @@ See a list of [open issues](https://github.com/code4lib/2019.code4lib.org/issues
 4. ```bundle exec jekyll serve```
 5. Check [http://localhost:4000](http://localhost:4000) that nothing is broken
 6. Merge that branch into master (easiest to manage on the GitHub site)
+
+## Dat
+
+As an experiment the site is also available via [Dat](https://datproject.org/) which you can view
+in the [Beaker Browser](https://beakerbrowser.com/) at dat://2019.code4lib.org.
+If you would like to clone the site you'll need to install Dat and then:
+
+    dat clone dat://2019.code4lib.org
+
+If you want to update the Dat site you'll need to import the secret key from a
+friend:
+
+    dat keys import < 2019.code4lib.org
+
+Then you'll need to:
+
+    rm -rf _site
+    dat clone dat://2019.code4lib.org _site
+    jekyll build
+    cd _site
+    dat sync

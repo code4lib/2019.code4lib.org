@@ -241,7 +241,7 @@ volunteer-onsite:
 ###########
 livestream:
   show: true
-  url: "https://www.youtube.com/code4lib"
+  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNYcmotU2peVxu27nH2qIrV6"
 
 slides:
   show: true

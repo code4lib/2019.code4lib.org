@@ -11,8 +11,6 @@ startTime: 1550785200
 speakers-text: Jason Priem
 speakers:
 - jason-priem
--
--
 slides:
 title: Why building a complete index of open access to research articles is hard and how you can help
 ---

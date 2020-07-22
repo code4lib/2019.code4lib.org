@@ -11,8 +11,6 @@ startTime: 1550775300
 speakers-text: Jeff Gerhard
 speakers:
 - jeff-gerhard
--
--
 slides:
 title: Ringers of Jupyter&#58; The Jupyter Notebook As Faux Web App
 ---

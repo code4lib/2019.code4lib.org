@@ -11,8 +11,6 @@ startTime: 1550679600
 speakers-text: Dominique Luster
 speakers:
 - dominique-luster
--
--
 slides:
 title: Machine Learning and Metadata with the Charles Teenie Harris Archive
 ---

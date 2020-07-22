@@ -11,8 +11,6 @@ startTime: 1550688300
 speakers-text: Tim Walsh
 speakers:
 - tim-walsh
--
--
 slides:
 title: Building REST API-backed Single Page Applications (SPAs) with Vue.js
 ---

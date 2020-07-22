@@ -12,7 +12,6 @@ speakers-text: Sarah Rice, Bernadette Irizarry
 speakers:
 - sarah-rice
 - bernadette-irizarry
--
 slides:
 title: Ethics for information professionals
 ---

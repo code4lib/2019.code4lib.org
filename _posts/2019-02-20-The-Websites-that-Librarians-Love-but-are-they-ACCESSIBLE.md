@@ -11,8 +11,6 @@ startTime: 1550851200
 speakers-text: Katherine Deibel
 speakers:
 - katherine-deibel
--
--
 slides:
 title: The Websites that Librarians Love... but are they ACCESSIBLE?!?
 ---

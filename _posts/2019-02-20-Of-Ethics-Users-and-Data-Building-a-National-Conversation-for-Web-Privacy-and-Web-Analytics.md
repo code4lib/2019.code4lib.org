@@ -12,7 +12,6 @@ speakers-text: Scott W. H. Young, Jason A. Clark
 speakers:
 - scott-w-h-young
 - jason-a-clark
--
 slides:
 title: Of Ethics, Users, and Data&#58; Building a National Conversation for Web Privacy and Web Analytics
 ---

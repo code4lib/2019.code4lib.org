@@ -11,8 +11,6 @@ startTime: 1550759700
 speakers-text: Ilya Kreymer
 speakers:
 - ilya-kreymer
--
--
 slides:
 title: Webrecorder&#58; Developing an Open-Source High-Fidelity Web Archiving Toolset
 ---

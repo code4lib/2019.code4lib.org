@@ -12,7 +12,6 @@ speakers-text: Shawn Kiewel, Adriane Hanson
 speakers:
 - shawn-kiewel
 - adriane-hanson
--
 slides:
 title: Code It Yourself! Teaching Collections Staff to Script
 ---

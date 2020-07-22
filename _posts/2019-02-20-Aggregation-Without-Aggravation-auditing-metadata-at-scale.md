@@ -11,8 +11,6 @@ startTime: 1550758500
 speakers-text: Teresa Hebron
 speakers:
 - teresa-hebron
--
--
 slides:
 title: Aggregation Without Aggravation&#58; auditing metadata at scale
 ---

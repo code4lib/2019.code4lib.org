@@ -11,8 +11,6 @@ startTime: 1550782800
 speakers-text: Andreas Orphanides
 speakers:
 - andreas-orphanides
--
--
 slides:
 title: Shear forces&#58; a conceptual model for understanding (and coping with) risk, change, and technical debt
 ---

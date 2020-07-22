@@ -11,8 +11,6 @@ startTime: 1550680500
 speakers-text: Pujit Koirala
 speakers:
 - pujit-koirala
--
--
 slides:
 title: Enrich Library Collection Analysis using Python
 ---

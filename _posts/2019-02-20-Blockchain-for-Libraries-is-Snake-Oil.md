@@ -11,8 +11,6 @@ startTime: 1550690700
 speakers-text: Eric Hellman
 speakers:
 - eric-hellman
--
--
 slides:
 title: "\"Blockchain for Libraries\" is Snake Oil"
 ---

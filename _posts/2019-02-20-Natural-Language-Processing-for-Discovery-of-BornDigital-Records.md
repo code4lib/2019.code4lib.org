@@ -11,8 +11,6 @@ startTime: 1550687400
 speakers-text: Emily Higgs
 speakers:
 - emily-higgs
--
--
 slides:
 title: Natural Language Processing for Discovery of Born-Digital Records
 ---

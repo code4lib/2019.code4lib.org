@@ -11,8 +11,6 @@ startTime: 1550853600
 speakers-text: Tammy Allgood Wolf
 speakers:
 - tammy-allgood-wolf
--
--
 slides:
 title: Optimizing Library Web Content for Voice Search
 ---

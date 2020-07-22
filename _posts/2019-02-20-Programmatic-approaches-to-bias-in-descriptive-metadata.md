@@ -11,8 +11,6 @@ startTime: 1550675700
 speakers-text: Noah Geraci
 speakers:
 - noah-geraci
--
--
 slides:
 title: Programmatic approaches to bias in descriptive metadata
 ---

@@ -11,8 +11,6 @@ startTime: 1550676600
 speakers-text: Veronica Ramshaw
 speakers:
 - veronica-ramshaw
--
--
 slides:
 title: Building A Better Database List with APIs
 ---

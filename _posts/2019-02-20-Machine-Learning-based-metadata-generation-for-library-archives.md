@@ -12,7 +12,6 @@ speakers-text: Dhanushka Samarakoon, Harish Maringanti
 speakers:
 - dhanushka-samarakoon
 - harish-maringanti
--
 slides:
 title: Machine Learning based metadata generation for library archives
 ---

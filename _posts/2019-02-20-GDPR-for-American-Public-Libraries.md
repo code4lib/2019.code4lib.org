@@ -11,8 +11,6 @@ startTime: 1550760900
 speakers-text: Nathan Wittmaier
 speakers:
 - nathan-wittmaier
--
--
 slides:
 title: GDPR for American Public Libraries
 ---

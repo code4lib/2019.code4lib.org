@@ -11,8 +11,6 @@ startTime: 1550761800
 speakers-text: Carli Spina
 speakers:
 - carli-spina
--
--
 slides:
 title: Get To Know WCAG 2.1
 ---

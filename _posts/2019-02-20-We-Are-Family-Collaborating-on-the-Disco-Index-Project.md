@@ -12,7 +12,6 @@ speakers-text: Rhonda Kauffman, Helen Bailey
 speakers:
 - rhonda-kauffman
 - helen-bailey
--
 slides:
 title: We Are Family&#58; Collaborating on the Disco Index Project
 ---

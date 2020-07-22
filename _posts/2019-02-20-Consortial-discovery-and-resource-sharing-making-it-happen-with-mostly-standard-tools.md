@@ -11,8 +11,6 @@ startTime: 1550690100
 speakers-text: Emily Lynema
 speakers:
 - emily-lynema
--
--
 slides:
 title: Consortial discovery and resource sharing&#58; making it happen with (mostly) standard tools
 ---

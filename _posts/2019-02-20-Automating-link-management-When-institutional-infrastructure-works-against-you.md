@@ -11,8 +11,6 @@ startTime: 1550784000
 speakers-text: Clara Turp
 speakers:
 - clara-turp
--
--
 slides:
 title: Automating link management&#58; When institutional infrastructure works against you
 ---

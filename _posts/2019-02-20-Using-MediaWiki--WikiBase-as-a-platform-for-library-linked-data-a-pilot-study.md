@@ -11,8 +11,6 @@ startTime: 1550768100
 speakers-text: Jeff Mixter
 speakers:
 - jeff-mixter
--
--
 slides:
 title: Using MediaWiki + WikiBase as a platform for library linked data&#58; a pilot study
 ---

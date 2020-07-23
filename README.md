@@ -29,10 +29,10 @@ See a list of [open issues](https://github.com/code4lib/2019.code4lib.org/issues
 
 ### Contributing
 
-1. Make sure you're on the master branch
-  * ```git checkout master```
-2. Make sure your master branch is up to date
-  * ```git pull origin master```
+1. Make sure you're on the main branch
+  * ```git checkout main```
+2. Make sure your main branch is up to date
+  * ```git pull origin main```
 3. Start up jekyll
   * ```bundle exec jekyll serve```
   * open [http://localhost:4000](http://localhost:4000) in your browser
@@ -45,10 +45,10 @@ See a list of [open issues](https://github.com/code4lib/2019.code4lib.org/issues
   * ```git commit -m "fixes issue #3"```
 8. Add your branch to the repo
   * ```git push --set-upstream origin issue#3```
-9. Switch back to the master branch
-  * ```git checkout master```
+9. Switch back to the main branch
+  * ```git checkout main```
 10. Go to https://github.com/code4lib/2019.code4lib.org
-11. Make a pull request base:master and compare:issue-3
+11. Make a pull request base:main and compare:issue-3
 12. Wait for someone to test your changes and merge the pull request
 13. Do the dance of joy
 
@@ -61,7 +61,7 @@ See a list of [open issues](https://github.com/code4lib/2019.code4lib.org/issues
   * ```git checkout BRANCHNAME```
 4. ```bundle exec jekyll serve```
 5. Check [http://localhost:4000](http://localhost:4000) that nothing is broken
-6. Merge that branch into master (easiest to manage on the GitHub site)
+6. Merge that branch into main (easiest to manage on the GitHub site)
 
 ## Dat
 

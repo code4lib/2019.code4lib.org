@@ -425,16 +425,16 @@
   image_src: /assets/img/speakers/kauffman_rhonda.jpg
   keynote: false
 
-- id: tim-walsh
-  name: Tim Walsh
+- id: tessa-walsh
+  name: Tessa Walsh
   last: Walsh
   title: Digital Preservation Librarian
   institution: Concordia University
-  bio: "Tim Walsh is a librarian, digital preservationist, and software developer employed as the Digital Preservation Librarian at Concordia University Library in Montreal, Canada. He is the developer of several open-source digital preservation utilities, including Brunnhilde, a reporting tool for disk images and directories of files, and Bulk Reviewer, an application for identifying and managing sensitive and confidential information in digital archives."
+  bio: "Tessa Walsh is a librarian, digital preservationist, and software developer employed as the Digital Preservation Librarian at Concordia University Library in Montreal, Canada. She is the developer of several open-source digital preservation utilities, including Brunnhilde, a reporting tool for disk images and directories of files, and Bulk Reviewer, an application for identifying and managing sensitive and confidential information in digital archives."
   twitter_handle: bitarchivist
   slack_handle:
-  github_handle: timothyryanwalsh
-  image_src: /assets/img/speakers/walsh_tim.png
+  github_handle: tw4l
+  image_src: /assets/img/speakers/walsh_tessa.png
   keynote: false
 
 - id: ilya-kreymer

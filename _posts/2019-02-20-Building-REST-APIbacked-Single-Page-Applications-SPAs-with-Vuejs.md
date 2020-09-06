@@ -8,9 +8,9 @@ type: talk
 categories: talks
 time: 13:45
 startTime: 1550688300
-speakers-text: Tim Walsh
+speakers-text: Tessa Walsh
 speakers:
-- tim-walsh
+- tessa-walsh
 slides:
 title: Building REST API-backed Single Page Applications (SPAs) with Vue.js
 ---
